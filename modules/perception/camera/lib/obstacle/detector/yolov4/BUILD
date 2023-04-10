@@ -1,10 +1,10 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
-load("@local_config_cuda//cuda:build_defs.bzl", "cuda_library")
+load("//third_party/gpus:common.bzl", "gpu_library", "if_cuda", "if_rocm")
 load("//tools:cpplint.bzl", "cpplint")
 
 package(default_visibility = ["//visibility:public"])
 
-cuda_library(
+gpu_library(
     name = "region_output_cuda",
     srcs = ["region_output.cu"],
     hdrs = ["region_output.h"],
@@ -13,8 +13,11 @@ cuda_library(
         "//modules/perception/base",
         "//modules/perception/camera/common",
         "//modules/perception/camera/proto:yolo_cc_proto",
+    ] + if_cuda([
         "@local_config_cuda//cuda:cudart",
-    ],
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:hip",
+    ]),
 )
 
 cc_library(
@@ -38,17 +41,19 @@ cc_library(
     hdrs = ["yolov4_obstacle_detector.h"],
     deps = [
         ":region_output",
-        "//cyber/common:file",
+        "//cyber",
         "//modules/perception/base",
         "//modules/perception/camera/common",
-        # "//modules/perception/camera/lib/feature_extractor/tfe:external_feature_extractor",
-        # "//modules/perception/camera/lib/feature_extractor/tfe:project_feature",
-        # "//modules/perception/camera/lib/feature_extractor/tfe:tracking_feat_extractor",
         "//modules/perception/camera/lib/interface",
+        "//modules/perception/common/sensor_manager",
         "//modules/perception/inference:inference_factory",
         "//modules/perception/inference:inference_lib",
         "//modules/perception/inference/utils:inference_resize_lib",
         "//modules/perception/inference/utils:inference_util_lib",
+        "//modules/perception/pipeline:stage",
+        # "//modules/perception/camera/lib/feature_extractor/tfe:external_feature_extractor",
+        # "//modules/perception/camera/lib/feature_extractor/tfe:project_feature",
+        # "//modules/perception/camera/lib/feature_extractor/tfe:tracking_feat_extractor",
         # "//modules/perception/lib/utils",
     ],
 )

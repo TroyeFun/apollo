@@ -45,19 +45,31 @@ build --define=LIBDIR=$(PREFIX)/lib
 build --define=INCLUDEDIR=$(PREFIX)/include
 build --define=use_fast_cpp_protos=true
 
+# GPU_PLATFORM predefined types
+build --define NVIDIA=0
+build --define AMD=1
+
 # dbg config, as a shorthand for '--config=optimize -c dbg'
 build:dbg -c dbg
 build:opt -c opt
 
-build --config=optimize
+#build --config=optimize
 # Instruction set optimizations
-build:optimize --copt=-march=native
-build:optimize --host_copt=-march=native
+#build:optimize --copt=-march=native
+#build:optimize --host_copt=-march=native
 
 # Now "cpu" configuration was dummy
 build:cpu --verbose_failures
 build:gpu --define USE_GPU=true
 build:gpu --cxxopt="-DUSE_GPU=1"
+build:gpu --cxxopt="-DNVIDIA=0"
+build:gpu --cxxopt="-DAMD=1"
+
+# GPU platform
+build:amd --define GPU_PLATFORM=AMD
+build:amd --cxxopt="-DGPU_PLATFORM=AMD"
+build:nvidia --define GPU_PLATFORM=NVIDIA
+build:nvidia --cxxopt="-DGPU_PLATFORM=NVIDIA"
 
 # Build with profiling
 build:prof --linkopt=-lprofiler
@@ -84,6 +96,9 @@ test --test_size_filters=small,medium
 test --test_output=errors
 
 test:unit_test --test_verbose_timeout_warnings
+
+# use --copt=-mavx2
+test --copt=-mavx2
 
 coverage --javabase="@bazel_tools//tools/jdk:remote_jdk11"
 # coverage --host_javabase="@bazel_tools//tools/jdk:remote_jdk11"

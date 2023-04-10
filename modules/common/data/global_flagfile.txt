@@ -67,3 +67,7 @@
 --map_dir=/apollo/modules/map/data/carla_town02
 
 --map_dir=/apollo/modules/map/data/carla_town01
+
+--map_dir=/apollo/modules/map/data/sunnyvale
+
+--map_dir=/apollo/modules/map/data/sunnyvale_big_loop

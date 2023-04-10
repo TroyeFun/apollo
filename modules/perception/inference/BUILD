@@ -1,5 +1,6 @@
 load("@rules_cc//cc:defs.bzl", "cc_library", "cc_test")
 load("//tools:cpplint.bzl", "cpplint")
+load("//third_party/gpus:common.bzl", "gpu_library", "if_cuda", "if_rocm")
 
 package(default_visibility = ["//visibility:public"])
 
@@ -20,6 +21,7 @@ cc_test(
         ":layer_lib",
         "@com_google_googletest//:gtest_main",
     ],
+    linkstatic = True,
 )
 
 cc_library(
@@ -29,6 +31,7 @@ cc_library(
     deps = [
         "//modules/perception/base:blob",
         "@boost",
+        "//third_party:libtorch",
     ],
 )
 
@@ -40,6 +43,7 @@ cc_test(
         ":inference_lib",
         "@com_google_googletest//:gtest_main",
     ],
+    linkstatic = True,
 )
 
 cc_library(
@@ -51,7 +55,12 @@ cc_library(
         "//modules/perception/inference/libtorch:torch_det",
         "//modules/perception/inference/libtorch:torch_net",
         "//modules/perception/inference/onnx:libtorch_obstacle_detector",
+        "//modules/perception/inference/paddlepaddle:paddle_net",
+    ] + if_cuda([
         "//modules/perception/inference/tensorrt:rt_net",
+    ]) + if_rocm([
+        "//modules/perception/inference/migraphx:mi_net",
+    ]) + [
         "//modules/perception/inference/utils:inference_util_lib",
     ],
 )
@@ -64,6 +73,7 @@ cc_test(
         ":inference_factory",
         "@com_google_googletest//:gtest_main",
     ],
+    linkstatic = True,
 )
 
 filegroup(

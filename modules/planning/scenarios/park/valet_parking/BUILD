@@ -1,6 +1,6 @@
 load("@rules_cc//cc:defs.bzl", "cc_library", "cc_test")
 load("//tools:cpplint.bzl", "cpplint")
-load("//tools/platform:build_defs.bzl", "if_gpu")
+load("//third_party/gpus:common.bzl", "if_cuda", "if_rocm")
 
 package(default_visibility = ["//visibility:public"])
 
@@ -18,8 +18,8 @@ cc_library(
     ],
     copts = ["-DMODULE_NAME=\\\"planning\\\""],
     deps = [
-        "//cyber/common:log",
-        "//modules/planning/proto:planning_cc_proto",
+        "//cyber",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "//modules/planning/scenarios:scenario",
     ],
 )
@@ -35,7 +35,12 @@ cc_test(
     deps = [
         ":valet_parking",
         "@com_google_googletest//:gtest_main",
-    ] + if_gpu(["@local_config_cuda//cuda:cudart"]),
+    ] + if_cuda([
+        "@local_config_cuda//cuda:cudart",
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:hip",
+    ]),
+    linkstatic = True,
 )
 
 cc_test(
@@ -49,7 +54,12 @@ cc_test(
     deps = [
         ":valet_parking",
         "@com_google_googletest//:gtest_main",
-    ] + if_gpu(["@local_config_cuda//cuda:cudart"]),
+    ] + if_cuda([
+        "@local_config_cuda//cuda:cudart",
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:hip",
+    ]),
+    linkstatic = True,
 )
 
 cc_test(
@@ -63,7 +73,12 @@ cc_test(
     deps = [
         ":valet_parking",
         "@com_google_googletest//:gtest_main",
-    ] + if_gpu(["@local_config_cuda//cuda:cudart"]),
+    ] + if_cuda([
+        "@local_config_cuda//cuda:cudart",
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:hip",
+    ]),
+    linkstatic = True,
 )
 
 cpplint()

@@ -1,7 +1,6 @@
 load("@rules_cc//cc:defs.bzl", "cc_library", "cc_test")
-load("@local_config_cuda//cuda:build_defs.bzl", "cuda_library")
+load("//third_party/gpus:common.bzl", "gpu_library", "if_gpu", "if_cuda", "if_rocm")
 load("//tools:cpplint.bzl", "cpplint")
-load("//tools/platform:build_defs.bzl", "if_gpu")
 
 package(default_visibility = ["//visibility:public"])
 PLANNING_COPTS = ["-DMODULE_NAME=\\\"planning\\\""]
@@ -17,8 +16,8 @@ cc_library(
         ":dual_variable_warm_start_ipopt_qp_interface",
         ":dual_variable_warm_start_osqp_interface",
         ":dual_variable_warm_start_slack_osqp_interface",
-        "//cyber/common:log",
-        "//modules/common/util:perf_util",
+        "//cyber",
+        "//modules/common/util:util_tool",
     ],
 )
 
@@ -33,7 +32,7 @@ cc_library(
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@adolc",
         "@eigen",
         "@ipopt",
@@ -51,7 +50,7 @@ cc_library(
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@adolc",
         "@eigen",
         "@ipopt",
@@ -69,7 +68,7 @@ cc_library(
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@eigen",
         "@osqp",
     ],
@@ -86,7 +85,7 @@ cc_library(
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@eigen",
         "@osqp",
     ],
@@ -104,8 +103,8 @@ cc_library(
         ":distance_approach_ipopt_interface",
         ":distance_approach_ipopt_relax_end_interface",
         ":distance_approach_ipopt_relax_end_slack_interface",
-        "//cyber/common:log",
-        "//modules/common/util:perf_util",
+        "//cyber",
+        "//modules/common/util:util_tool",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
     ],
@@ -120,13 +119,13 @@ cc_library(
     ],
     copts = PLANNING_FOPENMP,
     deps = [
-        "//cyber/common:log",
+        "//cyber",
         "//modules/common/configs:vehicle_config_helper",
         "//modules/common/math",
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@adolc",
         "@eigen",
         "@ipopt",
@@ -142,13 +141,13 @@ cc_library(
     ],
     copts = PLANNING_FOPENMP,
     deps = [
-        "//cyber/common:log",
+        "//cyber",
         "//modules/common/configs:vehicle_config_helper",
         "//modules/common/math",
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@adolc",
         "@eigen",
         "@ipopt",
@@ -164,13 +163,13 @@ cc_library(
     ],
     copts = PLANNING_FOPENMP,
     deps = [
-        "//cyber/common:log",
+        "//cyber",
         "//modules/common/configs:vehicle_config_helper",
         "//modules/common/math",
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@adolc",
         "@eigen",
         "@ipopt",
@@ -186,13 +185,13 @@ cc_library(
     ],
     copts = PLANNING_FOPENMP,
     deps = [
-        "//cyber/common:log",
+        "//cyber",
         "//modules/common/configs:vehicle_config_helper",
         "//modules/common/math",
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@adolc",
         "@eigen",
         "@ipopt",
@@ -208,13 +207,13 @@ cc_library(
     ],
     copts = PLANNING_FOPENMP,
     deps = [
-        "//cyber/common:log",
+        "//cyber",
         "//modules/common/configs:vehicle_config_helper",
         "//modules/common/math",
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@adolc",
         "@eigen",
         "@ipopt",
@@ -230,13 +229,13 @@ cc_library(
     ],
     copts = PLANNING_FOPENMP,
     deps = [
-        "//cyber/common:log",
+        "//cyber",
         "//modules/common/configs:vehicle_config_helper",
         "//modules/common/math",
         "//modules/common/util",
         "//modules/planning/common:planning_gflags",
         "//modules/planning/proto:planner_open_space_config_cc_proto",
-        "//modules/planning/proto:planning_cc_proto",
+        "//modules/common_msgs/planning_msgs:planning_cc_proto",
         "@adolc",
         "@eigen",
         "@ipopt",
@@ -256,18 +255,23 @@ cc_library(
         "//modules/planning/common/trajectory:discretized_trajectory",
         "//modules/planning/math:discrete_points_math",
         "//modules/planning/math/discretized_points_smoothing:fem_pos_deviation_smoother",
+        "//modules/planning/proto:planner_open_space_config_cc_proto",
         "@eigen",
     ],
 )
 
-cuda_library(
+gpu_library(
     name = "planning_block",
     srcs = ["planning_block.cu"],
     hdrs = ["planning_block.h"],
     deps = [
+    ] + if_cuda([
         "@local_config_cuda//cuda:cuda_headers",
         "@local_config_cuda//cuda:cudart",
-    ],
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:rocm_headers",
+        "@local_config_rocm//rocm:hip",
+    ]),
 )
 
 cc_test(
@@ -278,7 +282,7 @@ cc_test(
     linkopts = ["-lgomp"],
     deps = [
         ":distance_approach_ipopt_interface",
-        "//cyber/common:log",
+        "//cyber",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -291,9 +295,14 @@ cc_test(
     linkopts = ["-lgomp"],
     deps = [
         ":distance_approach_ipopt_cuda_interface",
-        "//cyber/common:log",
+        "//cyber",
         "@com_google_googletest//:gtest_main",
-    ] + if_gpu(["@local_config_cuda//cuda:cudart"]),
+    ] + if_cuda([
+        "@local_config_cuda//cuda:cudart",
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:hip",
+    ]),
+    linkstatic = True,
 )
 
 cc_test(
@@ -304,9 +313,14 @@ cc_test(
     linkopts = ["-lgomp"],
     deps = [
         ":distance_approach_problem",
-        "//cyber/common:log",
+        "//cyber",
         "@com_google_googletest//:gtest_main",
-    ] + if_gpu(["@local_config_cuda//cuda:cudart"]),
+    ] + if_cuda([
+        "@local_config_cuda//cuda:cudart",
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:hip",
+    ]),
+    linkstatic = True,
 )
 
 cc_test(
@@ -329,6 +343,7 @@ cc_test(
         "@com_google_googletest//:gtest_main",
         "@ipopt",
     ],
+    linkstatic = True,
 )
 
 cc_test(

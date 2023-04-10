@@ -1,11 +1,14 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 load("//tools:cpplint.bzl", "cpplint")
+load("//third_party/gpus:common.bzl", "gpu_library", "if_cuda", "if_rocm")
 
 package(default_visibility = ["//visibility:public"])
 
 cc_library(
     name = "camera_frame",
-    hdrs = ["camera_frame.h"],
+    hdrs = [
+        "camera_frame.h",
+    ],
     deps = [
         ":data_provider",
         "//modules/perception/base",
@@ -30,9 +33,13 @@ cc_library(
     hdrs = ["data_provider.h"],
     deps = [
         ":undistortion_handler",
+        "//cyber",
         "//modules/perception/base",
-        "@npp",
-    ],
+    ] + if_cuda([
+        "@npp"
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:rpp"
+    ]),
 )
 
 cc_library(
@@ -83,10 +90,34 @@ cc_library(
     srcs = ["undistortion_handler.cc"],
     hdrs = ["undistortion_handler.h"],
     deps = [
+        ":image_data_operations",
+        "//cyber",
         "//modules/perception/base",
-        "//modules/perception/base:blob",
         "//modules/perception/common/sensor_manager",
-    ],
+    ] + if_cuda([
+        "@npp"
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:rpp"
+    ]),
+)
+
+gpu_library(
+    name = "image_data_operations",
+    srcs = ["image_data_operations.cc"],
+    hdrs = [
+        "image_data_operations.h"
+    ] + if_cuda([
+        "image_data_operations_npp.h"
+    ]) + if_rocm([
+        "image_data_operations_rpp.h"
+    ]),
+    deps = [
+        "//modules/perception/base",
+    ] + if_cuda([
+        "@npp"
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:rpp"
+    ]),
 )
 
 cc_library(
@@ -110,6 +141,7 @@ cc_library(
         ":camera_ground_plane",
         ":data_provider",
         ":global_config",
+        ":image_data_operations",
         #        ":lane_object",
         ":math_functions",
         ":object_template_manager",

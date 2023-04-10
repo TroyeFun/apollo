@@ -1,5 +1,4 @@
 load("@rules_cc//cc:defs.bzl", "cc_library", "cc_test")
-load("//tools/platform:build_defs.bzl", "if_gpu")
 load("//tools:cpplint.bzl", "cpplint")
 
 package(default_visibility = ["//visibility:public"])
@@ -25,17 +24,12 @@ cc_library(
     ],
     copts = PLANNING_COPTS,
     deps = [
-        "//cyber/common:log",
-        "//modules/common/proto:pnc_point_cc_proto",
-        "//modules/common/status",
-        "//modules/common/util:factory",
-        "//modules/planning/reference_line",
+        "//cyber",
+        "//modules/common/util:util_tool",
         "//modules/planning/scenarios:scenario",
         "@eigen",
-    ] + if_gpu(
-        ["@libtorch_gpu"],
-        ["@libtorch_cpu"],
-    ),
+        "//third_party:libtorch",
+    ],
 )
 
 cc_test(
@@ -50,6 +44,7 @@ cc_test(
         ":learning_model_sample_scenario",
         "@com_google_googletest//:gtest_main",
     ],
+    linkstatic = True,
 )
 
 cc_test(
@@ -64,6 +59,7 @@ cc_test(
         ":learning_model_sample_scenario",
         "@com_google_googletest//:gtest_main",
     ],
+    linkstatic = True,
 )
 
 cpplint()

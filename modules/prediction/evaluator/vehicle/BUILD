@@ -68,7 +68,7 @@ cc_library(
     hdrs = ["junction_mlp_evaluator.h"],
     copts = PREDICTION_FOPENMP_COPTS,
     deps = [
-        "//modules/common/math:geometry",
+        "//modules/common/math",
         "//modules/prediction/common:feature_output",
         "//modules/prediction/common:prediction_util",
         "//modules/prediction/container:container_manager",
@@ -94,6 +94,7 @@ cc_test(
         "//modules/prediction/evaluator/vehicle:junction_mlp_evaluator",
         "@com_google_googletest//:gtest_main",
     ],
+    linkstatic = True,
 )
 
 cc_library(
@@ -139,6 +140,7 @@ cc_test(
         "//modules/prediction/common:kml_map_based_test",
         "//modules/prediction/evaluator/vehicle:cruise_mlp_evaluator",
     ],
+    linkstatic = True,
 )
 
 cc_library(

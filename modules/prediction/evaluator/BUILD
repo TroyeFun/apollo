@@ -31,7 +31,7 @@ cc_library(
         "//modules/prediction/proto:prediction_conf_cc_proto",
         "//modules/prediction/pipeline:vector_net",
         "//third_party:libtorch",
-    ],
+    ]
 )
 
 cc_test(
@@ -49,6 +49,7 @@ cc_test(
         "//modules/prediction/common:kml_map_based_test",
         "//modules/prediction/evaluator:evaluator_manager",
     ],
+    linkstatic = True,
 )
 
 cc_library(

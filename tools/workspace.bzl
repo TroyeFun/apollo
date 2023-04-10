@@ -6,6 +6,7 @@ load("//third_party/ad_rss_lib:workspace.bzl", ad_rss_lib = "repo")
 load("//third_party/atlas:workspace.bzl", atlas = "repo")
 load("//third_party/benchmark:workspace.bzl", benchmark = "repo")
 load("//third_party/boost:workspace.bzl", boost = "repo")
+load("//third_party/caddn_infer_op:workspace.bzl", caddn_infer_op = "repo")
 load("//third_party/centerpoint_infer_op:workspace.bzl", centerpoint_infer_op = "repo")
 load("//third_party/civetweb:workspace.bzl", civetweb = "repo")
 load("//third_party/cpplint:workspace.bzl", cpplint = "repo")
@@ -38,6 +39,7 @@ load("//third_party/yaml_cpp:workspace.bzl", yaml_cpp = "repo")
 # load("//third_party/glew:workspace.bzl", glew = "repo")
 
 load("//third_party/gpus:cuda_configure.bzl", "cuda_configure")
+load("//third_party/gpus:rocm_configure.bzl", "rocm_configure")
 load("//third_party/py:python_configure.bzl", "python_configure")
 load("//third_party/tensorrt:tensorrt_configure.bzl", "tensorrt_configure")
 load("//third_party/vtk:vtk_configure.bzl", "vtk_configure")
@@ -45,7 +47,6 @@ load("//third_party/pcl:pcl_configure.bzl", "pcl_configure")
 
 def initialize_third_party():
     """ Load third party repositories.  See above load() statements. """
-
     absl()
     adolc()
     adv_plat()
@@ -53,6 +54,7 @@ def initialize_third_party():
     atlas()
     benchmark()
     boost()
+    caddn_infer_op()
     centerpoint_infer_op()
     cpplint()
     civetweb()
@@ -82,13 +84,13 @@ def initialize_third_party():
     tinyxml2()
     uuid()
     yaml_cpp()
-    
+
 # Define all external repositories required by
 def apollo_repositories():
     cuda_configure(name = "local_config_cuda")
+    rocm_configure(name = "local_config_rocm")
     tensorrt_configure(name = "local_config_tensorrt")
     python_configure(name = "local_config_python")
     vtk_configure(name = "local_config_vtk")
     pcl_configure(name = "local_config_pcl")
-
     initialize_third_party()

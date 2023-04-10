@@ -1,5 +1,6 @@
 load("@rules_cc//cc:defs.bzl", "cc_library", "cc_test")
 load("//tools:cpplint.bzl", "cpplint")
+load("//third_party/gpus:common.bzl", "if_cuda", "if_rocm")
 
 package(default_visibility = ["//visibility:public"])
 
@@ -37,7 +38,7 @@ cc_library(
         "vehicle_struct.h",
     ],
     deps = [
-        "//modules/common/util:eigen_defs",
+        "//modules/common/util:util_tool",
     ],
 )
 
@@ -49,9 +50,12 @@ cc_library(
         ":common",
         ":syncedmem",
         "//cyber",
-        "@com_google_absl//absl/strings",
+        "@com_google_absl//:absl",
+    ] + if_cuda([
         "@local_config_cuda//cuda:cuda_headers",
-    ],
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:rocm_headers",
+    ]),
 )
 
 cc_test(
@@ -62,8 +66,11 @@ cc_test(
         ":blob",
         "//modules/perception/base/test:test_helper",
         "@com_google_googletest//:gtest_main",
+    ] + if_cuda([
         "@local_config_cuda//cuda:cudart",
-    ],
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:hip",
+    ]),
 )
 
 cc_library(
@@ -85,6 +92,7 @@ cc_test(
         ":box",
         "@com_google_googletest//:gtest_main",
     ],
+    linkstatic = True,
 )
 
 cc_library(
@@ -111,8 +119,11 @@ cc_library(
     name = "common",
     hdrs = ["common.h"],
     deps = [
+    ] + if_cuda([
         "@local_config_cuda//cuda:cudart",
-    ],
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:hip",
+    ]),
 )
 
 cc_test(
@@ -122,8 +133,11 @@ cc_test(
     deps = [
         ":common",
         "@com_google_googletest//:gtest_main",
+    ] + if_cuda([
         "@local_config_cuda//cuda:cuda_headers",
-    ],
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:rocm_headers",
+    ]),
 )
 
 cc_library(
@@ -181,6 +195,7 @@ cc_test(
         ":image",
         "@com_google_googletest//:gtest_main",
     ],
+    linkstatic = True,
 )
 
 cc_library(
@@ -214,18 +229,18 @@ cc_library(
     deps = [
         ":box",
         ":point_cloud",
-        "//modules/common/proto:error_code_cc_proto",
-        "//modules/common/proto:geometry_cc_proto",
-        "//modules/common/proto:header_cc_proto",
-        "//modules/common/proto:pnc_point_cc_proto",
-        "//modules/common/util:eigen_defs",
-        "//modules/map/proto:map_geometry_cc_proto",
-        "//modules/map/proto:map_id_cc_proto",
-        "//modules/map/proto:map_lane_cc_proto",
-        "//modules/perception/proto:perception_obstacle_cc_proto",
-        "//modules/prediction/proto:feature_cc_proto",
-        "//modules/prediction/proto:lane_graph_cc_proto",
-        "//modules/prediction/proto:prediction_point_cc_proto",
+        "//modules/common_msgs/basic_msgs:error_code_cc_proto",
+        "//modules/common_msgs/basic_msgs:geometry_cc_proto",
+        "//modules/common_msgs/basic_msgs:header_cc_proto",
+        "//modules/common_msgs/basic_msgs:pnc_point_cc_proto",
+        "//modules/common_msgs/map_msgs:map_geometry_cc_proto",
+        "//modules/common_msgs/map_msgs:map_id_cc_proto",
+        "//modules/common_msgs/map_msgs:map_lane_cc_proto",
+        "//modules/common_msgs/perception_msgs:perception_obstacle_cc_proto",
+        "//modules/common_msgs/prediction_msgs:feature_cc_proto",
+        "//modules/common_msgs/prediction_msgs:lane_graph_cc_proto",
+        "//modules/common_msgs/prediction_msgs:prediction_point_cc_proto",
+        "//modules/common/util",
         "@boost",
         "@eigen",
     ],
@@ -314,7 +329,7 @@ cc_library(
     hdrs = ["point_cloud.h"],
     deps = [
         ":point",
-        "//modules/common/util:eigen_defs",
+        "//modules/common/util:util_tool",
         "@eigen",
     ],
 )
@@ -365,8 +380,11 @@ cc_library(
     deps = [
         ":common",
         "//cyber",
+    ] + if_cuda([
         "@local_config_cuda//cuda:cuda_headers",
-    ],
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:rocm_headers",
+    ]),
 )
 
 cc_test(
@@ -377,8 +395,11 @@ cc_test(
         ":syncedmem",
         "//modules/perception/base/test:test_helper",
         "@com_google_googletest//:gtest_main",
+    ] + if_cuda([
         "@local_config_cuda//cuda:cudart",
-    ],
+    ]) + if_rocm([
+        "@local_config_rocm//rocm:hip",
+    ]),
 )
 
 cc_library(

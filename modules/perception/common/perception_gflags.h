@@ -75,6 +75,14 @@ DECLARE_string(trt_static_dir);
 DECLARE_int32(collect_shape_info);
 DECLARE_string(dynamic_shape_file);
 
+// bev petr_v1
+DECLARE_string(bev_model_file);
+DECLARE_string(bev_params_file);
+
+// caddn
+DECLARE_string(caddn_model_file);
+DECLARE_string(caddn_params_file);
+
 // emergency detection onnx
 DECLARE_string(onnx_obstacle_detector_model);
 DECLARE_string(onnx_test_input_path);
