@@ -1,0 +1,1782 @@
+[2023-04-10 18:45:46,129] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-10 18:45:46,136] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-10 18:46:16,146] [carla_bridge] [ERROR]: Error: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to 172.17.0.1:2000
+[2023-04-10 18:46:50,964] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-10 18:46:50,967] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-10 18:46:51,702] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town10HD_Opt').
+[2023-04-10 18:46:56,211] [carla_bridge] [INFO]: synchronous_mode: True
+[2023-04-10 18:46:56,211] [carla_bridge] [INFO]: fixed_delta_seconds: 0.05
+[2023-04-10 18:46:58,502] [carla_bridge] [INFO]: Parameters:
+[2023-04-10 18:46:58,503] [carla_bridge] [INFO]:   town: Town01
+[2023-04-10 18:46:58,503] [carla_bridge] [INFO]:   register_all_sensors: True
+[2023-04-10 18:46:58,504] [carla_bridge] [INFO]:   synchronous_mode_wait_for_vehicle_control_command: False
+[2023-04-10 18:46:58,504] [carla_bridge] [INFO]:   synchronous_mode: True
+[2023-04-10 18:46:58,504] [carla_bridge] [INFO]:   ego_vehicle: {'role_name': ['hero', 'ego_vehicle']}
+[2023-04-10 18:46:58,504] [carla_bridge] [INFO]:   passive: False
+[2023-04-10 18:46:58,504] [carla_bridge] [INFO]:   host: 172.17.0.1
+[2023-04-10 18:46:58,504] [carla_bridge] [INFO]:   fixed_delta_seconds: 0.05
+[2023-04-10 18:46:58,504] [carla_bridge] [INFO]:   timeout: 30
+[2023-04-10 18:46:58,504] [carla_bridge] [INFO]:   port: 2000
+[2023-04-10 18:46:58,715] [carla_bridge] [DEBUG]: In sync mode statement.
+[2023-04-10 18:46:58,717] [carla_bridge] [INFO]: synchronous_mode_update_thread start
+[2023-04-10 18:46:58,717] [carla_bridge] [INFO]: State set to PLAY
+[2023-04-10 18:46:58,718] [carla_bridge] [DEBUG]: Before services configuration.
+[2023-04-10 18:46:58,723] [carla_bridge] [DEBUG]: carla_weather_reader.
+[2023-04-10 18:46:58,723] [carla_bridge] [INFO]: spin ...
+[2023-04-10 18:46:58,747] [carla_bridge] [INFO]: Created Static(id=196)
+[2023-04-10 18:46:58,748] [carla_bridge] [INFO]: Created Static(id=195)
+[2023-04-10 18:46:58,748] [carla_bridge] [INFO]: Created Static(id=194)
+[2023-04-10 18:46:58,748] [carla_bridge] [INFO]: Created Static(id=193)
+[2023-04-10 18:46:58,749] [carla_bridge] [INFO]: Created Static(id=192)
+[2023-04-10 18:46:58,749] [carla_bridge] [INFO]: Created Static(id=191)
+[2023-04-10 18:46:58,749] [carla_bridge] [INFO]: Created Static(id=190)
+[2023-04-10 18:46:58,750] [carla_bridge] [INFO]: Created Static(id=189)
+[2023-04-10 18:46:58,750] [carla_bridge] [INFO]: Created Static(id=188)
+[2023-04-10 18:46:58,750] [carla_bridge] [INFO]: Created Static(id=187)
+[2023-04-10 18:46:58,750] [carla_bridge] [INFO]: Created Static(id=186)
+[2023-04-10 18:46:58,751] [carla_bridge] [INFO]: Created Static(id=185)
+[2023-04-10 18:46:58,751] [carla_bridge] [INFO]: Created Static(id=184)
+[2023-04-10 18:46:58,751] [carla_bridge] [INFO]: Created Static(id=183)
+[2023-04-10 18:46:58,752] [carla_bridge] [INFO]: Created Static(id=182)
+[2023-04-10 18:46:58,752] [carla_bridge] [INFO]: Created Static(id=181)
+[2023-04-10 18:46:58,753] [carla_bridge] [INFO]: Created Static(id=180)
+[2023-04-10 18:46:58,753] [carla_bridge] [INFO]: Created Static(id=179)
+[2023-04-10 18:46:58,753] [carla_bridge] [INFO]: Created Static(id=178)
+[2023-04-10 18:46:58,754] [carla_bridge] [INFO]: Created Static(id=177)
+[2023-04-10 18:46:58,754] [carla_bridge] [INFO]: Created Static(id=176)
+[2023-04-10 18:46:58,754] [carla_bridge] [INFO]: Created Static(id=175)
+[2023-04-10 18:46:58,755] [carla_bridge] [INFO]: Created Static(id=174)
+[2023-04-10 18:46:58,755] [carla_bridge] [INFO]: Created Static(id=173)
+[2023-04-10 18:46:58,755] [carla_bridge] [INFO]: Created Static(id=172)
+[2023-04-10 18:46:58,756] [carla_bridge] [INFO]: Created Static(id=171)
+[2023-04-10 18:46:58,756] [carla_bridge] [INFO]: Created Static(id=170)
+[2023-04-10 18:46:58,756] [carla_bridge] [INFO]: Created Static(id=169)
+[2023-04-10 18:46:58,757] [carla_bridge] [INFO]: Created Static(id=168)
+[2023-04-10 18:46:58,757] [carla_bridge] [INFO]: Created Static(id=167)
+[2023-04-10 18:46:58,757] [carla_bridge] [INFO]: Created Static(id=166)
+[2023-04-10 18:46:58,758] [carla_bridge] [INFO]: Created Static(id=165)
+[2023-04-10 18:46:58,758] [carla_bridge] [INFO]: Created Static(id=164)
+[2023-04-10 18:46:58,758] [carla_bridge] [INFO]: Created Static(id=163)
+[2023-04-10 18:46:58,759] [carla_bridge] [INFO]: Created Static(id=162)
+[2023-04-10 18:46:58,759] [carla_bridge] [INFO]: Created Static(id=161)
+[2023-04-10 18:46:58,760] [carla_bridge] [INFO]: Created Static(id=160)
+[2023-04-10 18:46:58,760] [carla_bridge] [INFO]: Created Static(id=159)
+[2023-04-10 18:46:58,761] [carla_bridge] [INFO]: Created Static(id=158)
+[2023-04-10 18:46:58,761] [carla_bridge] [INFO]: Created Static(id=157)
+[2023-04-10 18:46:58,761] [carla_bridge] [INFO]: Created Static(id=156)
+[2023-04-10 18:46:58,762] [carla_bridge] [INFO]: Created Static(id=155)
+[2023-04-10 18:46:58,762] [carla_bridge] [INFO]: Created Static(id=154)
+[2023-04-10 18:46:58,762] [carla_bridge] [INFO]: Created Static(id=153)
+[2023-04-10 18:46:58,763] [carla_bridge] [INFO]: Created Static(id=152)
+[2023-04-10 18:46:58,763] [carla_bridge] [INFO]: Created Static(id=151)
+[2023-04-10 18:46:58,763] [carla_bridge] [INFO]: Created Static(id=150)
+[2023-04-10 18:46:58,763] [carla_bridge] [INFO]: Created Static(id=149)
+[2023-04-10 18:46:58,764] [carla_bridge] [INFO]: Created Static(id=148)
+[2023-04-10 18:46:58,764] [carla_bridge] [INFO]: Created Static(id=147)
+[2023-04-10 18:46:58,764] [carla_bridge] [INFO]: Created Static(id=146)
+[2023-04-10 18:46:58,765] [carla_bridge] [INFO]: Created Static(id=145)
+[2023-04-10 18:46:58,765] [carla_bridge] [INFO]: Created Static(id=144)
+[2023-04-10 18:46:58,765] [carla_bridge] [INFO]: Created Static(id=143)
+[2023-04-10 18:46:58,766] [carla_bridge] [INFO]: Created Static(id=142)
+[2023-04-10 18:46:58,766] [carla_bridge] [INFO]: Created Static(id=141)
+[2023-04-10 18:46:58,766] [carla_bridge] [INFO]: Created Static(id=140)
+[2023-04-10 18:46:58,766] [carla_bridge] [INFO]: Created Static(id=139)
+[2023-04-10 18:46:58,767] [carla_bridge] [INFO]: Created Static(id=138)
+[2023-04-10 18:46:58,767] [carla_bridge] [INFO]: Created Static(id=137)
+[2023-04-10 18:46:58,767] [carla_bridge] [INFO]: Created Static(id=136)
+[2023-04-10 18:46:58,768] [carla_bridge] [INFO]: Created Static(id=135)
+[2023-04-10 18:46:58,768] [carla_bridge] [INFO]: Created Static(id=134)
+[2023-04-10 18:46:58,768] [carla_bridge] [INFO]: Created Static(id=133)
+[2023-04-10 18:46:58,769] [carla_bridge] [INFO]: Created Static(id=132)
+[2023-04-10 18:46:58,769] [carla_bridge] [INFO]: Created Static(id=131)
+[2023-04-10 18:46:58,769] [carla_bridge] [INFO]: Created Static(id=130)
+[2023-04-10 18:46:58,769] [carla_bridge] [INFO]: Created Static(id=129)
+[2023-04-10 18:46:58,770] [carla_bridge] [INFO]: Created Static(id=128)
+[2023-04-10 18:46:58,770] [carla_bridge] [INFO]: Created Static(id=127)
+[2023-04-10 18:46:58,770] [carla_bridge] [INFO]: Created Static(id=126)
+[2023-04-10 18:46:58,771] [carla_bridge] [INFO]: Created Static(id=125)
+[2023-04-10 18:46:58,771] [carla_bridge] [INFO]: Created Static(id=124)
+[2023-04-10 18:46:58,771] [carla_bridge] [INFO]: Created Static(id=123)
+[2023-04-10 18:46:58,771] [carla_bridge] [INFO]: Created Static(id=122)
+[2023-04-10 18:46:58,772] [carla_bridge] [INFO]: Created Static(id=121)
+[2023-04-10 18:46:58,772] [carla_bridge] [INFO]: Created Static(id=120)
+[2023-04-10 18:46:58,772] [carla_bridge] [INFO]: Created Static(id=119)
+[2023-04-10 18:46:58,773] [carla_bridge] [INFO]: Created Static(id=118)
+[2023-04-10 18:46:58,773] [carla_bridge] [INFO]: Created Static(id=117)
+[2023-04-10 18:46:58,773] [carla_bridge] [INFO]: Created Static(id=116)
+[2023-04-10 18:46:58,773] [carla_bridge] [INFO]: Created Static(id=115)
+[2023-04-10 18:46:58,774] [carla_bridge] [INFO]: Created Static(id=114)
+[2023-04-10 18:46:58,774] [carla_bridge] [INFO]: Created Static(id=113)
+[2023-04-10 18:46:58,774] [carla_bridge] [INFO]: Created Static(id=112)
+[2023-04-10 18:46:58,775] [carla_bridge] [INFO]: Created Static(id=111)
+[2023-04-10 18:46:58,775] [carla_bridge] [INFO]: Created Static(id=110)
+[2023-04-10 18:46:58,775] [carla_bridge] [INFO]: Created Static(id=109)
+[2023-04-10 18:46:58,775] [carla_bridge] [INFO]: Created Static(id=108)
+[2023-04-10 18:46:58,776] [carla_bridge] [INFO]: Created Static(id=107)
+[2023-04-10 18:46:58,776] [carla_bridge] [INFO]: Created Static(id=106)
+[2023-04-10 18:46:58,776] [carla_bridge] [INFO]: Created Static(id=105)
+[2023-04-10 18:46:58,777] [carla_bridge] [INFO]: Created Static(id=104)
+[2023-04-10 18:46:58,777] [carla_bridge] [INFO]: Created Static(id=103)
+[2023-04-10 18:46:58,777] [carla_bridge] [INFO]: Created Static(id=102)
+[2023-04-10 18:46:58,777] [carla_bridge] [INFO]: Created Static(id=101)
+[2023-04-10 18:46:58,778] [carla_bridge] [INFO]: Created Static(id=100)
+[2023-04-10 18:46:58,778] [carla_bridge] [INFO]: Created Static(id=99)
+[2023-04-10 18:46:58,778] [carla_bridge] [INFO]: Created Static(id=98)
+[2023-04-10 18:46:58,779] [carla_bridge] [INFO]: Created Static(id=97)
+[2023-04-10 18:46:58,779] [carla_bridge] [INFO]: Created Static(id=96)
+[2023-04-10 18:46:58,779] [carla_bridge] [INFO]: Created Static(id=95)
+[2023-04-10 18:46:58,779] [carla_bridge] [INFO]: Created Static(id=94)
+[2023-04-10 18:46:58,780] [carla_bridge] [INFO]: Created Static(id=93)
+[2023-04-10 18:46:58,780] [carla_bridge] [INFO]: Created Static(id=92)
+[2023-04-10 18:46:58,780] [carla_bridge] [INFO]: Created Static(id=91)
+[2023-04-10 18:46:58,786] [carla_bridge] [INFO]: Created Static(id=90)
+[2023-04-10 18:46:58,787] [carla_bridge] [INFO]: Created Static(id=89)
+[2023-04-10 18:46:58,787] [carla_bridge] [INFO]: Created Static(id=88)
+[2023-04-10 18:46:58,787] [carla_bridge] [INFO]: Created Static(id=87)
+[2023-04-10 18:46:58,787] [carla_bridge] [INFO]: Created Static(id=86)
+[2023-04-10 18:46:58,788] [carla_bridge] [INFO]: Created Static(id=85)
+[2023-04-10 18:46:58,788] [carla_bridge] [INFO]: Created Static(id=84)
+[2023-04-10 18:46:58,788] [carla_bridge] [INFO]: Created Static(id=83)
+[2023-04-10 18:46:58,788] [carla_bridge] [INFO]: Created Static(id=82)
+[2023-04-10 18:46:58,789] [carla_bridge] [INFO]: Created Traffic(id=81)
+[2023-04-10 18:46:58,789] [carla_bridge] [INFO]: Created Traffic(id=80)
+[2023-04-10 18:46:58,789] [carla_bridge] [INFO]: Created Traffic(id=79)
+[2023-04-10 18:46:58,789] [carla_bridge] [INFO]: Created Traffic(id=78)
+[2023-04-10 18:46:58,789] [carla_bridge] [INFO]: Created Traffic(id=77)
+[2023-04-10 18:46:58,790] [carla_bridge] [INFO]: Created Traffic(id=76)
+[2023-04-10 18:46:58,790] [carla_bridge] [INFO]: Created Traffic(id=75)
+[2023-04-10 18:46:58,790] [carla_bridge] [INFO]: Created Traffic(id=74)
+[2023-04-10 18:46:58,790] [carla_bridge] [INFO]: Created Traffic(id=73)
+[2023-04-10 18:46:58,790] [carla_bridge] [INFO]: Created Traffic(id=72)
+[2023-04-10 18:46:58,791] [carla_bridge] [INFO]: Created Traffic(id=71)
+[2023-04-10 18:46:58,791] [carla_bridge] [INFO]: Created Traffic(id=70)
+[2023-04-10 18:46:58,791] [carla_bridge] [INFO]: Created Traffic(id=69)
+[2023-04-10 18:46:58,791] [carla_bridge] [INFO]: Created Traffic(id=68)
+[2023-04-10 18:46:58,791] [carla_bridge] [INFO]: Created Traffic(id=67)
+[2023-04-10 18:46:58,792] [carla_bridge] [INFO]: Created Traffic(id=66)
+[2023-04-10 18:46:58,792] [carla_bridge] [INFO]: Created Traffic(id=65)
+[2023-04-10 18:46:58,792] [carla_bridge] [INFO]: Created Traffic(id=64)
+[2023-04-10 18:46:58,792] [carla_bridge] [INFO]: Created Traffic(id=63)
+[2023-04-10 18:46:58,792] [carla_bridge] [INFO]: Created Traffic(id=62)
+[2023-04-10 18:46:58,793] [carla_bridge] [INFO]: Created Traffic(id=61)
+[2023-04-10 18:46:58,793] [carla_bridge] [INFO]: Created TrafficLight(id=60)
+[2023-04-10 18:46:58,793] [carla_bridge] [INFO]: Created TrafficLight(id=59)
+[2023-04-10 18:46:58,793] [carla_bridge] [INFO]: Created TrafficLight(id=58)
+[2023-04-10 18:46:58,793] [carla_bridge] [INFO]: Created TrafficLight(id=57)
+[2023-04-10 18:46:58,794] [carla_bridge] [INFO]: Created TrafficLight(id=56)
+[2023-04-10 18:46:58,794] [carla_bridge] [INFO]: Created TrafficLight(id=55)
+[2023-04-10 18:46:58,794] [carla_bridge] [INFO]: Created TrafficLight(id=54)
+[2023-04-10 18:46:58,794] [carla_bridge] [INFO]: Created TrafficLight(id=53)
+[2023-04-10 18:46:58,794] [carla_bridge] [INFO]: Created TrafficLight(id=52)
+[2023-04-10 18:46:58,795] [carla_bridge] [INFO]: Created TrafficLight(id=51)
+[2023-04-10 18:46:58,795] [carla_bridge] [INFO]: Created TrafficLight(id=50)
+[2023-04-10 18:46:58,795] [carla_bridge] [INFO]: Created TrafficLight(id=49)
+[2023-04-10 18:46:58,795] [carla_bridge] [INFO]: Created TrafficLight(id=48)
+[2023-04-10 18:46:58,796] [carla_bridge] [INFO]: Created TrafficLight(id=47)
+[2023-04-10 18:46:58,796] [carla_bridge] [INFO]: Created TrafficLight(id=46)
+[2023-04-10 18:46:58,796] [carla_bridge] [INFO]: Created TrafficLight(id=45)
+[2023-04-10 18:46:58,796] [carla_bridge] [INFO]: Created TrafficLight(id=44)
+[2023-04-10 18:46:58,797] [carla_bridge] [INFO]: Created TrafficLight(id=43)
+[2023-04-10 18:46:58,797] [carla_bridge] [INFO]: Created TrafficLight(id=42)
+[2023-04-10 18:46:58,797] [carla_bridge] [INFO]: Created TrafficLight(id=41)
+[2023-04-10 18:46:58,797] [carla_bridge] [INFO]: Created TrafficLight(id=40)
+[2023-04-10 18:46:58,798] [carla_bridge] [INFO]: Created TrafficLight(id=39)
+[2023-04-10 18:46:58,798] [carla_bridge] [INFO]: Created TrafficLight(id=38)
+[2023-04-10 18:46:58,798] [carla_bridge] [INFO]: Created TrafficLight(id=37)
+[2023-04-10 18:46:58,798] [carla_bridge] [INFO]: Created TrafficLight(id=36)
+[2023-04-10 18:46:58,798] [carla_bridge] [INFO]: Created TrafficLight(id=35)
+[2023-04-10 18:46:58,798] [carla_bridge] [INFO]: Created TrafficLight(id=34)
+[2023-04-10 18:46:58,799] [carla_bridge] [INFO]: Created TrafficLight(id=33)
+[2023-04-10 18:46:58,799] [carla_bridge] [INFO]: Created TrafficLight(id=32)
+[2023-04-10 18:46:58,799] [carla_bridge] [INFO]: Created TrafficLight(id=31)
+[2023-04-10 18:46:58,799] [carla_bridge] [INFO]: Created TrafficLight(id=30)
+[2023-04-10 18:46:58,799] [carla_bridge] [INFO]: Created TrafficLight(id=29)
+[2023-04-10 18:46:58,800] [carla_bridge] [INFO]: Created TrafficLight(id=28)
+[2023-04-10 18:46:58,800] [carla_bridge] [INFO]: Created TrafficLight(id=27)
+[2023-04-10 18:46:58,800] [carla_bridge] [INFO]: Created TrafficLight(id=26)
+[2023-04-10 18:46:58,800] [carla_bridge] [INFO]: Created TrafficLight(id=25)
+[2023-04-10 18:46:58,800] [carla_bridge] [INFO]: Created Spectator(id=24)
+[2023-04-10 18:48:05,792] [carla_bridge] [INFO]: Object (type='sensor.pseudo.traffic_lights', id='traffic_lights') spawned successfully as 10000.
+[2023-04-10 18:48:05,796] [carla_bridge] [INFO]: Created TrafficLightsSensor(id=10000)
+[2023-04-10 18:48:05,798] [carla_bridge] [INFO]: Object (type='sensor.pseudo.actor_list', id='actor_list') spawned successfully as 10001.
+[2023-04-10 18:48:05,799] [carla_bridge] [INFO]: Object (type='sensor.pseudo.opendrive_map', id='map') spawned successfully as 10002.
+[2023-04-10 18:48:05,799] [carla_bridge] [DEBUG]: None
+[2023-04-10 18:48:05,799] [carla_bridge] [INFO]: Spawn point selected at random
+[2023-04-10 18:48:05,815] [carla_bridge] [INFO]: Object (type='vehicle.tesla.model3', id='ego_vehicle') spawned successfully as 197.
+[2023-04-10 18:48:05,815] [carla_bridge] [INFO]: Created ActorListSensor(id=10001)
+[2023-04-10 18:48:05,816] [carla_bridge] [INFO]: Created OpenDriveSensor(id=10002)
+[2023-04-10 18:48:05,825] [carla_bridge] [INFO]: Created EgoVehicle(id=197)
+[2023-04-10 18:48:05,837] [carla_bridge] [INFO]: =========================================
+[2023-04-10 18:48:05,838] [carla_bridge] [INFO]: location is Location(x=22.179979, y=330.459991, z=0.285300), rotation is Rotation(pitch=0.000000, yaw=0.000000, roll=0.000000)
+[2023-04-10 18:48:05,837] [carla_bridge] [INFO]: Object (type='sensor.camera.rgb', id='front_6mm') spawned successfully as 198.
+[2023-04-10 18:48:05,838] [carla_bridge] [INFO]: linear_vel is is Vector3D(x=0.000000, y=0.000000, z=-0.490000)
+[2023-04-10 18:48:05,838] [carla_bridge] [INFO]: angular_vel is is Vector3D(x=0.000000, y=0.000000, z=0.000000)
+[2023-04-10 18:48:05,838] [carla_bridge] [INFO]: accel is is Vector3D(x=0.000000, y=0.000000, z=-9.799999)
+[2023-04-10 18:48:05,839] [carla_bridge] [INFO]: position.x is 22.1799793243, position.y is -330.459991455, position.z is 0.285299986601
+[2023-04-10 18:48:05,839] [carla_bridge] [INFO]: qx is 0.0, qy is -0.0, qz is 0.0, qw is 1.0
+[2023-04-10 18:48:05,840] [carla_bridge] [INFO]: 
+ cyber_twist.linear is x: 0.0
+y: -0.0
+z: -0.489999979734
+, 
+ cyber_twist.angular is x: 0.0
+y: -0.0
+z: -0.0
+, 
+ cyber_line_accel is linear {
+  x: 0.0
+  y: -0.0
+  z: -9.79999923706
+}
+
+[2023-04-10 18:48:05,840] [carla_bridge] [INFO]: ====roll is 0.0, pitch is -0.0, yaw is 0.0
+[2023-04-10 18:48:05,842] [carla_bridge] [INFO]: Object (type='sensor.camera.rgb', id='front_12mm') spawned successfully as 199.
+[2023-04-10 18:48:05,861] [carla_bridge] [INFO]: Object (type='sensor.lidar.ray_cast', id='lidar128') spawned successfully as 200.
+[2023-04-10 18:48:05,863] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-10 18:48:05,866] [carla_bridge] [INFO]: Created RgbCamera(id=198)
+[2023-04-10 18:48:05,867] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-10 18:48:05,869] [carla_bridge] [INFO]: Created RgbCamera(id=199)
+[2023-04-10 18:48:05,870] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-10 18:48:05,870] [carla_bridge] [INFO]: Created Lidar(id=200)
+[2023-04-10 18:48:05,886] [carla_bridge] [INFO]: Object (type='sensor.other.radar', id='radar/front') spawned successfully as 201.
+[2023-04-10 18:48:05,889] [carla_bridge] [INFO]: Object (type='sensor.other.gnss', id='gnss') spawned successfully as 202.
+[2023-04-10 18:48:05,892] [carla_bridge] [INFO]: Object (type='sensor.other.imu', id='gnss/imu') spawned successfully as 203.
+[2023-04-10 18:48:05,893] [carla_bridge] [INFO]: Object (type='sensor.pseudo.objects', id='obstacles') spawned successfully as 10003.
+[2023-04-10 18:48:05,893] [carla_bridge] [INFO]: Object (type='sensor.pseudo.odom', id='odometry') spawned successfully as 10004.
+[2023-04-10 18:48:05,894] [carla_bridge] [INFO]: Object (type='sensor.pseudo.speedometer', id='speedometer') spawned successfully as 10005.
+[2023-04-10 18:48:05,895] [carla_bridge] [INFO]: Object (type='actor.pseudo.control', id='control') spawned successfully as 10006.
+[2023-04-10 18:48:05,895] [carla_bridge] [INFO]: All objects spawned.
+[2023-04-10 18:48:06,924] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-10 18:48:06,925] [carla_bridge] [INFO]: Created Radar(id=201)
+[2023-04-10 18:48:06,927] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-10 18:48:06,933] [carla_bridge] [INFO]: Created Gnss(id=202)
+[2023-04-10 18:48:06,934] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-10 18:48:06,936] [carla_bridge] [INFO]: Created ImuSensor(id=203)
+[2023-04-10 18:48:06,940] [carla_bridge] [INFO]: Created ObjectSensor(id=10003)
+[2023-04-10 18:48:06,943] [carla_bridge] [INFO]: Created OdometrySensor(id=10004)
+[2023-04-10 18:48:06,943] [carla_bridge] [INFO]: Created SpeedometerSensor(id=10005)
+[2023-04-10 18:48:06,944] [carla_bridge] [INFO]: Created ActorControl(id=10006)
+[2023-04-10 18:48:51,546] [carla_bridge] [WARNING]: Shutting down.
+[2023-04-10 18:48:51,547] [carla_bridge] [INFO]: Destroying spawned objects...
+[2023-04-10 18:48:51,549] [carla_bridge] [INFO]: Object 198 successfully destroyed.
+[2023-04-10 18:48:51,550] [carla_bridge] [INFO]: Object 199 successfully destroyed.
+[2023-04-10 18:48:51,551] [carla_bridge] [INFO]: Object 200 successfully destroyed.
+[2023-04-10 18:48:51,552] [carla_bridge] [INFO]: Object 201 successfully destroyed.
+[2023-04-10 18:48:51,552] [carla_bridge] [INFO]: Object 202 successfully destroyed.
+[2023-04-10 18:48:51,553] [carla_bridge] [INFO]: Object 203 successfully destroyed.
+[2023-04-10 18:48:51,554] [carla_bridge] [INFO]: Object 10003 successfully destroyed.
+[2023-04-10 18:48:51,554] [carla_bridge] [INFO]: Object 10004 successfully destroyed.
+[2023-04-10 18:48:51,555] [carla_bridge] [INFO]: Object 10005 successfully destroyed.
+[2023-04-10 18:48:51,556] [carla_bridge] [INFO]: Object 10006 successfully destroyed.
+[2023-04-10 18:48:51,557] [carla_bridge] [INFO]: Object 10000 successfully destroyed.
+[2023-04-10 18:48:51,558] [carla_bridge] [INFO]: Object 10001 successfully destroyed.
+[2023-04-10 18:48:51,558] [carla_bridge] [INFO]: Object 10002 successfully destroyed.
+[2023-04-10 18:48:51,559] [carla_bridge] [INFO]: Object 197 successfully destroyed.
+[2023-04-10 18:48:51,684] [carla_bridge] [INFO]: Removed RgbCamera(id=198)
+[2023-04-10 18:48:51,685] [carla_bridge] [INFO]: Removed RgbCamera(id=199)
+[2023-04-10 18:48:51,685] [carla_bridge] [INFO]: Removed Lidar(id=200)
+[2023-04-10 18:48:51,686] [carla_bridge] [INFO]: Removed Radar(id=201)
+[2023-04-10 18:48:51,686] [carla_bridge] [INFO]: Removed Gnss(id=202)
+[2023-04-10 18:48:51,687] [carla_bridge] [INFO]: Removed ImuSensor(id=203)
+[2023-04-10 18:48:51,687] [carla_bridge] [INFO]: Removed ObjectSensor(id=10003)
+[2023-04-10 18:48:51,687] [carla_bridge] [INFO]: Removed OdometrySensor(id=10004)
+[2023-04-10 18:48:51,687] [carla_bridge] [INFO]: Removed SpeedometerSensor(id=10005)
+[2023-04-10 18:48:51,687] [carla_bridge] [INFO]: Removed ActorControl(id=10006)
+[2023-04-10 18:48:51,687] [carla_bridge] [INFO]: Removed TrafficLightsSensor(id=10000)
+[2023-04-10 18:48:51,687] [carla_bridge] [INFO]: Removed ActorListSensor(id=10001)
+[2023-04-10 18:48:51,687] [carla_bridge] [INFO]: Removed OpenDriveSensor(id=10002)
+[2023-04-10 18:48:51,687] [carla_bridge] [DEBUG]: Destroy Vehicle(id=197)
+[2023-04-10 18:48:51,688] [carla_bridge] [INFO]: Removed EgoVehicle(id=197)
+[2023-04-10 18:49:17,906] [carla_bridge] [ERROR]: Shutting down.
+[2023-04-10 18:49:17,907] [carla_bridge] [INFO]: Shutting down...
+[2023-04-10 18:49:59,707] [carla_bridge] [INFO]: Object update finished.
+[2023-04-10 20:07:57,066] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-10 20:07:57,069] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-10 20:07:57,503] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town10HD_Opt').
+[2023-04-10 20:08:01,627] [carla_bridge] [INFO]: synchronous_mode: True
+[2023-04-10 20:08:01,627] [carla_bridge] [INFO]: fixed_delta_seconds: 0.05
+[2023-04-10 20:08:03,993] [carla_bridge] [INFO]: Parameters:
+[2023-04-10 20:08:03,993] [carla_bridge] [INFO]:   town: Town01
+[2023-04-10 20:08:03,993] [carla_bridge] [INFO]:   register_all_sensors: True
+[2023-04-10 20:08:03,993] [carla_bridge] [INFO]:   synchronous_mode_wait_for_vehicle_control_command: False
+[2023-04-10 20:08:03,993] [carla_bridge] [INFO]:   synchronous_mode: True
+[2023-04-10 20:08:03,994] [carla_bridge] [INFO]:   ego_vehicle: {'role_name': ['hero', 'ego_vehicle']}
+[2023-04-10 20:08:03,994] [carla_bridge] [INFO]:   passive: False
+[2023-04-10 20:08:03,994] [carla_bridge] [INFO]:   host: 172.17.0.1
+[2023-04-10 20:08:03,994] [carla_bridge] [INFO]:   fixed_delta_seconds: 0.05
+[2023-04-10 20:08:03,994] [carla_bridge] [INFO]:   timeout: 30
+[2023-04-10 20:08:03,994] [carla_bridge] [INFO]:   port: 2000
+[2023-04-10 20:08:04,092] [carla_bridge] [DEBUG]: In sync mode statement.
+[2023-04-10 20:08:04,093] [carla_bridge] [INFO]: State set to PLAY
+[2023-04-10 20:08:04,094] [carla_bridge] [INFO]: synchronous_mode_update_thread start
+[2023-04-10 20:08:04,094] [carla_bridge] [DEBUG]: Before services configuration.
+[2023-04-10 20:08:04,100] [carla_bridge] [DEBUG]: carla_weather_reader.
+[2023-04-10 20:08:04,100] [carla_bridge] [INFO]: spin ...
+[2023-04-10 20:08:04,124] [carla_bridge] [INFO]: Created Static(id=196)
+[2023-04-10 20:08:04,125] [carla_bridge] [INFO]: Created Static(id=195)
+[2023-04-10 20:08:04,125] [carla_bridge] [INFO]: Created Static(id=194)
+[2023-04-10 20:08:04,125] [carla_bridge] [INFO]: Created Static(id=193)
+[2023-04-10 20:08:04,126] [carla_bridge] [INFO]: Created Static(id=192)
+[2023-04-10 20:08:04,126] [carla_bridge] [INFO]: Created Static(id=191)
+[2023-04-10 20:08:04,126] [carla_bridge] [INFO]: Created Static(id=190)
+[2023-04-10 20:08:04,127] [carla_bridge] [INFO]: Created Static(id=189)
+[2023-04-10 20:08:04,127] [carla_bridge] [INFO]: Created Static(id=188)
+[2023-04-10 20:08:04,127] [carla_bridge] [INFO]: Created Static(id=187)
+[2023-04-10 20:08:04,128] [carla_bridge] [INFO]: Created Static(id=186)
+[2023-04-10 20:08:04,128] [carla_bridge] [INFO]: Created Static(id=185)
+[2023-04-10 20:08:04,129] [carla_bridge] [INFO]: Created Static(id=184)
+[2023-04-10 20:08:04,129] [carla_bridge] [INFO]: Created Static(id=183)
+[2023-04-10 20:08:04,129] [carla_bridge] [INFO]: Created Static(id=182)
+[2023-04-10 20:08:04,130] [carla_bridge] [INFO]: Created Static(id=181)
+[2023-04-10 20:08:04,130] [carla_bridge] [INFO]: Created Static(id=180)
+[2023-04-10 20:08:04,130] [carla_bridge] [INFO]: Created Static(id=179)
+[2023-04-10 20:08:04,131] [carla_bridge] [INFO]: Created Static(id=178)
+[2023-04-10 20:08:04,131] [carla_bridge] [INFO]: Created Static(id=177)
+[2023-04-10 20:08:04,131] [carla_bridge] [INFO]: Created Static(id=176)
+[2023-04-10 20:08:04,132] [carla_bridge] [INFO]: Created Static(id=175)
+[2023-04-10 20:08:04,132] [carla_bridge] [INFO]: Created Static(id=174)
+[2023-04-10 20:08:04,132] [carla_bridge] [INFO]: Created Static(id=173)
+[2023-04-10 20:08:04,133] [carla_bridge] [INFO]: Created Static(id=172)
+[2023-04-10 20:08:04,133] [carla_bridge] [INFO]: Created Static(id=171)
+[2023-04-10 20:08:04,133] [carla_bridge] [INFO]: Created Static(id=170)
+[2023-04-10 20:08:04,134] [carla_bridge] [INFO]: Created Static(id=169)
+[2023-04-10 20:08:04,134] [carla_bridge] [INFO]: Created Static(id=168)
+[2023-04-10 20:08:04,134] [carla_bridge] [INFO]: Created Static(id=167)
+[2023-04-10 20:08:04,135] [carla_bridge] [INFO]: Created Static(id=166)
+[2023-04-10 20:08:04,135] [carla_bridge] [INFO]: Created Static(id=165)
+[2023-04-10 20:08:04,135] [carla_bridge] [INFO]: Created Static(id=164)
+[2023-04-10 20:08:04,136] [carla_bridge] [INFO]: Created Static(id=163)
+[2023-04-10 20:08:04,136] [carla_bridge] [INFO]: Created Static(id=162)
+[2023-04-10 20:08:04,136] [carla_bridge] [INFO]: Created Static(id=161)
+[2023-04-10 20:08:04,137] [carla_bridge] [INFO]: Created Static(id=160)
+[2023-04-10 20:08:04,137] [carla_bridge] [INFO]: Created Static(id=159)
+[2023-04-10 20:08:04,137] [carla_bridge] [INFO]: Created Static(id=158)
+[2023-04-10 20:08:04,138] [carla_bridge] [INFO]: Created Static(id=157)
+[2023-04-10 20:08:04,138] [carla_bridge] [INFO]: Created Static(id=156)
+[2023-04-10 20:08:04,138] [carla_bridge] [INFO]: Created Static(id=155)
+[2023-04-10 20:08:04,138] [carla_bridge] [INFO]: Created Static(id=154)
+[2023-04-10 20:08:04,139] [carla_bridge] [INFO]: Created Static(id=153)
+[2023-04-10 20:08:04,139] [carla_bridge] [INFO]: Created Static(id=152)
+[2023-04-10 20:08:04,139] [carla_bridge] [INFO]: Created Static(id=151)
+[2023-04-10 20:08:04,140] [carla_bridge] [INFO]: Created Static(id=150)
+[2023-04-10 20:08:04,140] [carla_bridge] [INFO]: Created Static(id=149)
+[2023-04-10 20:08:04,140] [carla_bridge] [INFO]: Created Static(id=148)
+[2023-04-10 20:08:04,141] [carla_bridge] [INFO]: Created Static(id=147)
+[2023-04-10 20:08:04,141] [carla_bridge] [INFO]: Created Static(id=146)
+[2023-04-10 20:08:04,141] [carla_bridge] [INFO]: Created Static(id=145)
+[2023-04-10 20:08:04,141] [carla_bridge] [INFO]: Created Static(id=144)
+[2023-04-10 20:08:04,142] [carla_bridge] [INFO]: Created Static(id=143)
+[2023-04-10 20:08:04,142] [carla_bridge] [INFO]: Created Static(id=142)
+[2023-04-10 20:08:04,142] [carla_bridge] [INFO]: Created Static(id=141)
+[2023-04-10 20:08:04,143] [carla_bridge] [INFO]: Created Static(id=140)
+[2023-04-10 20:08:04,143] [carla_bridge] [INFO]: Created Static(id=139)
+[2023-04-10 20:08:04,143] [carla_bridge] [INFO]: Created Static(id=138)
+[2023-04-10 20:08:04,143] [carla_bridge] [INFO]: Created Static(id=137)
+[2023-04-10 20:08:04,144] [carla_bridge] [INFO]: Created Static(id=136)
+[2023-04-10 20:08:04,144] [carla_bridge] [INFO]: Created Static(id=135)
+[2023-04-10 20:08:04,144] [carla_bridge] [INFO]: Created Static(id=134)
+[2023-04-10 20:08:04,145] [carla_bridge] [INFO]: Created Static(id=133)
+[2023-04-10 20:08:04,145] [carla_bridge] [INFO]: Created Static(id=132)
+[2023-04-10 20:08:04,145] [carla_bridge] [INFO]: Created Static(id=131)
+[2023-04-10 20:08:04,145] [carla_bridge] [INFO]: Created Static(id=130)
+[2023-04-10 20:08:04,146] [carla_bridge] [INFO]: Created Static(id=129)
+[2023-04-10 20:08:04,146] [carla_bridge] [INFO]: Created Static(id=128)
+[2023-04-10 20:08:04,146] [carla_bridge] [INFO]: Created Static(id=127)
+[2023-04-10 20:08:04,147] [carla_bridge] [INFO]: Created Static(id=126)
+[2023-04-10 20:08:04,147] [carla_bridge] [INFO]: Created Static(id=125)
+[2023-04-10 20:08:04,147] [carla_bridge] [INFO]: Created Static(id=124)
+[2023-04-10 20:08:04,147] [carla_bridge] [INFO]: Created Static(id=123)
+[2023-04-10 20:08:04,148] [carla_bridge] [INFO]: Created Static(id=122)
+[2023-04-10 20:08:04,148] [carla_bridge] [INFO]: Created Static(id=121)
+[2023-04-10 20:08:04,148] [carla_bridge] [INFO]: Created Static(id=120)
+[2023-04-10 20:08:04,149] [carla_bridge] [INFO]: Created Static(id=119)
+[2023-04-10 20:08:04,149] [carla_bridge] [INFO]: Created Static(id=118)
+[2023-04-10 20:08:04,149] [carla_bridge] [INFO]: Created Static(id=117)
+[2023-04-10 20:08:04,149] [carla_bridge] [INFO]: Created Static(id=116)
+[2023-04-10 20:08:04,150] [carla_bridge] [INFO]: Created Static(id=115)
+[2023-04-10 20:08:04,150] [carla_bridge] [INFO]: Created Static(id=114)
+[2023-04-10 20:08:04,150] [carla_bridge] [INFO]: Created Static(id=113)
+[2023-04-10 20:08:04,150] [carla_bridge] [INFO]: Created Static(id=112)
+[2023-04-10 20:08:04,151] [carla_bridge] [INFO]: Created Static(id=111)
+[2023-04-10 20:08:04,151] [carla_bridge] [INFO]: Created Static(id=110)
+[2023-04-10 20:08:04,151] [carla_bridge] [INFO]: Created Static(id=109)
+[2023-04-10 20:08:04,151] [carla_bridge] [INFO]: Created Static(id=108)
+[2023-04-10 20:08:04,152] [carla_bridge] [INFO]: Created Static(id=107)
+[2023-04-10 20:08:04,152] [carla_bridge] [INFO]: Created Static(id=106)
+[2023-04-10 20:08:04,152] [carla_bridge] [INFO]: Created Static(id=105)
+[2023-04-10 20:08:04,152] [carla_bridge] [INFO]: Created Static(id=104)
+[2023-04-10 20:08:04,153] [carla_bridge] [INFO]: Created Static(id=103)
+[2023-04-10 20:08:04,153] [carla_bridge] [INFO]: Created Static(id=102)
+[2023-04-10 20:08:04,153] [carla_bridge] [INFO]: Created Static(id=101)
+[2023-04-10 20:08:04,153] [carla_bridge] [INFO]: Created Static(id=100)
+[2023-04-10 20:08:04,154] [carla_bridge] [INFO]: Created Static(id=99)
+[2023-04-10 20:08:04,154] [carla_bridge] [INFO]: Created Static(id=98)
+[2023-04-10 20:08:04,154] [carla_bridge] [INFO]: Created Static(id=97)
+[2023-04-10 20:08:04,154] [carla_bridge] [INFO]: Created Static(id=96)
+[2023-04-10 20:08:04,155] [carla_bridge] [INFO]: Created Static(id=95)
+[2023-04-10 20:08:04,155] [carla_bridge] [INFO]: Created Static(id=94)
+[2023-04-10 20:08:04,155] [carla_bridge] [INFO]: Created Static(id=93)
+[2023-04-10 20:08:04,155] [carla_bridge] [INFO]: Created Static(id=92)
+[2023-04-10 20:08:04,156] [carla_bridge] [INFO]: Created Static(id=91)
+[2023-04-10 20:08:04,159] [carla_bridge] [INFO]: Created Static(id=90)
+[2023-04-10 20:08:04,160] [carla_bridge] [INFO]: Created Static(id=89)
+[2023-04-10 20:08:04,160] [carla_bridge] [INFO]: Created Static(id=88)
+[2023-04-10 20:08:04,160] [carla_bridge] [INFO]: Created Static(id=87)
+[2023-04-10 20:08:04,160] [carla_bridge] [INFO]: Created Static(id=86)
+[2023-04-10 20:08:04,161] [carla_bridge] [INFO]: Created Static(id=85)
+[2023-04-10 20:08:04,161] [carla_bridge] [INFO]: Created Static(id=84)
+[2023-04-10 20:08:04,161] [carla_bridge] [INFO]: Created Static(id=83)
+[2023-04-10 20:08:04,161] [carla_bridge] [INFO]: Created Static(id=82)
+[2023-04-10 20:08:04,162] [carla_bridge] [INFO]: Created Traffic(id=81)
+[2023-04-10 20:08:04,162] [carla_bridge] [INFO]: Created Traffic(id=80)
+[2023-04-10 20:08:04,162] [carla_bridge] [INFO]: Created Traffic(id=79)
+[2023-04-10 20:08:04,162] [carla_bridge] [INFO]: Created Traffic(id=78)
+[2023-04-10 20:08:04,163] [carla_bridge] [INFO]: Created Traffic(id=77)
+[2023-04-10 20:08:04,163] [carla_bridge] [INFO]: Created Traffic(id=76)
+[2023-04-10 20:08:04,163] [carla_bridge] [INFO]: Created Traffic(id=75)
+[2023-04-10 20:08:04,163] [carla_bridge] [INFO]: Created Traffic(id=74)
+[2023-04-10 20:08:04,163] [carla_bridge] [INFO]: Created Traffic(id=73)
+[2023-04-10 20:08:04,164] [carla_bridge] [INFO]: Created Traffic(id=72)
+[2023-04-10 20:08:04,164] [carla_bridge] [INFO]: Created Traffic(id=71)
+[2023-04-10 20:08:04,164] [carla_bridge] [INFO]: Created Traffic(id=70)
+[2023-04-10 20:08:04,164] [carla_bridge] [INFO]: Created Traffic(id=69)
+[2023-04-10 20:08:04,165] [carla_bridge] [INFO]: Created Traffic(id=68)
+[2023-04-10 20:08:04,165] [carla_bridge] [INFO]: Created Traffic(id=67)
+[2023-04-10 20:08:04,165] [carla_bridge] [INFO]: Created Traffic(id=66)
+[2023-04-10 20:08:04,165] [carla_bridge] [INFO]: Created Traffic(id=65)
+[2023-04-10 20:08:04,165] [carla_bridge] [INFO]: Created Traffic(id=64)
+[2023-04-10 20:08:04,166] [carla_bridge] [INFO]: Created Traffic(id=63)
+[2023-04-10 20:08:04,166] [carla_bridge] [INFO]: Created Traffic(id=62)
+[2023-04-10 20:08:04,166] [carla_bridge] [INFO]: Created Traffic(id=61)
+[2023-04-10 20:08:04,166] [carla_bridge] [INFO]: Created TrafficLight(id=60)
+[2023-04-10 20:08:04,166] [carla_bridge] [INFO]: Created TrafficLight(id=59)
+[2023-04-10 20:08:04,167] [carla_bridge] [INFO]: Created TrafficLight(id=58)
+[2023-04-10 20:08:04,167] [carla_bridge] [INFO]: Created TrafficLight(id=57)
+[2023-04-10 20:08:04,167] [carla_bridge] [INFO]: Created TrafficLight(id=56)
+[2023-04-10 20:08:04,167] [carla_bridge] [INFO]: Created TrafficLight(id=55)
+[2023-04-10 20:08:04,168] [carla_bridge] [INFO]: Created TrafficLight(id=54)
+[2023-04-10 20:08:04,168] [carla_bridge] [INFO]: Created TrafficLight(id=53)
+[2023-04-10 20:08:04,168] [carla_bridge] [INFO]: Created TrafficLight(id=52)
+[2023-04-10 20:08:04,168] [carla_bridge] [INFO]: Created TrafficLight(id=51)
+[2023-04-10 20:08:04,168] [carla_bridge] [INFO]: Created TrafficLight(id=50)
+[2023-04-10 20:08:04,169] [carla_bridge] [INFO]: Created TrafficLight(id=49)
+[2023-04-10 20:08:04,169] [carla_bridge] [INFO]: Created TrafficLight(id=48)
+[2023-04-10 20:08:04,169] [carla_bridge] [INFO]: Created TrafficLight(id=47)
+[2023-04-10 20:08:04,169] [carla_bridge] [INFO]: Created TrafficLight(id=46)
+[2023-04-10 20:08:04,170] [carla_bridge] [INFO]: Created TrafficLight(id=45)
+[2023-04-10 20:08:04,170] [carla_bridge] [INFO]: Created TrafficLight(id=44)
+[2023-04-10 20:08:04,170] [carla_bridge] [INFO]: Created TrafficLight(id=43)
+[2023-04-10 20:08:04,170] [carla_bridge] [INFO]: Created TrafficLight(id=42)
+[2023-04-10 20:08:04,171] [carla_bridge] [INFO]: Created TrafficLight(id=41)
+[2023-04-10 20:08:04,171] [carla_bridge] [INFO]: Created TrafficLight(id=40)
+[2023-04-10 20:08:04,171] [carla_bridge] [INFO]: Created TrafficLight(id=39)
+[2023-04-10 20:08:04,171] [carla_bridge] [INFO]: Created TrafficLight(id=38)
+[2023-04-10 20:08:04,171] [carla_bridge] [INFO]: Created TrafficLight(id=37)
+[2023-04-10 20:08:04,172] [carla_bridge] [INFO]: Created TrafficLight(id=36)
+[2023-04-10 20:08:04,172] [carla_bridge] [INFO]: Created TrafficLight(id=35)
+[2023-04-10 20:08:04,172] [carla_bridge] [INFO]: Created TrafficLight(id=34)
+[2023-04-10 20:08:04,172] [carla_bridge] [INFO]: Created TrafficLight(id=33)
+[2023-04-10 20:08:04,172] [carla_bridge] [INFO]: Created TrafficLight(id=32)
+[2023-04-10 20:08:04,173] [carla_bridge] [INFO]: Created TrafficLight(id=31)
+[2023-04-10 20:08:04,173] [carla_bridge] [INFO]: Created TrafficLight(id=30)
+[2023-04-10 20:08:04,173] [carla_bridge] [INFO]: Created TrafficLight(id=29)
+[2023-04-10 20:08:04,173] [carla_bridge] [INFO]: Created TrafficLight(id=28)
+[2023-04-10 20:08:04,173] [carla_bridge] [INFO]: Created TrafficLight(id=27)
+[2023-04-10 20:08:04,174] [carla_bridge] [INFO]: Created TrafficLight(id=26)
+[2023-04-10 20:08:04,174] [carla_bridge] [INFO]: Created TrafficLight(id=25)
+[2023-04-10 20:08:04,174] [carla_bridge] [INFO]: Created Spectator(id=24)
+[2023-04-10 20:09:11,172] [carla_bridge] [INFO]: Object (type='sensor.pseudo.traffic_lights', id='traffic_lights') spawned successfully as 10000.
+[2023-04-10 20:09:11,173] [carla_bridge] [INFO]: Object (type='sensor.pseudo.actor_list', id='actor_list') spawned successfully as 10001.
+[2023-04-10 20:09:11,174] [carla_bridge] [INFO]: Object (type='sensor.pseudo.opendrive_map', id='map') spawned successfully as 10002.
+[2023-04-10 20:09:11,175] [carla_bridge] [DEBUG]: None
+[2023-04-10 20:09:11,175] [carla_bridge] [INFO]: Spawn point selected at random
+[2023-04-10 20:09:11,184] [carla_bridge] [INFO]: Object (type='vehicle.tesla.model3', id='ego_vehicle') spawned successfully as 197.
+[2023-04-10 20:09:11,187] [carla_bridge] [INFO]: Created TrafficLightsSensor(id=10000)
+[2023-04-10 20:09:11,188] [carla_bridge] [INFO]: Created ActorListSensor(id=10001)
+[2023-04-10 20:09:11,188] [carla_bridge] [INFO]: Created OpenDriveSensor(id=10002)
+[2023-04-10 20:09:11,210] [carla_bridge] [INFO]: Created EgoVehicle(id=197)
+[2023-04-10 20:09:16,185] [carla_bridge] [WARNING]: Shutting down.
+[2023-04-10 20:09:16,186] [carla_bridge] [INFO]: Destroying spawned objects...
+[2023-04-10 20:09:18,999] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-10 20:09:19,003] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-10 20:09:19,144] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town01').
+[2023-04-10 20:09:21,186] [carla_bridge] [INFO]: Object 10000 successfully destroyed.
+[2023-04-10 20:09:23,360] [carla_bridge] [INFO]: synchronous_mode: True
+[2023-04-10 20:09:23,360] [carla_bridge] [INFO]: fixed_delta_seconds: 0.05
+[2023-04-10 20:09:26,187] [carla_bridge] [INFO]: Object 10001 successfully destroyed.
+[2023-04-10 20:09:31,188] [carla_bridge] [INFO]: Object 10002 successfully destroyed.
+[2023-04-10 20:09:36,189] [carla_bridge] [INFO]: Object 197 successfully destroyed.
+[2023-04-10 20:09:53,361] [carla_bridge] [ERROR]: Error: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to 172.17.0.1:2000
+[2023-04-10 20:10:25,608] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-10 20:10:25,612] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-10 20:10:26,031] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town10HD_Opt').
+[2023-04-10 20:10:30,170] [carla_bridge] [INFO]: synchronous_mode: True
+[2023-04-10 20:10:30,170] [carla_bridge] [INFO]: fixed_delta_seconds: 0.05
+[2023-04-10 20:10:32,384] [carla_bridge] [INFO]: Parameters:
+[2023-04-10 20:10:32,384] [carla_bridge] [INFO]:   town: Town01
+[2023-04-10 20:10:32,384] [carla_bridge] [INFO]:   register_all_sensors: True
+[2023-04-10 20:10:32,384] [carla_bridge] [INFO]:   synchronous_mode_wait_for_vehicle_control_command: False
+[2023-04-10 20:10:32,384] [carla_bridge] [INFO]:   synchronous_mode: True
+[2023-04-10 20:10:32,385] [carla_bridge] [INFO]:   ego_vehicle: {'role_name': ['hero', 'ego_vehicle']}
+[2023-04-10 20:10:32,385] [carla_bridge] [INFO]:   passive: False
+[2023-04-10 20:10:32,385] [carla_bridge] [INFO]:   host: 172.17.0.1
+[2023-04-10 20:10:32,385] [carla_bridge] [INFO]:   fixed_delta_seconds: 0.05
+[2023-04-10 20:10:32,385] [carla_bridge] [INFO]:   timeout: 30
+[2023-04-10 20:10:32,385] [carla_bridge] [INFO]:   port: 2000
+[2023-04-10 20:10:32,471] [carla_bridge] [DEBUG]: In sync mode statement.
+[2023-04-10 20:10:32,473] [carla_bridge] [INFO]: synchronous_mode_update_thread start
+[2023-04-10 20:10:32,473] [carla_bridge] [INFO]: State set to PLAY
+[2023-04-10 20:10:32,474] [carla_bridge] [DEBUG]: Before services configuration.
+[2023-04-10 20:10:32,480] [carla_bridge] [DEBUG]: carla_weather_reader.
+[2023-04-10 20:10:32,480] [carla_bridge] [INFO]: spin ...
+[2023-04-10 20:10:32,504] [carla_bridge] [INFO]: Created Static(id=196)
+[2023-04-10 20:10:32,505] [carla_bridge] [INFO]: Created Static(id=195)
+[2023-04-10 20:10:32,505] [carla_bridge] [INFO]: Created Static(id=194)
+[2023-04-10 20:10:32,505] [carla_bridge] [INFO]: Created Static(id=193)
+[2023-04-10 20:10:32,506] [carla_bridge] [INFO]: Created Static(id=192)
+[2023-04-10 20:10:32,506] [carla_bridge] [INFO]: Created Static(id=191)
+[2023-04-10 20:10:32,506] [carla_bridge] [INFO]: Created Static(id=190)
+[2023-04-10 20:10:32,507] [carla_bridge] [INFO]: Created Static(id=189)
+[2023-04-10 20:10:32,507] [carla_bridge] [INFO]: Created Static(id=188)
+[2023-04-10 20:10:32,507] [carla_bridge] [INFO]: Created Static(id=187)
+[2023-04-10 20:10:32,508] [carla_bridge] [INFO]: Created Static(id=186)
+[2023-04-10 20:10:32,508] [carla_bridge] [INFO]: Created Static(id=185)
+[2023-04-10 20:10:32,508] [carla_bridge] [INFO]: Created Static(id=184)
+[2023-04-10 20:10:32,509] [carla_bridge] [INFO]: Created Static(id=183)
+[2023-04-10 20:10:32,509] [carla_bridge] [INFO]: Created Static(id=182)
+[2023-04-10 20:10:32,509] [carla_bridge] [INFO]: Created Static(id=181)
+[2023-04-10 20:10:32,510] [carla_bridge] [INFO]: Created Static(id=180)
+[2023-04-10 20:10:32,510] [carla_bridge] [INFO]: Created Static(id=179)
+[2023-04-10 20:10:32,510] [carla_bridge] [INFO]: Created Static(id=178)
+[2023-04-10 20:10:32,511] [carla_bridge] [INFO]: Created Static(id=177)
+[2023-04-10 20:10:32,511] [carla_bridge] [INFO]: Created Static(id=176)
+[2023-04-10 20:10:32,511] [carla_bridge] [INFO]: Created Static(id=175)
+[2023-04-10 20:10:32,512] [carla_bridge] [INFO]: Created Static(id=174)
+[2023-04-10 20:10:32,512] [carla_bridge] [INFO]: Created Static(id=173)
+[2023-04-10 20:10:32,512] [carla_bridge] [INFO]: Created Static(id=172)
+[2023-04-10 20:10:32,513] [carla_bridge] [INFO]: Created Static(id=171)
+[2023-04-10 20:10:32,513] [carla_bridge] [INFO]: Created Static(id=170)
+[2023-04-10 20:10:32,513] [carla_bridge] [INFO]: Created Static(id=169)
+[2023-04-10 20:10:32,514] [carla_bridge] [INFO]: Created Static(id=168)
+[2023-04-10 20:10:32,514] [carla_bridge] [INFO]: Created Static(id=167)
+[2023-04-10 20:10:32,514] [carla_bridge] [INFO]: Created Static(id=166)
+[2023-04-10 20:10:32,514] [carla_bridge] [INFO]: Created Static(id=165)
+[2023-04-10 20:10:32,515] [carla_bridge] [INFO]: Created Static(id=164)
+[2023-04-10 20:10:32,515] [carla_bridge] [INFO]: Created Static(id=163)
+[2023-04-10 20:10:32,515] [carla_bridge] [INFO]: Created Static(id=162)
+[2023-04-10 20:10:32,516] [carla_bridge] [INFO]: Created Static(id=161)
+[2023-04-10 20:10:32,516] [carla_bridge] [INFO]: Created Static(id=160)
+[2023-04-10 20:10:32,516] [carla_bridge] [INFO]: Created Static(id=159)
+[2023-04-10 20:10:32,517] [carla_bridge] [INFO]: Created Static(id=158)
+[2023-04-10 20:10:32,517] [carla_bridge] [INFO]: Created Static(id=157)
+[2023-04-10 20:10:32,517] [carla_bridge] [INFO]: Created Static(id=156)
+[2023-04-10 20:10:32,517] [carla_bridge] [INFO]: Created Static(id=155)
+[2023-04-10 20:10:32,518] [carla_bridge] [INFO]: Created Static(id=154)
+[2023-04-10 20:10:32,518] [carla_bridge] [INFO]: Created Static(id=153)
+[2023-04-10 20:10:32,518] [carla_bridge] [INFO]: Created Static(id=152)
+[2023-04-10 20:10:32,519] [carla_bridge] [INFO]: Created Static(id=151)
+[2023-04-10 20:10:32,519] [carla_bridge] [INFO]: Created Static(id=150)
+[2023-04-10 20:10:32,519] [carla_bridge] [INFO]: Created Static(id=149)
+[2023-04-10 20:10:32,519] [carla_bridge] [INFO]: Created Static(id=148)
+[2023-04-10 20:10:32,520] [carla_bridge] [INFO]: Created Static(id=147)
+[2023-04-10 20:10:32,520] [carla_bridge] [INFO]: Created Static(id=146)
+[2023-04-10 20:10:32,520] [carla_bridge] [INFO]: Created Static(id=145)
+[2023-04-10 20:10:32,521] [carla_bridge] [INFO]: Created Static(id=144)
+[2023-04-10 20:10:32,521] [carla_bridge] [INFO]: Created Static(id=143)
+[2023-04-10 20:10:32,521] [carla_bridge] [INFO]: Created Static(id=142)
+[2023-04-10 20:10:32,522] [carla_bridge] [INFO]: Created Static(id=141)
+[2023-04-10 20:10:32,522] [carla_bridge] [INFO]: Created Static(id=140)
+[2023-04-10 20:10:32,522] [carla_bridge] [INFO]: Created Static(id=139)
+[2023-04-10 20:10:32,522] [carla_bridge] [INFO]: Created Static(id=138)
+[2023-04-10 20:10:32,523] [carla_bridge] [INFO]: Created Static(id=137)
+[2023-04-10 20:10:32,523] [carla_bridge] [INFO]: Created Static(id=136)
+[2023-04-10 20:10:32,523] [carla_bridge] [INFO]: Created Static(id=135)
+[2023-04-10 20:10:32,524] [carla_bridge] [INFO]: Created Static(id=134)
+[2023-04-10 20:10:32,524] [carla_bridge] [INFO]: Created Static(id=133)
+[2023-04-10 20:10:32,524] [carla_bridge] [INFO]: Created Static(id=132)
+[2023-04-10 20:10:32,524] [carla_bridge] [INFO]: Created Static(id=131)
+[2023-04-10 20:10:32,525] [carla_bridge] [INFO]: Created Static(id=130)
+[2023-04-10 20:10:32,525] [carla_bridge] [INFO]: Created Static(id=129)
+[2023-04-10 20:10:32,525] [carla_bridge] [INFO]: Created Static(id=128)
+[2023-04-10 20:10:32,525] [carla_bridge] [INFO]: Created Static(id=127)
+[2023-04-10 20:10:32,526] [carla_bridge] [INFO]: Created Static(id=126)
+[2023-04-10 20:10:32,526] [carla_bridge] [INFO]: Created Static(id=125)
+[2023-04-10 20:10:32,526] [carla_bridge] [INFO]: Created Static(id=124)
+[2023-04-10 20:10:32,527] [carla_bridge] [INFO]: Created Static(id=123)
+[2023-04-10 20:10:32,527] [carla_bridge] [INFO]: Created Static(id=122)
+[2023-04-10 20:10:32,527] [carla_bridge] [INFO]: Created Static(id=121)
+[2023-04-10 20:10:32,527] [carla_bridge] [INFO]: Created Static(id=120)
+[2023-04-10 20:10:32,528] [carla_bridge] [INFO]: Created Static(id=119)
+[2023-04-10 20:10:32,528] [carla_bridge] [INFO]: Created Static(id=118)
+[2023-04-10 20:10:32,528] [carla_bridge] [INFO]: Created Static(id=117)
+[2023-04-10 20:10:32,528] [carla_bridge] [INFO]: Created Static(id=116)
+[2023-04-10 20:10:32,529] [carla_bridge] [INFO]: Created Static(id=115)
+[2023-04-10 20:10:32,529] [carla_bridge] [INFO]: Created Static(id=114)
+[2023-04-10 20:10:32,529] [carla_bridge] [INFO]: Created Static(id=113)
+[2023-04-10 20:10:32,530] [carla_bridge] [INFO]: Created Static(id=112)
+[2023-04-10 20:10:32,530] [carla_bridge] [INFO]: Created Static(id=111)
+[2023-04-10 20:10:32,530] [carla_bridge] [INFO]: Created Static(id=110)
+[2023-04-10 20:10:32,530] [carla_bridge] [INFO]: Created Static(id=109)
+[2023-04-10 20:10:32,531] [carla_bridge] [INFO]: Created Static(id=108)
+[2023-04-10 20:10:32,531] [carla_bridge] [INFO]: Created Static(id=107)
+[2023-04-10 20:10:32,531] [carla_bridge] [INFO]: Created Static(id=106)
+[2023-04-10 20:10:32,531] [carla_bridge] [INFO]: Created Static(id=105)
+[2023-04-10 20:10:32,532] [carla_bridge] [INFO]: Created Static(id=104)
+[2023-04-10 20:10:32,532] [carla_bridge] [INFO]: Created Static(id=103)
+[2023-04-10 20:10:32,532] [carla_bridge] [INFO]: Created Static(id=102)
+[2023-04-10 20:10:32,533] [carla_bridge] [INFO]: Created Static(id=101)
+[2023-04-10 20:10:32,533] [carla_bridge] [INFO]: Created Static(id=100)
+[2023-04-10 20:10:32,533] [carla_bridge] [INFO]: Created Static(id=99)
+[2023-04-10 20:10:32,533] [carla_bridge] [INFO]: Created Static(id=98)
+[2023-04-10 20:10:32,534] [carla_bridge] [INFO]: Created Static(id=97)
+[2023-04-10 20:10:32,534] [carla_bridge] [INFO]: Created Static(id=96)
+[2023-04-10 20:10:32,534] [carla_bridge] [INFO]: Created Static(id=95)
+[2023-04-10 20:10:32,534] [carla_bridge] [INFO]: Created Static(id=94)
+[2023-04-10 20:10:32,534] [carla_bridge] [INFO]: Created Static(id=93)
+[2023-04-10 20:10:32,535] [carla_bridge] [INFO]: Created Static(id=92)
+[2023-04-10 20:10:32,535] [carla_bridge] [INFO]: Created Static(id=91)
+[2023-04-10 20:10:32,539] [carla_bridge] [INFO]: Created Static(id=90)
+[2023-04-10 20:10:32,539] [carla_bridge] [INFO]: Created Static(id=89)
+[2023-04-10 20:10:32,540] [carla_bridge] [INFO]: Created Static(id=88)
+[2023-04-10 20:10:32,540] [carla_bridge] [INFO]: Created Static(id=87)
+[2023-04-10 20:10:32,540] [carla_bridge] [INFO]: Created Static(id=86)
+[2023-04-10 20:10:32,541] [carla_bridge] [INFO]: Created Static(id=85)
+[2023-04-10 20:10:32,541] [carla_bridge] [INFO]: Created Static(id=84)
+[2023-04-10 20:10:32,541] [carla_bridge] [INFO]: Created Static(id=83)
+[2023-04-10 20:10:32,541] [carla_bridge] [INFO]: Created Static(id=82)
+[2023-04-10 20:10:32,541] [carla_bridge] [INFO]: Created Traffic(id=81)
+[2023-04-10 20:10:32,542] [carla_bridge] [INFO]: Created Traffic(id=80)
+[2023-04-10 20:10:32,542] [carla_bridge] [INFO]: Created Traffic(id=79)
+[2023-04-10 20:10:32,542] [carla_bridge] [INFO]: Created Traffic(id=78)
+[2023-04-10 20:10:32,542] [carla_bridge] [INFO]: Created Traffic(id=77)
+[2023-04-10 20:10:32,543] [carla_bridge] [INFO]: Created Traffic(id=76)
+[2023-04-10 20:10:32,543] [carla_bridge] [INFO]: Created Traffic(id=75)
+[2023-04-10 20:10:32,543] [carla_bridge] [INFO]: Created Traffic(id=74)
+[2023-04-10 20:10:32,543] [carla_bridge] [INFO]: Created Traffic(id=73)
+[2023-04-10 20:10:32,543] [carla_bridge] [INFO]: Created Traffic(id=72)
+[2023-04-10 20:10:32,544] [carla_bridge] [INFO]: Created Traffic(id=71)
+[2023-04-10 20:10:32,544] [carla_bridge] [INFO]: Created Traffic(id=70)
+[2023-04-10 20:10:32,544] [carla_bridge] [INFO]: Created Traffic(id=69)
+[2023-04-10 20:10:32,544] [carla_bridge] [INFO]: Created Traffic(id=68)
+[2023-04-10 20:10:32,544] [carla_bridge] [INFO]: Created Traffic(id=67)
+[2023-04-10 20:10:32,545] [carla_bridge] [INFO]: Created Traffic(id=66)
+[2023-04-10 20:10:32,545] [carla_bridge] [INFO]: Created Traffic(id=65)
+[2023-04-10 20:10:32,545] [carla_bridge] [INFO]: Created Traffic(id=64)
+[2023-04-10 20:10:32,545] [carla_bridge] [INFO]: Created Traffic(id=63)
+[2023-04-10 20:10:32,545] [carla_bridge] [INFO]: Created Traffic(id=62)
+[2023-04-10 20:10:32,546] [carla_bridge] [INFO]: Created Traffic(id=61)
+[2023-04-10 20:10:32,546] [carla_bridge] [INFO]: Created TrafficLight(id=60)
+[2023-04-10 20:10:32,546] [carla_bridge] [INFO]: Created TrafficLight(id=59)
+[2023-04-10 20:10:32,546] [carla_bridge] [INFO]: Created TrafficLight(id=58)
+[2023-04-10 20:10:32,546] [carla_bridge] [INFO]: Created TrafficLight(id=57)
+[2023-04-10 20:10:32,547] [carla_bridge] [INFO]: Created TrafficLight(id=56)
+[2023-04-10 20:10:32,547] [carla_bridge] [INFO]: Created TrafficLight(id=55)
+[2023-04-10 20:10:32,547] [carla_bridge] [INFO]: Created TrafficLight(id=54)
+[2023-04-10 20:10:32,547] [carla_bridge] [INFO]: Created TrafficLight(id=53)
+[2023-04-10 20:10:32,547] [carla_bridge] [INFO]: Created TrafficLight(id=52)
+[2023-04-10 20:10:32,548] [carla_bridge] [INFO]: Created TrafficLight(id=51)
+[2023-04-10 20:10:32,548] [carla_bridge] [INFO]: Created TrafficLight(id=50)
+[2023-04-10 20:10:32,548] [carla_bridge] [INFO]: Created TrafficLight(id=49)
+[2023-04-10 20:10:32,548] [carla_bridge] [INFO]: Created TrafficLight(id=48)
+[2023-04-10 20:10:32,549] [carla_bridge] [INFO]: Created TrafficLight(id=47)
+[2023-04-10 20:10:32,549] [carla_bridge] [INFO]: Created TrafficLight(id=46)
+[2023-04-10 20:10:32,549] [carla_bridge] [INFO]: Created TrafficLight(id=45)
+[2023-04-10 20:10:32,549] [carla_bridge] [INFO]: Created TrafficLight(id=44)
+[2023-04-10 20:10:32,550] [carla_bridge] [INFO]: Created TrafficLight(id=43)
+[2023-04-10 20:10:32,550] [carla_bridge] [INFO]: Created TrafficLight(id=42)
+[2023-04-10 20:10:32,550] [carla_bridge] [INFO]: Created TrafficLight(id=41)
+[2023-04-10 20:10:32,550] [carla_bridge] [INFO]: Created TrafficLight(id=40)
+[2023-04-10 20:10:32,551] [carla_bridge] [INFO]: Created TrafficLight(id=39)
+[2023-04-10 20:10:32,551] [carla_bridge] [INFO]: Created TrafficLight(id=38)
+[2023-04-10 20:10:32,551] [carla_bridge] [INFO]: Created TrafficLight(id=37)
+[2023-04-10 20:10:32,551] [carla_bridge] [INFO]: Created TrafficLight(id=36)
+[2023-04-10 20:10:32,551] [carla_bridge] [INFO]: Created TrafficLight(id=35)
+[2023-04-10 20:10:32,552] [carla_bridge] [INFO]: Created TrafficLight(id=34)
+[2023-04-10 20:10:32,552] [carla_bridge] [INFO]: Created TrafficLight(id=33)
+[2023-04-10 20:10:32,552] [carla_bridge] [INFO]: Created TrafficLight(id=32)
+[2023-04-10 20:10:32,552] [carla_bridge] [INFO]: Created TrafficLight(id=31)
+[2023-04-10 20:10:32,552] [carla_bridge] [INFO]: Created TrafficLight(id=30)
+[2023-04-10 20:10:32,553] [carla_bridge] [INFO]: Created TrafficLight(id=29)
+[2023-04-10 20:10:32,553] [carla_bridge] [INFO]: Created TrafficLight(id=28)
+[2023-04-10 20:10:32,553] [carla_bridge] [INFO]: Created TrafficLight(id=27)
+[2023-04-10 20:10:32,553] [carla_bridge] [INFO]: Created TrafficLight(id=26)
+[2023-04-10 20:10:32,553] [carla_bridge] [INFO]: Created TrafficLight(id=25)
+[2023-04-10 20:10:32,554] [carla_bridge] [INFO]: Created Spectator(id=24)
+[2023-04-10 20:10:32,711] [carla_bridge] [INFO]: Created TrafficLightsSensor(id=10000)
+[2023-04-10 20:10:32,712] [carla_bridge] [INFO]: Removed TrafficLightsSensor(id=10000)
+[2023-04-10 20:10:32,712] [carla_bridge] [INFO]: Created ActorListSensor(id=10001)
+[2023-04-10 20:10:32,712] [carla_bridge] [INFO]: Removed ActorListSensor(id=10001)
+[2023-04-10 20:10:32,713] [carla_bridge] [INFO]: Created OpenDriveSensor(id=10002)
+[2023-04-10 20:10:32,713] [carla_bridge] [INFO]: Removed OpenDriveSensor(id=10002)
+[2023-04-10 20:10:32,744] [carla_bridge] [INFO]: Created EgoVehicle(id=197)
+[2023-04-10 20:10:32,744] [carla_bridge] [DEBUG]: Destroy Vehicle(id=197)
+[2023-04-10 20:10:32,745] [carla_bridge] [INFO]: Removed EgoVehicle(id=197)
+[2023-04-10 20:10:32,756] [carla_bridge] [WARNING]: Error spawning object 'sensor.camera.rgb': unable to attach actor: parent actor not found
+[2023-04-10 20:10:32,768] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-10 20:10:32,773] [carla_bridge] [INFO]: Created RgbCamera(id=198)
+[2023-04-10 20:10:33,655] [carla_bridge] [WARNING]: RgbCamera(198): skipping old frame 19, expected 20
+[2023-04-10 20:11:15,886] [carla_bridge] [INFO]: Object (type='sensor.pseudo.traffic_lights', id='traffic_lights') spawned successfully as 10003.
+[2023-04-10 20:11:15,888] [carla_bridge] [INFO]: Object (type='sensor.pseudo.actor_list', id='actor_list') spawned successfully as 10004.
+[2023-04-10 20:11:15,889] [carla_bridge] [INFO]: Object (type='sensor.pseudo.opendrive_map', id='map') spawned successfully as 10005.
+[2023-04-10 20:11:15,890] [carla_bridge] [DEBUG]: None
+[2023-04-10 20:11:15,890] [carla_bridge] [INFO]: Spawn point selected at random
+[2023-04-10 20:11:15,898] [carla_bridge] [INFO]: Object (type='vehicle.tesla.model3', id='ego_vehicle') spawned successfully as 199.
+[2023-04-10 20:11:15,902] [carla_bridge] [INFO]: Object (type='sensor.camera.rgb', id='front_6mm') spawned successfully as 200.
+[2023-04-10 20:11:15,905] [carla_bridge] [INFO]: Object (type='sensor.camera.rgb', id='front_12mm') spawned successfully as 201.
+[2023-04-10 20:11:15,908] [carla_bridge] [INFO]: Object (type='sensor.lidar.ray_cast', id='lidar128') spawned successfully as 202.
+[2023-04-10 20:11:15,911] [carla_bridge] [INFO]: Object (type='sensor.other.radar', id='radar/front') spawned successfully as 203.
+[2023-04-10 20:11:15,913] [carla_bridge] [INFO]: Object (type='sensor.other.gnss', id='gnss') spawned successfully as 204.
+[2023-04-10 20:11:15,916] [carla_bridge] [INFO]: Object (type='sensor.other.imu', id='gnss/imu') spawned successfully as 205.
+[2023-04-10 20:11:15,917] [carla_bridge] [INFO]: Object (type='sensor.pseudo.objects', id='obstacles') spawned successfully as 10006.
+[2023-04-10 20:11:15,918] [carla_bridge] [INFO]: Object (type='sensor.pseudo.odom', id='odometry') spawned successfully as 10007.
+[2023-04-10 20:11:15,919] [carla_bridge] [INFO]: Object (type='sensor.pseudo.speedometer', id='speedometer') spawned successfully as 10008.
+[2023-04-10 20:11:15,921] [carla_bridge] [INFO]: Object (type='actor.pseudo.control', id='control') spawned successfully as 10009.
+[2023-04-10 20:11:15,921] [carla_bridge] [INFO]: All objects spawned.
+[2023-04-10 20:11:41,753] [carla_bridge] [WARNING]: Shutting down.
+[2023-04-10 20:11:41,753] [carla_bridge] [INFO]: Destroying spawned objects...
+[2023-04-10 20:11:41,755] [carla_bridge] [INFO]: Object 200 successfully destroyed.
+[2023-04-10 20:11:46,755] [carla_bridge] [INFO]: Object 201 successfully destroyed.
+[2023-04-10 20:11:51,756] [carla_bridge] [INFO]: Object 202 successfully destroyed.
+[2023-04-10 20:11:56,756] [carla_bridge] [INFO]: Object 203 successfully destroyed.
+[2023-04-10 20:12:01,757] [carla_bridge] [INFO]: Object 204 successfully destroyed.
+[2023-04-10 20:12:02,643] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-10 20:12:02,647] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-10 20:12:03,064] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town10HD_Opt').
+[2023-04-10 20:12:06,758] [carla_bridge] [INFO]: Object 205 successfully destroyed.
+[2023-04-10 20:12:07,040] [carla_bridge] [INFO]: synchronous_mode: True
+[2023-04-10 20:12:07,041] [carla_bridge] [INFO]: fixed_delta_seconds: 0.05
+[2023-04-10 20:12:09,197] [carla_bridge] [INFO]: Parameters:
+[2023-04-10 20:12:09,197] [carla_bridge] [INFO]:   town: Town01
+[2023-04-10 20:12:09,197] [carla_bridge] [INFO]:   register_all_sensors: True
+[2023-04-10 20:12:09,197] [carla_bridge] [INFO]:   synchronous_mode_wait_for_vehicle_control_command: False
+[2023-04-10 20:12:09,197] [carla_bridge] [INFO]:   synchronous_mode: True
+[2023-04-10 20:12:09,197] [carla_bridge] [INFO]:   ego_vehicle: {'role_name': ['hero', 'ego_vehicle']}
+[2023-04-10 20:12:09,197] [carla_bridge] [INFO]:   passive: False
+[2023-04-10 20:12:09,197] [carla_bridge] [INFO]:   host: 172.17.0.1
+[2023-04-10 20:12:09,198] [carla_bridge] [INFO]:   fixed_delta_seconds: 0.05
+[2023-04-10 20:12:09,198] [carla_bridge] [INFO]:   timeout: 30
+[2023-04-10 20:12:09,198] [carla_bridge] [INFO]:   port: 2000
+[2023-04-10 20:12:09,304] [carla_bridge] [DEBUG]: In sync mode statement.
+[2023-04-10 20:12:09,305] [carla_bridge] [INFO]: State set to PLAY
+[2023-04-10 20:12:09,306] [carla_bridge] [INFO]: synchronous_mode_update_thread start
+[2023-04-10 20:12:09,306] [carla_bridge] [DEBUG]: Before services configuration.
+[2023-04-10 20:12:09,313] [carla_bridge] [DEBUG]: carla_weather_reader.
+[2023-04-10 20:12:09,314] [carla_bridge] [INFO]: spin ...
+[2023-04-10 20:12:09,339] [carla_bridge] [INFO]: Created Static(id=196)
+[2023-04-10 20:12:09,339] [carla_bridge] [INFO]: Created Static(id=195)
+[2023-04-10 20:12:09,340] [carla_bridge] [INFO]: Created Static(id=194)
+[2023-04-10 20:12:09,340] [carla_bridge] [INFO]: Created Static(id=193)
+[2023-04-10 20:12:09,341] [carla_bridge] [INFO]: Created Static(id=192)
+[2023-04-10 20:12:09,341] [carla_bridge] [INFO]: Created Static(id=191)
+[2023-04-10 20:12:09,341] [carla_bridge] [INFO]: Created Static(id=190)
+[2023-04-10 20:12:09,342] [carla_bridge] [INFO]: Created Static(id=189)
+[2023-04-10 20:12:09,342] [carla_bridge] [INFO]: Created Static(id=188)
+[2023-04-10 20:12:09,343] [carla_bridge] [INFO]: Created Static(id=187)
+[2023-04-10 20:12:09,343] [carla_bridge] [INFO]: Created Static(id=186)
+[2023-04-10 20:12:09,343] [carla_bridge] [INFO]: Created Static(id=185)
+[2023-04-10 20:12:09,344] [carla_bridge] [INFO]: Created Static(id=184)
+[2023-04-10 20:12:09,344] [carla_bridge] [INFO]: Created Static(id=183)
+[2023-04-10 20:12:09,345] [carla_bridge] [INFO]: Created Static(id=182)
+[2023-04-10 20:12:09,345] [carla_bridge] [INFO]: Created Static(id=181)
+[2023-04-10 20:12:09,345] [carla_bridge] [INFO]: Created Static(id=180)
+[2023-04-10 20:12:09,346] [carla_bridge] [INFO]: Created Static(id=179)
+[2023-04-10 20:12:09,346] [carla_bridge] [INFO]: Created Static(id=178)
+[2023-04-10 20:12:09,346] [carla_bridge] [INFO]: Created Static(id=177)
+[2023-04-10 20:12:09,347] [carla_bridge] [INFO]: Created Static(id=176)
+[2023-04-10 20:12:09,347] [carla_bridge] [INFO]: Created Static(id=175)
+[2023-04-10 20:12:09,348] [carla_bridge] [INFO]: Created Static(id=174)
+[2023-04-10 20:12:09,348] [carla_bridge] [INFO]: Created Static(id=173)
+[2023-04-10 20:12:09,348] [carla_bridge] [INFO]: Created Static(id=172)
+[2023-04-10 20:12:09,349] [carla_bridge] [INFO]: Created Static(id=171)
+[2023-04-10 20:12:09,349] [carla_bridge] [INFO]: Created Static(id=170)
+[2023-04-10 20:12:09,349] [carla_bridge] [INFO]: Created Static(id=169)
+[2023-04-10 20:12:09,350] [carla_bridge] [INFO]: Created Static(id=168)
+[2023-04-10 20:12:09,350] [carla_bridge] [INFO]: Created Static(id=167)
+[2023-04-10 20:12:09,350] [carla_bridge] [INFO]: Created Static(id=166)
+[2023-04-10 20:12:09,351] [carla_bridge] [INFO]: Created Static(id=165)
+[2023-04-10 20:12:09,351] [carla_bridge] [INFO]: Created Static(id=164)
+[2023-04-10 20:12:09,351] [carla_bridge] [INFO]: Created Static(id=163)
+[2023-04-10 20:12:09,352] [carla_bridge] [INFO]: Created Static(id=162)
+[2023-04-10 20:12:09,352] [carla_bridge] [INFO]: Created Static(id=161)
+[2023-04-10 20:12:09,352] [carla_bridge] [INFO]: Created Static(id=160)
+[2023-04-10 20:12:09,353] [carla_bridge] [INFO]: Created Static(id=159)
+[2023-04-10 20:12:09,353] [carla_bridge] [INFO]: Created Static(id=158)
+[2023-04-10 20:12:09,353] [carla_bridge] [INFO]: Created Static(id=157)
+[2023-04-10 20:12:09,354] [carla_bridge] [INFO]: Created Static(id=156)
+[2023-04-10 20:12:09,354] [carla_bridge] [INFO]: Created Static(id=155)
+[2023-04-10 20:12:09,354] [carla_bridge] [INFO]: Created Static(id=154)
+[2023-04-10 20:12:09,355] [carla_bridge] [INFO]: Created Static(id=153)
+[2023-04-10 20:12:09,355] [carla_bridge] [INFO]: Created Static(id=152)
+[2023-04-10 20:12:09,355] [carla_bridge] [INFO]: Created Static(id=151)
+[2023-04-10 20:12:09,356] [carla_bridge] [INFO]: Created Static(id=150)
+[2023-04-10 20:12:09,356] [carla_bridge] [INFO]: Created Static(id=149)
+[2023-04-10 20:12:09,357] [carla_bridge] [INFO]: Created Static(id=148)
+[2023-04-10 20:12:09,357] [carla_bridge] [INFO]: Created Static(id=147)
+[2023-04-10 20:12:09,357] [carla_bridge] [INFO]: Created Static(id=146)
+[2023-04-10 20:12:09,358] [carla_bridge] [INFO]: Created Static(id=145)
+[2023-04-10 20:12:09,358] [carla_bridge] [INFO]: Created Static(id=144)
+[2023-04-10 20:12:09,358] [carla_bridge] [INFO]: Created Static(id=143)
+[2023-04-10 20:12:09,359] [carla_bridge] [INFO]: Created Static(id=142)
+[2023-04-10 20:12:09,359] [carla_bridge] [INFO]: Created Static(id=141)
+[2023-04-10 20:12:09,359] [carla_bridge] [INFO]: Created Static(id=140)
+[2023-04-10 20:12:09,359] [carla_bridge] [INFO]: Created Static(id=139)
+[2023-04-10 20:12:09,360] [carla_bridge] [INFO]: Created Static(id=138)
+[2023-04-10 20:12:09,360] [carla_bridge] [INFO]: Created Static(id=137)
+[2023-04-10 20:12:09,360] [carla_bridge] [INFO]: Created Static(id=136)
+[2023-04-10 20:12:09,361] [carla_bridge] [INFO]: Created Static(id=135)
+[2023-04-10 20:12:09,361] [carla_bridge] [INFO]: Created Static(id=134)
+[2023-04-10 20:12:09,361] [carla_bridge] [INFO]: Created Static(id=133)
+[2023-04-10 20:12:09,362] [carla_bridge] [INFO]: Created Static(id=132)
+[2023-04-10 20:12:09,362] [carla_bridge] [INFO]: Created Static(id=131)
+[2023-04-10 20:12:09,363] [carla_bridge] [INFO]: Created Static(id=130)
+[2023-04-10 20:12:09,363] [carla_bridge] [INFO]: Created Static(id=129)
+[2023-04-10 20:12:09,363] [carla_bridge] [INFO]: Created Static(id=128)
+[2023-04-10 20:12:09,364] [carla_bridge] [INFO]: Created Static(id=127)
+[2023-04-10 20:12:09,364] [carla_bridge] [INFO]: Created Static(id=126)
+[2023-04-10 20:12:09,365] [carla_bridge] [INFO]: Created Static(id=125)
+[2023-04-10 20:12:09,365] [carla_bridge] [INFO]: Created Static(id=124)
+[2023-04-10 20:12:09,365] [carla_bridge] [INFO]: Created Static(id=123)
+[2023-04-10 20:12:09,366] [carla_bridge] [INFO]: Created Static(id=122)
+[2023-04-10 20:12:09,366] [carla_bridge] [INFO]: Created Static(id=121)
+[2023-04-10 20:12:09,367] [carla_bridge] [INFO]: Created Static(id=120)
+[2023-04-10 20:12:09,367] [carla_bridge] [INFO]: Created Static(id=119)
+[2023-04-10 20:12:09,367] [carla_bridge] [INFO]: Created Static(id=118)
+[2023-04-10 20:12:09,368] [carla_bridge] [INFO]: Created Static(id=117)
+[2023-04-10 20:12:09,368] [carla_bridge] [INFO]: Created Static(id=116)
+[2023-04-10 20:12:09,369] [carla_bridge] [INFO]: Created Static(id=115)
+[2023-04-10 20:12:09,369] [carla_bridge] [INFO]: Created Static(id=114)
+[2023-04-10 20:12:09,369] [carla_bridge] [INFO]: Created Static(id=113)
+[2023-04-10 20:12:09,370] [carla_bridge] [INFO]: Created Static(id=112)
+[2023-04-10 20:12:09,370] [carla_bridge] [INFO]: Created Static(id=111)
+[2023-04-10 20:12:09,370] [carla_bridge] [INFO]: Created Static(id=110)
+[2023-04-10 20:12:09,371] [carla_bridge] [INFO]: Created Static(id=109)
+[2023-04-10 20:12:09,371] [carla_bridge] [INFO]: Created Static(id=108)
+[2023-04-10 20:12:09,371] [carla_bridge] [INFO]: Created Static(id=107)
+[2023-04-10 20:12:09,372] [carla_bridge] [INFO]: Created Static(id=106)
+[2023-04-10 20:12:09,372] [carla_bridge] [INFO]: Created Static(id=105)
+[2023-04-10 20:12:09,372] [carla_bridge] [INFO]: Created Static(id=104)
+[2023-04-10 20:12:09,373] [carla_bridge] [INFO]: Created Static(id=103)
+[2023-04-10 20:12:09,373] [carla_bridge] [INFO]: Created Static(id=102)
+[2023-04-10 20:12:09,373] [carla_bridge] [INFO]: Created Static(id=101)
+[2023-04-10 20:12:09,374] [carla_bridge] [INFO]: Created Static(id=100)
+[2023-04-10 20:12:09,374] [carla_bridge] [INFO]: Created Static(id=99)
+[2023-04-10 20:12:09,374] [carla_bridge] [INFO]: Created Static(id=98)
+[2023-04-10 20:12:09,374] [carla_bridge] [INFO]: Created Static(id=97)
+[2023-04-10 20:12:09,375] [carla_bridge] [INFO]: Created Static(id=96)
+[2023-04-10 20:12:09,375] [carla_bridge] [INFO]: Created Static(id=95)
+[2023-04-10 20:12:09,375] [carla_bridge] [INFO]: Created Static(id=94)
+[2023-04-10 20:12:09,375] [carla_bridge] [INFO]: Created Static(id=93)
+[2023-04-10 20:12:09,376] [carla_bridge] [INFO]: Created Static(id=92)
+[2023-04-10 20:12:09,376] [carla_bridge] [INFO]: Created Static(id=91)
+[2023-04-10 20:12:09,384] [carla_bridge] [INFO]: Created Static(id=90)
+[2023-04-10 20:12:09,384] [carla_bridge] [INFO]: Created Static(id=89)
+[2023-04-10 20:12:09,384] [carla_bridge] [INFO]: Created Static(id=88)
+[2023-04-10 20:12:09,384] [carla_bridge] [INFO]: Created Static(id=87)
+[2023-04-10 20:12:09,385] [carla_bridge] [INFO]: Created Static(id=86)
+[2023-04-10 20:12:09,385] [carla_bridge] [INFO]: Created Static(id=85)
+[2023-04-10 20:12:09,385] [carla_bridge] [INFO]: Created Static(id=84)
+[2023-04-10 20:12:09,385] [carla_bridge] [INFO]: Created Static(id=83)
+[2023-04-10 20:12:09,386] [carla_bridge] [INFO]: Created Static(id=82)
+[2023-04-10 20:12:09,386] [carla_bridge] [INFO]: Created Traffic(id=81)
+[2023-04-10 20:12:09,386] [carla_bridge] [INFO]: Created Traffic(id=80)
+[2023-04-10 20:12:09,386] [carla_bridge] [INFO]: Created Traffic(id=79)
+[2023-04-10 20:12:09,387] [carla_bridge] [INFO]: Created Traffic(id=78)
+[2023-04-10 20:12:09,387] [carla_bridge] [INFO]: Created Traffic(id=77)
+[2023-04-10 20:12:09,387] [carla_bridge] [INFO]: Created Traffic(id=76)
+[2023-04-10 20:12:09,387] [carla_bridge] [INFO]: Created Traffic(id=75)
+[2023-04-10 20:12:09,388] [carla_bridge] [INFO]: Created Traffic(id=74)
+[2023-04-10 20:12:09,388] [carla_bridge] [INFO]: Created Traffic(id=73)
+[2023-04-10 20:12:09,388] [carla_bridge] [INFO]: Created Traffic(id=72)
+[2023-04-10 20:12:09,388] [carla_bridge] [INFO]: Created Traffic(id=71)
+[2023-04-10 20:12:09,388] [carla_bridge] [INFO]: Created Traffic(id=70)
+[2023-04-10 20:12:09,389] [carla_bridge] [INFO]: Created Traffic(id=69)
+[2023-04-10 20:12:09,389] [carla_bridge] [INFO]: Created Traffic(id=68)
+[2023-04-10 20:12:09,389] [carla_bridge] [INFO]: Created Traffic(id=67)
+[2023-04-10 20:12:09,389] [carla_bridge] [INFO]: Created Traffic(id=66)
+[2023-04-10 20:12:09,389] [carla_bridge] [INFO]: Created Traffic(id=65)
+[2023-04-10 20:12:09,390] [carla_bridge] [INFO]: Created Traffic(id=64)
+[2023-04-10 20:12:09,390] [carla_bridge] [INFO]: Created Traffic(id=63)
+[2023-04-10 20:12:09,390] [carla_bridge] [INFO]: Created Traffic(id=62)
+[2023-04-10 20:12:09,390] [carla_bridge] [INFO]: Created Traffic(id=61)
+[2023-04-10 20:12:09,390] [carla_bridge] [INFO]: Created TrafficLight(id=60)
+[2023-04-10 20:12:09,391] [carla_bridge] [INFO]: Created TrafficLight(id=59)
+[2023-04-10 20:12:09,391] [carla_bridge] [INFO]: Created TrafficLight(id=58)
+[2023-04-10 20:12:09,391] [carla_bridge] [INFO]: Created TrafficLight(id=57)
+[2023-04-10 20:12:09,391] [carla_bridge] [INFO]: Created TrafficLight(id=56)
+[2023-04-10 20:12:09,391] [carla_bridge] [INFO]: Created TrafficLight(id=55)
+[2023-04-10 20:12:09,392] [carla_bridge] [INFO]: Created TrafficLight(id=54)
+[2023-04-10 20:12:09,392] [carla_bridge] [INFO]: Created TrafficLight(id=53)
+[2023-04-10 20:12:09,392] [carla_bridge] [INFO]: Created TrafficLight(id=52)
+[2023-04-10 20:12:09,392] [carla_bridge] [INFO]: Created TrafficLight(id=51)
+[2023-04-10 20:12:09,393] [carla_bridge] [INFO]: Created TrafficLight(id=50)
+[2023-04-10 20:12:09,393] [carla_bridge] [INFO]: Created TrafficLight(id=49)
+[2023-04-10 20:12:09,393] [carla_bridge] [INFO]: Created TrafficLight(id=48)
+[2023-04-10 20:12:09,393] [carla_bridge] [INFO]: Created TrafficLight(id=47)
+[2023-04-10 20:12:09,393] [carla_bridge] [INFO]: Created TrafficLight(id=46)
+[2023-04-10 20:12:09,394] [carla_bridge] [INFO]: Created TrafficLight(id=45)
+[2023-04-10 20:12:09,394] [carla_bridge] [INFO]: Created TrafficLight(id=44)
+[2023-04-10 20:12:09,394] [carla_bridge] [INFO]: Created TrafficLight(id=43)
+[2023-04-10 20:12:09,394] [carla_bridge] [INFO]: Created TrafficLight(id=42)
+[2023-04-10 20:12:09,395] [carla_bridge] [INFO]: Created TrafficLight(id=41)
+[2023-04-10 20:12:09,395] [carla_bridge] [INFO]: Created TrafficLight(id=40)
+[2023-04-10 20:12:09,395] [carla_bridge] [INFO]: Created TrafficLight(id=39)
+[2023-04-10 20:12:09,395] [carla_bridge] [INFO]: Created TrafficLight(id=38)
+[2023-04-10 20:12:09,395] [carla_bridge] [INFO]: Created TrafficLight(id=37)
+[2023-04-10 20:12:09,395] [carla_bridge] [INFO]: Created TrafficLight(id=36)
+[2023-04-10 20:12:09,396] [carla_bridge] [INFO]: Created TrafficLight(id=35)
+[2023-04-10 20:12:09,396] [carla_bridge] [INFO]: Created TrafficLight(id=34)
+[2023-04-10 20:12:09,396] [carla_bridge] [INFO]: Created TrafficLight(id=33)
+[2023-04-10 20:12:09,396] [carla_bridge] [INFO]: Created TrafficLight(id=32)
+[2023-04-10 20:12:09,396] [carla_bridge] [INFO]: Created TrafficLight(id=31)
+[2023-04-10 20:12:09,396] [carla_bridge] [INFO]: Created TrafficLight(id=30)
+[2023-04-10 20:12:09,397] [carla_bridge] [INFO]: Created TrafficLight(id=29)
+[2023-04-10 20:12:09,397] [carla_bridge] [INFO]: Created TrafficLight(id=28)
+[2023-04-10 20:12:09,397] [carla_bridge] [INFO]: Created TrafficLight(id=27)
+[2023-04-10 20:12:09,397] [carla_bridge] [INFO]: Created TrafficLight(id=26)
+[2023-04-10 20:12:09,397] [carla_bridge] [INFO]: Created TrafficLight(id=25)
+[2023-04-10 20:12:09,397] [carla_bridge] [INFO]: Created Spectator(id=24)
+[2023-04-10 20:12:09,535] [carla_bridge] [WARNING]: Error spawning object 'sensor.camera.rgb': Parent actor 199 not found
+[2023-04-10 20:12:09,537] [carla_bridge] [INFO]: Object 10006 successfully destroyed.
+[2023-04-10 20:12:09,543] [carla_bridge] [WARNING]: Error spawning object 'sensor.camera.rgb': Parent actor 199 not found
+[2023-04-10 20:12:09,546] [carla_bridge] [INFO]: Object 10007 successfully destroyed.
+[2023-04-10 20:12:09,581] [carla_bridge] [WARNING]: Error spawning object 'sensor.lidar.ray_cast': Parent actor 199 not found
+[2023-04-10 20:12:09,582] [carla_bridge] [INFO]: Object 10008 successfully destroyed.
+[2023-04-10 20:12:09,593] [carla_bridge] [WARNING]: Error spawning object 'sensor.other.radar': Parent actor 199 not found
+[2023-04-10 20:12:09,597] [carla_bridge] [INFO]: Object 10009 successfully destroyed.
+[2023-04-10 20:12:09,615] [carla_bridge] [WARNING]: Error spawning object 'sensor.other.gnss': Parent actor 199 not found
+[2023-04-10 20:12:09,615] [carla_bridge] [INFO]: Object 10003 successfully destroyed.
+[2023-04-10 20:12:09,626] [carla_bridge] [WARNING]: Error spawning object 'sensor.other.imu': Parent actor 199 not found
+[2023-04-10 20:12:09,631] [carla_bridge] [INFO]: Object 10004 successfully destroyed.
+[2023-04-10 20:12:09,642] [carla_bridge] [INFO]: Object 10005 successfully destroyed.
+[2023-04-10 20:12:09,641] [carla_bridge] [WARNING]: Error spawning object 'sensor.pseudo.objects': Parent actor 199 not found
+[2023-04-10 20:12:09,646] [carla_bridge] [INFO]: Object 199 successfully destroyed.
+[2023-04-10 20:12:09,655] [carla_bridge] [WARNING]: Error spawning object 'sensor.pseudo.odom': Parent actor 199 not found
+[2023-04-10 20:12:09,667] [carla_bridge] [WARNING]: Error spawning object 'sensor.pseudo.speedometer': Parent actor 199 not found
+[2023-04-10 20:12:09,681] [carla_bridge] [WARNING]: Error spawning object 'actor.pseudo.control': Parent actor 199 not found
+[2023-04-10 20:12:11,699] [carla_bridge] [INFO]: Object (type='sensor.pseudo.traffic_lights', id='traffic_lights') spawned successfully as 10000.
+[2023-04-10 20:12:11,700] [carla_bridge] [INFO]: Object (type='sensor.pseudo.actor_list', id='actor_list') spawned successfully as 10001.
+[2023-04-10 20:12:11,701] [carla_bridge] [INFO]: Object (type='sensor.pseudo.opendrive_map', id='map') spawned successfully as 10002.
+[2023-04-10 20:12:11,701] [carla_bridge] [DEBUG]: None
+[2023-04-10 20:12:11,701] [carla_bridge] [INFO]: Spawn point selected at random
+[2023-04-10 20:12:11,707] [carla_bridge] [INFO]: Object (type='vehicle.tesla.model3', id='ego_vehicle') spawned successfully as 197.
+[2023-04-10 20:12:11,709] [carla_bridge] [INFO]: Created TrafficLightsSensor(id=10000)
+[2023-04-10 20:12:11,710] [carla_bridge] [INFO]: Created ActorListSensor(id=10001)
+[2023-04-10 20:12:11,710] [carla_bridge] [INFO]: Created OpenDriveSensor(id=10002)
+[2023-04-10 20:12:11,731] [carla_bridge] [INFO]: Created EgoVehicle(id=197)
+[2023-04-10 20:12:16,708] [carla_bridge] [WARNING]: Shutting down.
+[2023-04-10 20:12:16,708] [carla_bridge] [INFO]: Destroying spawned objects...
+[2023-04-10 20:12:21,709] [carla_bridge] [INFO]: Object 10000 successfully destroyed.
+[2023-04-10 20:12:26,710] [carla_bridge] [INFO]: Object 10001 successfully destroyed.
+[2023-04-10 20:12:31,711] [carla_bridge] [INFO]: Object 10002 successfully destroyed.
+[2023-04-10 20:12:36,711] [carla_bridge] [INFO]: Object 197 successfully destroyed.
+[2023-04-11 05:55:08,336] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-11 05:55:08,339] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-11 05:55:38,343] [carla_bridge] [ERROR]: Error: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to 172.17.0.1:2000
+[2023-04-11 05:56:10,437] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-11 05:56:10,444] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-11 05:56:11,039] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town10HD_Opt').
+[2023-04-11 05:56:14,766] [carla_bridge] [INFO]: synchronous_mode: True
+[2023-04-11 05:56:14,767] [carla_bridge] [INFO]: fixed_delta_seconds: 0.05
+[2023-04-11 05:56:17,092] [carla_bridge] [INFO]: Parameters:
+[2023-04-11 05:56:17,093] [carla_bridge] [INFO]:   host: 172.17.0.1
+[2023-04-11 05:56:17,093] [carla_bridge] [INFO]:   port: 2000
+[2023-04-11 05:56:17,093] [carla_bridge] [INFO]:   timeout: 30
+[2023-04-11 05:56:17,093] [carla_bridge] [INFO]:   passive: False
+[2023-04-11 05:56:17,093] [carla_bridge] [INFO]:   synchronous_mode: True
+[2023-04-11 05:56:17,094] [carla_bridge] [INFO]:   synchronous_mode_wait_for_vehicle_control_command: False
+[2023-04-11 05:56:17,094] [carla_bridge] [INFO]:   fixed_delta_seconds: 0.05
+[2023-04-11 05:56:17,094] [carla_bridge] [INFO]:   register_all_sensors: True
+[2023-04-11 05:56:17,094] [carla_bridge] [INFO]:   town: Town01
+[2023-04-11 05:56:17,094] [carla_bridge] [INFO]:   ego_vehicle: {'role_name': ['hero', 'ego_vehicle']}
+[2023-04-11 05:56:17,280] [carla_bridge] [DEBUG]: In sync mode statement.
+[2023-04-11 05:56:17,282] [carla_bridge] [INFO]: State set to PLAY
+[2023-04-11 05:56:17,283] [carla_bridge] [INFO]: synchronous_mode_update_thread start
+[2023-04-11 05:56:17,283] [carla_bridge] [DEBUG]: Before services configuration.
+[2023-04-11 05:56:17,291] [carla_bridge] [DEBUG]: carla_weather_reader.
+[2023-04-11 05:56:17,292] [carla_bridge] [INFO]: spin ...
+[2023-04-11 05:58:29,367] [carla_bridge] [ERROR]: Shutting down.
+[2023-04-11 05:58:29,368] [carla_bridge] [INFO]: Shutting down...
+[2023-04-11 05:58:29,368] [carla_bridge] [INFO]: Object update finished.
+[2023-04-11 05:58:29,427] [carla_bridge] [INFO]: Created EgoVehicle(id=197)
+[2023-04-11 05:58:29,431] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 05:58:29,441] [carla_bridge] [INFO]: Created RgbCamera(id=198)
+[2023-04-11 05:58:29,441] [carla_bridge] [INFO]: Created Static(id=196)
+[2023-04-11 05:58:29,441] [carla_bridge] [INFO]: Created Static(id=195)
+[2023-04-11 05:58:29,441] [carla_bridge] [INFO]: Created Static(id=194)
+[2023-04-11 05:58:29,442] [carla_bridge] [INFO]: Created Static(id=193)
+[2023-04-11 05:58:29,442] [carla_bridge] [INFO]: Created Static(id=192)
+[2023-04-11 05:58:29,442] [carla_bridge] [INFO]: Created Static(id=191)
+[2023-04-11 05:58:29,442] [carla_bridge] [INFO]: Created Static(id=190)
+[2023-04-11 05:58:29,442] [carla_bridge] [INFO]: Created Static(id=189)
+[2023-04-11 05:58:29,442] [carla_bridge] [INFO]: Created Static(id=188)
+[2023-04-11 05:58:29,442] [carla_bridge] [INFO]: Created Static(id=187)
+[2023-04-11 05:58:29,443] [carla_bridge] [INFO]: Created Static(id=186)
+[2023-04-11 05:58:29,443] [carla_bridge] [INFO]: Created Static(id=185)
+[2023-04-11 05:58:29,443] [carla_bridge] [INFO]: Created Static(id=184)
+[2023-04-11 05:58:29,443] [carla_bridge] [INFO]: Created Static(id=183)
+[2023-04-11 05:58:29,443] [carla_bridge] [INFO]: Created Static(id=182)
+[2023-04-11 05:58:29,443] [carla_bridge] [INFO]: Created Static(id=181)
+[2023-04-11 05:58:29,443] [carla_bridge] [INFO]: Created Static(id=180)
+[2023-04-11 05:58:29,444] [carla_bridge] [INFO]: Created Static(id=179)
+[2023-04-11 05:58:29,444] [carla_bridge] [INFO]: Created Static(id=178)
+[2023-04-11 05:58:29,444] [carla_bridge] [INFO]: Created Static(id=177)
+[2023-04-11 05:58:29,444] [carla_bridge] [INFO]: Created Static(id=176)
+[2023-04-11 05:58:29,444] [carla_bridge] [INFO]: Created Static(id=175)
+[2023-04-11 05:58:29,444] [carla_bridge] [INFO]: Created Static(id=174)
+[2023-04-11 05:58:29,444] [carla_bridge] [INFO]: Created Static(id=173)
+[2023-04-11 05:58:29,445] [carla_bridge] [INFO]: Created Static(id=172)
+[2023-04-11 05:58:29,445] [carla_bridge] [INFO]: Created Static(id=171)
+[2023-04-11 05:58:29,445] [carla_bridge] [INFO]: Created Static(id=170)
+[2023-04-11 05:58:29,445] [carla_bridge] [INFO]: Created Static(id=169)
+[2023-04-11 05:58:29,445] [carla_bridge] [INFO]: Created Static(id=168)
+[2023-04-11 05:58:29,445] [carla_bridge] [INFO]: Created Static(id=167)
+[2023-04-11 05:58:29,445] [carla_bridge] [INFO]: Created Static(id=166)
+[2023-04-11 05:58:29,446] [carla_bridge] [INFO]: Created Static(id=165)
+[2023-04-11 05:58:29,446] [carla_bridge] [INFO]: Created Static(id=164)
+[2023-04-11 05:58:29,446] [carla_bridge] [INFO]: Created Static(id=163)
+[2023-04-11 05:58:29,446] [carla_bridge] [INFO]: Created Static(id=162)
+[2023-04-11 05:58:29,446] [carla_bridge] [INFO]: Created Static(id=161)
+[2023-04-11 05:58:29,446] [carla_bridge] [INFO]: Created Static(id=160)
+[2023-04-11 05:58:29,446] [carla_bridge] [INFO]: Created Static(id=159)
+[2023-04-11 05:58:29,447] [carla_bridge] [INFO]: Created Static(id=158)
+[2023-04-11 05:58:29,447] [carla_bridge] [INFO]: Created Static(id=157)
+[2023-04-11 05:58:29,447] [carla_bridge] [INFO]: Created Static(id=156)
+[2023-04-11 05:58:29,447] [carla_bridge] [INFO]: Created Static(id=155)
+[2023-04-11 05:58:29,447] [carla_bridge] [INFO]: Created Static(id=154)
+[2023-04-11 05:58:29,447] [carla_bridge] [INFO]: Created Static(id=153)
+[2023-04-11 05:58:29,447] [carla_bridge] [INFO]: Created Static(id=152)
+[2023-04-11 05:58:29,448] [carla_bridge] [INFO]: Created Static(id=151)
+[2023-04-11 05:58:29,448] [carla_bridge] [INFO]: Created Static(id=150)
+[2023-04-11 05:58:29,448] [carla_bridge] [INFO]: Created Static(id=149)
+[2023-04-11 05:58:29,448] [carla_bridge] [INFO]: Created Static(id=148)
+[2023-04-11 05:58:29,448] [carla_bridge] [INFO]: Created Static(id=147)
+[2023-04-11 05:58:29,448] [carla_bridge] [INFO]: Created Static(id=146)
+[2023-04-11 05:58:29,448] [carla_bridge] [INFO]: Created Static(id=145)
+[2023-04-11 05:58:29,449] [carla_bridge] [INFO]: Created Static(id=144)
+[2023-04-11 05:58:29,449] [carla_bridge] [INFO]: Created Static(id=143)
+[2023-04-11 05:58:29,449] [carla_bridge] [INFO]: Created Static(id=142)
+[2023-04-11 05:58:29,449] [carla_bridge] [INFO]: Created Static(id=141)
+[2023-04-11 05:58:29,449] [carla_bridge] [INFO]: Created Static(id=140)
+[2023-04-11 05:58:29,449] [carla_bridge] [INFO]: Created Static(id=139)
+[2023-04-11 05:58:29,449] [carla_bridge] [INFO]: Created Static(id=138)
+[2023-04-11 05:58:29,449] [carla_bridge] [INFO]: Created Static(id=137)
+[2023-04-11 05:58:29,450] [carla_bridge] [INFO]: Created Static(id=136)
+[2023-04-11 05:58:29,450] [carla_bridge] [INFO]: Created Static(id=135)
+[2023-04-11 05:58:29,450] [carla_bridge] [INFO]: Created Static(id=134)
+[2023-04-11 05:58:29,450] [carla_bridge] [INFO]: Created Static(id=133)
+[2023-04-11 05:58:29,450] [carla_bridge] [INFO]: Created Static(id=132)
+[2023-04-11 05:58:29,450] [carla_bridge] [INFO]: Created Static(id=131)
+[2023-04-11 05:58:29,450] [carla_bridge] [INFO]: Created Static(id=130)
+[2023-04-11 05:58:29,450] [carla_bridge] [INFO]: Created Static(id=129)
+[2023-04-11 05:58:29,451] [carla_bridge] [INFO]: Created Static(id=128)
+[2023-04-11 05:58:29,451] [carla_bridge] [INFO]: Created Static(id=127)
+[2023-04-11 05:58:29,451] [carla_bridge] [INFO]: Created Static(id=126)
+[2023-04-11 05:58:29,451] [carla_bridge] [INFO]: Created Static(id=125)
+[2023-04-11 05:58:29,451] [carla_bridge] [INFO]: Created Static(id=124)
+[2023-04-11 05:58:29,451] [carla_bridge] [INFO]: Created Static(id=123)
+[2023-04-11 05:58:29,451] [carla_bridge] [INFO]: Created Static(id=122)
+[2023-04-11 05:58:29,451] [carla_bridge] [INFO]: Created Static(id=121)
+[2023-04-11 05:58:29,452] [carla_bridge] [INFO]: Created Static(id=120)
+[2023-04-11 05:58:29,452] [carla_bridge] [INFO]: Created Static(id=119)
+[2023-04-11 05:58:29,452] [carla_bridge] [INFO]: Created Static(id=118)
+[2023-04-11 05:58:29,452] [carla_bridge] [INFO]: Created Static(id=117)
+[2023-04-11 05:58:29,452] [carla_bridge] [INFO]: Created Static(id=116)
+[2023-04-11 05:58:29,452] [carla_bridge] [INFO]: Created Static(id=115)
+[2023-04-11 05:58:29,452] [carla_bridge] [INFO]: Created Static(id=114)
+[2023-04-11 05:58:29,452] [carla_bridge] [INFO]: Created Static(id=113)
+[2023-04-11 05:58:29,453] [carla_bridge] [INFO]: Created Static(id=112)
+[2023-04-11 05:58:29,453] [carla_bridge] [INFO]: Created Static(id=111)
+[2023-04-11 05:58:29,453] [carla_bridge] [INFO]: Created Static(id=110)
+[2023-04-11 05:58:29,453] [carla_bridge] [INFO]: Created Static(id=109)
+[2023-04-11 05:58:29,453] [carla_bridge] [INFO]: Created Static(id=108)
+[2023-04-11 05:58:29,453] [carla_bridge] [INFO]: Created Static(id=107)
+[2023-04-11 05:58:29,453] [carla_bridge] [INFO]: Created Static(id=106)
+[2023-04-11 05:58:29,453] [carla_bridge] [INFO]: Created Static(id=105)
+[2023-04-11 05:58:29,453] [carla_bridge] [INFO]: Created Static(id=104)
+[2023-04-11 05:58:29,454] [carla_bridge] [INFO]: Created Static(id=103)
+[2023-04-11 05:58:29,454] [carla_bridge] [INFO]: Created Static(id=102)
+[2023-04-11 05:58:29,454] [carla_bridge] [INFO]: Created Static(id=101)
+[2023-04-11 05:58:29,454] [carla_bridge] [INFO]: Created Static(id=100)
+[2023-04-11 05:58:29,454] [carla_bridge] [INFO]: Created Static(id=99)
+[2023-04-11 05:58:29,454] [carla_bridge] [INFO]: Created Static(id=98)
+[2023-04-11 05:58:29,454] [carla_bridge] [INFO]: Created Static(id=97)
+[2023-04-11 05:58:29,454] [carla_bridge] [INFO]: Created Static(id=96)
+[2023-04-11 05:58:29,454] [carla_bridge] [INFO]: Created Static(id=95)
+[2023-04-11 05:58:29,455] [carla_bridge] [INFO]: Created Static(id=94)
+[2023-04-11 05:58:29,456] [carla_bridge] [INFO]: Created Static(id=93)
+[2023-04-11 05:58:29,456] [carla_bridge] [INFO]: Created Static(id=92)
+[2023-04-11 05:58:29,456] [carla_bridge] [INFO]: Created Static(id=91)
+[2023-04-11 05:58:29,456] [carla_bridge] [INFO]: Created Static(id=90)
+[2023-04-11 05:58:29,456] [carla_bridge] [INFO]: Created Static(id=89)
+[2023-04-11 05:58:29,456] [carla_bridge] [INFO]: Created Static(id=88)
+[2023-04-11 05:58:29,456] [carla_bridge] [INFO]: Created Static(id=87)
+[2023-04-11 05:58:29,456] [carla_bridge] [INFO]: Created Static(id=86)
+[2023-04-11 05:58:29,456] [carla_bridge] [INFO]: Created Static(id=85)
+[2023-04-11 05:58:29,457] [carla_bridge] [INFO]: Created Static(id=84)
+[2023-04-11 05:58:29,457] [carla_bridge] [INFO]: Created Static(id=83)
+[2023-04-11 05:58:29,457] [carla_bridge] [INFO]: Created Static(id=82)
+[2023-04-11 05:58:29,457] [carla_bridge] [INFO]: Created Traffic(id=81)
+[2023-04-11 05:58:29,457] [carla_bridge] [INFO]: Created Traffic(id=80)
+[2023-04-11 05:58:29,457] [carla_bridge] [INFO]: Created Traffic(id=79)
+[2023-04-11 05:58:29,457] [carla_bridge] [INFO]: Created Traffic(id=78)
+[2023-04-11 05:58:29,457] [carla_bridge] [INFO]: Created Traffic(id=77)
+[2023-04-11 05:58:29,457] [carla_bridge] [INFO]: Created Traffic(id=76)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=75)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=74)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=73)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=72)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=71)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=70)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=69)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=68)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=67)
+[2023-04-11 05:58:29,458] [carla_bridge] [INFO]: Created Traffic(id=66)
+[2023-04-11 05:58:29,459] [carla_bridge] [INFO]: Created Traffic(id=65)
+[2023-04-11 05:58:29,459] [carla_bridge] [INFO]: Created Traffic(id=64)
+[2023-04-11 05:58:29,459] [carla_bridge] [INFO]: Created Traffic(id=63)
+[2023-04-11 05:58:29,459] [carla_bridge] [INFO]: Created Traffic(id=62)
+[2023-04-11 05:58:29,459] [carla_bridge] [INFO]: Created Traffic(id=61)
+[2023-04-11 05:58:29,459] [carla_bridge] [INFO]: Created TrafficLight(id=60)
+[2023-04-11 05:58:29,459] [carla_bridge] [INFO]: Created TrafficLight(id=59)
+[2023-04-11 05:58:29,459] [carla_bridge] [INFO]: Created TrafficLight(id=58)
+[2023-04-11 05:58:29,459] [carla_bridge] [INFO]: Created TrafficLight(id=57)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=56)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=55)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=54)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=53)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=52)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=51)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=50)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=49)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=48)
+[2023-04-11 05:58:29,460] [carla_bridge] [INFO]: Created TrafficLight(id=47)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=46)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=45)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=44)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=43)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=42)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=41)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=40)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=39)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=38)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=37)
+[2023-04-11 05:58:29,461] [carla_bridge] [INFO]: Created TrafficLight(id=36)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=35)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=34)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=33)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=32)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=31)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=30)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=29)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=28)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=27)
+[2023-04-11 05:58:29,462] [carla_bridge] [INFO]: Created TrafficLight(id=26)
+[2023-04-11 05:58:29,463] [carla_bridge] [INFO]: Created TrafficLight(id=25)
+[2023-04-11 05:58:29,463] [carla_bridge] [INFO]: Created Spectator(id=24)
+[2023-04-11 05:58:29,468] [carla_bridge] [INFO]: Created TrafficLightsSensor(id=10000)
+[2023-04-11 05:58:29,468] [carla_bridge] [INFO]: Removed TrafficLightsSensor(id=10000)
+[2023-04-11 05:58:29,469] [carla_bridge] [INFO]: Created ActorListSensor(id=10001)
+[2023-04-11 05:58:29,470] [carla_bridge] [INFO]: Removed ActorListSensor(id=10001)
+[2023-04-11 05:58:29,470] [carla_bridge] [INFO]: Created OpenDriveSensor(id=10002)
+[2023-04-11 05:58:29,471] [carla_bridge] [INFO]: Removed OpenDriveSensor(id=10002)
+[2023-04-11 05:58:29,471] [carla_bridge] [DEBUG]: Destroy Vehicle(id=197)
+[2023-04-11 05:58:30,304] [carla_bridge] [INFO]: Removed EgoVehicle(id=197)
+[2023-04-11 05:58:30,339] [carla_bridge] [INFO]: Created EgoVehicle(id=197)
+[2023-04-11 05:58:30,385] [carla_bridge] [INFO]: Removed RgbCamera(id=198)
+[2023-04-11 05:58:30,386] [carla_bridge] [DEBUG]: Destroy Vehicle(id=197)
+[2023-04-11 05:58:35,155] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-11 05:58:35,159] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-11 05:58:35,373] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town01').
+[2023-04-11 05:59:09,336] [carla_bridge] [ERROR]: Error: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to 172.17.0.1:2000
+[2023-04-11 06:00:16,088] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-11 06:00:16,092] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-11 06:00:16,520] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town10HD_Opt').
+[2023-04-11 06:00:20,330] [carla_bridge] [INFO]: synchronous_mode: True
+[2023-04-11 06:00:20,331] [carla_bridge] [INFO]: fixed_delta_seconds: 0.05
+[2023-04-11 06:00:22,610] [carla_bridge] [INFO]: Parameters:
+[2023-04-11 06:00:22,610] [carla_bridge] [INFO]:   host: 172.17.0.1
+[2023-04-11 06:00:22,610] [carla_bridge] [INFO]:   port: 2000
+[2023-04-11 06:00:22,610] [carla_bridge] [INFO]:   timeout: 30
+[2023-04-11 06:00:22,610] [carla_bridge] [INFO]:   passive: False
+[2023-04-11 06:00:22,611] [carla_bridge] [INFO]:   synchronous_mode: True
+[2023-04-11 06:00:22,611] [carla_bridge] [INFO]:   synchronous_mode_wait_for_vehicle_control_command: False
+[2023-04-11 06:00:22,611] [carla_bridge] [INFO]:   fixed_delta_seconds: 0.05
+[2023-04-11 06:00:22,611] [carla_bridge] [INFO]:   register_all_sensors: True
+[2023-04-11 06:00:22,611] [carla_bridge] [INFO]:   town: Town01
+[2023-04-11 06:00:22,611] [carla_bridge] [INFO]:   ego_vehicle: {'role_name': ['hero', 'ego_vehicle']}
+[2023-04-11 06:00:22,698] [carla_bridge] [DEBUG]: In sync mode statement.
+[2023-04-11 06:00:22,700] [carla_bridge] [INFO]: State set to PLAY
+[2023-04-11 06:00:22,701] [carla_bridge] [INFO]: synchronous_mode_update_thread start
+[2023-04-11 06:00:22,701] [carla_bridge] [DEBUG]: Before services configuration.
+[2023-04-11 06:00:22,707] [carla_bridge] [DEBUG]: carla_weather_reader.
+[2023-04-11 06:00:22,708] [carla_bridge] [INFO]: spin ...
+[2023-04-11 06:00:22,722] [carla_bridge] [INFO]: Created Static(id=196)
+[2023-04-11 06:00:22,722] [carla_bridge] [INFO]: Created Static(id=195)
+[2023-04-11 06:00:22,722] [carla_bridge] [INFO]: Created Static(id=194)
+[2023-04-11 06:00:22,723] [carla_bridge] [INFO]: Created Static(id=193)
+[2023-04-11 06:00:22,723] [carla_bridge] [INFO]: Created Static(id=192)
+[2023-04-11 06:00:22,723] [carla_bridge] [INFO]: Created Static(id=191)
+[2023-04-11 06:00:22,724] [carla_bridge] [INFO]: Created Static(id=190)
+[2023-04-11 06:00:22,724] [carla_bridge] [INFO]: Created Static(id=189)
+[2023-04-11 06:00:22,724] [carla_bridge] [INFO]: Created Static(id=188)
+[2023-04-11 06:00:22,725] [carla_bridge] [INFO]: Created Static(id=187)
+[2023-04-11 06:00:22,725] [carla_bridge] [INFO]: Created Static(id=186)
+[2023-04-11 06:00:22,725] [carla_bridge] [INFO]: Created Static(id=185)
+[2023-04-11 06:00:22,726] [carla_bridge] [INFO]: Created Static(id=184)
+[2023-04-11 06:00:22,726] [carla_bridge] [INFO]: Created Static(id=183)
+[2023-04-11 06:00:22,726] [carla_bridge] [INFO]: Created Static(id=182)
+[2023-04-11 06:00:22,726] [carla_bridge] [INFO]: Created Static(id=181)
+[2023-04-11 06:00:22,727] [carla_bridge] [INFO]: Created Static(id=180)
+[2023-04-11 06:00:22,727] [carla_bridge] [INFO]: Created Static(id=179)
+[2023-04-11 06:00:22,727] [carla_bridge] [INFO]: Created Static(id=178)
+[2023-04-11 06:00:22,728] [carla_bridge] [INFO]: Created Static(id=177)
+[2023-04-11 06:00:22,728] [carla_bridge] [INFO]: Created Static(id=176)
+[2023-04-11 06:00:22,728] [carla_bridge] [INFO]: Created Static(id=175)
+[2023-04-11 06:00:22,729] [carla_bridge] [INFO]: Created Static(id=174)
+[2023-04-11 06:00:22,729] [carla_bridge] [INFO]: Created Static(id=173)
+[2023-04-11 06:00:22,729] [carla_bridge] [INFO]: Created Static(id=172)
+[2023-04-11 06:00:22,730] [carla_bridge] [INFO]: Created Static(id=171)
+[2023-04-11 06:00:22,730] [carla_bridge] [INFO]: Created Static(id=170)
+[2023-04-11 06:00:22,730] [carla_bridge] [INFO]: Created Static(id=169)
+[2023-04-11 06:00:22,730] [carla_bridge] [INFO]: Created Static(id=168)
+[2023-04-11 06:00:22,731] [carla_bridge] [INFO]: Created Static(id=167)
+[2023-04-11 06:00:22,731] [carla_bridge] [INFO]: Created Static(id=166)
+[2023-04-11 06:00:22,731] [carla_bridge] [INFO]: Created Static(id=165)
+[2023-04-11 06:00:22,732] [carla_bridge] [INFO]: Created Static(id=164)
+[2023-04-11 06:00:22,732] [carla_bridge] [INFO]: Created Static(id=163)
+[2023-04-11 06:00:22,732] [carla_bridge] [INFO]: Created Static(id=162)
+[2023-04-11 06:00:22,732] [carla_bridge] [INFO]: Created Static(id=161)
+[2023-04-11 06:00:22,733] [carla_bridge] [INFO]: Created Static(id=160)
+[2023-04-11 06:00:22,733] [carla_bridge] [INFO]: Created Static(id=159)
+[2023-04-11 06:00:22,733] [carla_bridge] [INFO]: Created Static(id=158)
+[2023-04-11 06:00:22,733] [carla_bridge] [INFO]: Created Static(id=157)
+[2023-04-11 06:00:22,734] [carla_bridge] [INFO]: Created Static(id=156)
+[2023-04-11 06:00:22,734] [carla_bridge] [INFO]: Created Static(id=155)
+[2023-04-11 06:00:22,734] [carla_bridge] [INFO]: Created Static(id=154)
+[2023-04-11 06:00:22,735] [carla_bridge] [INFO]: Created Static(id=153)
+[2023-04-11 06:00:22,735] [carla_bridge] [INFO]: Created Static(id=152)
+[2023-04-11 06:00:22,735] [carla_bridge] [INFO]: Created Static(id=151)
+[2023-04-11 06:00:22,735] [carla_bridge] [INFO]: Created Static(id=150)
+[2023-04-11 06:00:22,736] [carla_bridge] [INFO]: Created Static(id=149)
+[2023-04-11 06:00:22,736] [carla_bridge] [INFO]: Created Static(id=148)
+[2023-04-11 06:00:22,736] [carla_bridge] [INFO]: Created Static(id=147)
+[2023-04-11 06:00:22,736] [carla_bridge] [INFO]: Created Static(id=146)
+[2023-04-11 06:00:22,737] [carla_bridge] [INFO]: Created Static(id=145)
+[2023-04-11 06:00:22,737] [carla_bridge] [INFO]: Created Static(id=144)
+[2023-04-11 06:00:22,737] [carla_bridge] [INFO]: Created Static(id=143)
+[2023-04-11 06:00:22,737] [carla_bridge] [INFO]: Created Static(id=142)
+[2023-04-11 06:00:22,738] [carla_bridge] [INFO]: Created Static(id=141)
+[2023-04-11 06:00:22,738] [carla_bridge] [INFO]: Created Static(id=140)
+[2023-04-11 06:00:22,738] [carla_bridge] [INFO]: Created Static(id=139)
+[2023-04-11 06:00:22,739] [carla_bridge] [INFO]: Created Static(id=138)
+[2023-04-11 06:00:22,739] [carla_bridge] [INFO]: Created Static(id=137)
+[2023-04-11 06:00:22,739] [carla_bridge] [INFO]: Created Static(id=136)
+[2023-04-11 06:00:22,739] [carla_bridge] [INFO]: Created Static(id=135)
+[2023-04-11 06:00:22,740] [carla_bridge] [INFO]: Created Static(id=134)
+[2023-04-11 06:00:22,740] [carla_bridge] [INFO]: Created Static(id=133)
+[2023-04-11 06:00:22,740] [carla_bridge] [INFO]: Created Static(id=132)
+[2023-04-11 06:00:22,740] [carla_bridge] [INFO]: Created Static(id=131)
+[2023-04-11 06:00:22,741] [carla_bridge] [INFO]: Created Static(id=130)
+[2023-04-11 06:00:22,741] [carla_bridge] [INFO]: Created Static(id=129)
+[2023-04-11 06:00:22,741] [carla_bridge] [INFO]: Created Static(id=128)
+[2023-04-11 06:00:22,741] [carla_bridge] [INFO]: Created Static(id=127)
+[2023-04-11 06:00:22,742] [carla_bridge] [INFO]: Created Static(id=126)
+[2023-04-11 06:00:22,742] [carla_bridge] [INFO]: Created Static(id=125)
+[2023-04-11 06:00:22,742] [carla_bridge] [INFO]: Created Static(id=124)
+[2023-04-11 06:00:22,742] [carla_bridge] [INFO]: Created Static(id=123)
+[2023-04-11 06:00:22,743] [carla_bridge] [INFO]: Created Static(id=122)
+[2023-04-11 06:00:22,743] [carla_bridge] [INFO]: Created Static(id=121)
+[2023-04-11 06:00:22,743] [carla_bridge] [INFO]: Created Static(id=120)
+[2023-04-11 06:00:22,743] [carla_bridge] [INFO]: Created Static(id=119)
+[2023-04-11 06:00:22,743] [carla_bridge] [INFO]: Created Static(id=118)
+[2023-04-11 06:00:22,744] [carla_bridge] [INFO]: Created Static(id=117)
+[2023-04-11 06:00:22,744] [carla_bridge] [INFO]: Created Static(id=116)
+[2023-04-11 06:00:22,744] [carla_bridge] [INFO]: Created Static(id=115)
+[2023-04-11 06:00:22,744] [carla_bridge] [INFO]: Created Static(id=114)
+[2023-04-11 06:00:22,745] [carla_bridge] [INFO]: Created Static(id=113)
+[2023-04-11 06:00:22,745] [carla_bridge] [INFO]: Created Static(id=112)
+[2023-04-11 06:00:22,745] [carla_bridge] [INFO]: Created Static(id=111)
+[2023-04-11 06:00:22,745] [carla_bridge] [INFO]: Created Static(id=110)
+[2023-04-11 06:00:22,746] [carla_bridge] [INFO]: Created Static(id=109)
+[2023-04-11 06:00:22,746] [carla_bridge] [INFO]: Created Static(id=108)
+[2023-04-11 06:00:22,746] [carla_bridge] [INFO]: Created Static(id=107)
+[2023-04-11 06:00:22,746] [carla_bridge] [INFO]: Created Static(id=106)
+[2023-04-11 06:00:22,746] [carla_bridge] [INFO]: Created Static(id=105)
+[2023-04-11 06:00:22,747] [carla_bridge] [INFO]: Created Static(id=104)
+[2023-04-11 06:00:22,747] [carla_bridge] [INFO]: Created Static(id=103)
+[2023-04-11 06:00:22,747] [carla_bridge] [INFO]: Created Static(id=102)
+[2023-04-11 06:00:22,747] [carla_bridge] [INFO]: Created Static(id=101)
+[2023-04-11 06:00:22,748] [carla_bridge] [INFO]: Created Static(id=100)
+[2023-04-11 06:00:22,748] [carla_bridge] [INFO]: Created Static(id=99)
+[2023-04-11 06:00:22,748] [carla_bridge] [INFO]: Created Static(id=98)
+[2023-04-11 06:00:22,748] [carla_bridge] [INFO]: Created Static(id=97)
+[2023-04-11 06:00:22,749] [carla_bridge] [INFO]: Created Static(id=96)
+[2023-04-11 06:00:22,749] [carla_bridge] [INFO]: Created Static(id=95)
+[2023-04-11 06:00:22,749] [carla_bridge] [INFO]: Created Static(id=94)
+[2023-04-11 06:00:22,749] [carla_bridge] [INFO]: Created Static(id=93)
+[2023-04-11 06:00:22,749] [carla_bridge] [INFO]: Created Static(id=92)
+[2023-04-11 06:00:22,750] [carla_bridge] [INFO]: Created Static(id=91)
+[2023-04-11 06:00:22,750] [carla_bridge] [INFO]: Created Static(id=90)
+[2023-04-11 06:00:22,750] [carla_bridge] [INFO]: Created Static(id=89)
+[2023-04-11 06:00:22,750] [carla_bridge] [INFO]: Created Static(id=88)
+[2023-04-11 06:00:22,751] [carla_bridge] [INFO]: Created Static(id=87)
+[2023-04-11 06:00:22,751] [carla_bridge] [INFO]: Created Static(id=86)
+[2023-04-11 06:00:22,751] [carla_bridge] [INFO]: Created Static(id=85)
+[2023-04-11 06:00:22,751] [carla_bridge] [INFO]: Created Static(id=84)
+[2023-04-11 06:00:22,751] [carla_bridge] [INFO]: Created Static(id=83)
+[2023-04-11 06:00:22,752] [carla_bridge] [INFO]: Created Static(id=82)
+[2023-04-11 06:00:22,752] [carla_bridge] [INFO]: Created Traffic(id=81)
+[2023-04-11 06:00:22,752] [carla_bridge] [INFO]: Created Traffic(id=80)
+[2023-04-11 06:00:22,752] [carla_bridge] [INFO]: Created Traffic(id=79)
+[2023-04-11 06:00:22,752] [carla_bridge] [INFO]: Created Traffic(id=78)
+[2023-04-11 06:00:22,753] [carla_bridge] [INFO]: Created Traffic(id=77)
+[2023-04-11 06:00:22,753] [carla_bridge] [INFO]: Created Traffic(id=76)
+[2023-04-11 06:00:22,753] [carla_bridge] [INFO]: Created Traffic(id=75)
+[2023-04-11 06:00:22,753] [carla_bridge] [INFO]: Created Traffic(id=74)
+[2023-04-11 06:00:22,753] [carla_bridge] [INFO]: Created Traffic(id=73)
+[2023-04-11 06:00:22,754] [carla_bridge] [INFO]: Created Traffic(id=72)
+[2023-04-11 06:00:22,754] [carla_bridge] [INFO]: Created Traffic(id=71)
+[2023-04-11 06:00:22,754] [carla_bridge] [INFO]: Created Traffic(id=70)
+[2023-04-11 06:00:22,754] [carla_bridge] [INFO]: Created Traffic(id=69)
+[2023-04-11 06:00:22,754] [carla_bridge] [INFO]: Created Traffic(id=68)
+[2023-04-11 06:00:22,754] [carla_bridge] [INFO]: Created Traffic(id=67)
+[2023-04-11 06:00:22,755] [carla_bridge] [INFO]: Created Traffic(id=66)
+[2023-04-11 06:00:22,755] [carla_bridge] [INFO]: Created Traffic(id=65)
+[2023-04-11 06:00:22,755] [carla_bridge] [INFO]: Created Traffic(id=64)
+[2023-04-11 06:00:22,755] [carla_bridge] [INFO]: Created Traffic(id=63)
+[2023-04-11 06:00:22,755] [carla_bridge] [INFO]: Created Traffic(id=62)
+[2023-04-11 06:00:22,756] [carla_bridge] [INFO]: Created Traffic(id=61)
+[2023-04-11 06:00:22,756] [carla_bridge] [INFO]: Created TrafficLight(id=60)
+[2023-04-11 06:00:22,756] [carla_bridge] [INFO]: Created TrafficLight(id=59)
+[2023-04-11 06:00:22,756] [carla_bridge] [INFO]: Created TrafficLight(id=58)
+[2023-04-11 06:00:22,756] [carla_bridge] [INFO]: Created TrafficLight(id=57)
+[2023-04-11 06:00:22,757] [carla_bridge] [INFO]: Created TrafficLight(id=56)
+[2023-04-11 06:00:22,757] [carla_bridge] [INFO]: Created TrafficLight(id=55)
+[2023-04-11 06:00:22,757] [carla_bridge] [INFO]: Created TrafficLight(id=54)
+[2023-04-11 06:00:22,757] [carla_bridge] [INFO]: Created TrafficLight(id=53)
+[2023-04-11 06:00:22,757] [carla_bridge] [INFO]: Created TrafficLight(id=52)
+[2023-04-11 06:00:22,758] [carla_bridge] [INFO]: Created TrafficLight(id=51)
+[2023-04-11 06:00:22,758] [carla_bridge] [INFO]: Created TrafficLight(id=50)
+[2023-04-11 06:00:22,758] [carla_bridge] [INFO]: Created TrafficLight(id=49)
+[2023-04-11 06:00:22,758] [carla_bridge] [INFO]: Created TrafficLight(id=48)
+[2023-04-11 06:00:22,758] [carla_bridge] [INFO]: Created TrafficLight(id=47)
+[2023-04-11 06:00:22,758] [carla_bridge] [INFO]: Created TrafficLight(id=46)
+[2023-04-11 06:00:22,759] [carla_bridge] [INFO]: Created TrafficLight(id=45)
+[2023-04-11 06:00:22,759] [carla_bridge] [INFO]: Created TrafficLight(id=44)
+[2023-04-11 06:00:22,759] [carla_bridge] [INFO]: Created TrafficLight(id=43)
+[2023-04-11 06:00:22,759] [carla_bridge] [INFO]: Created TrafficLight(id=42)
+[2023-04-11 06:00:22,759] [carla_bridge] [INFO]: Created TrafficLight(id=41)
+[2023-04-11 06:00:22,760] [carla_bridge] [INFO]: Created TrafficLight(id=40)
+[2023-04-11 06:00:22,760] [carla_bridge] [INFO]: Created TrafficLight(id=39)
+[2023-04-11 06:00:22,760] [carla_bridge] [INFO]: Created TrafficLight(id=38)
+[2023-04-11 06:00:22,760] [carla_bridge] [INFO]: Created TrafficLight(id=37)
+[2023-04-11 06:00:22,760] [carla_bridge] [INFO]: Created TrafficLight(id=36)
+[2023-04-11 06:00:22,761] [carla_bridge] [INFO]: Created TrafficLight(id=35)
+[2023-04-11 06:00:22,761] [carla_bridge] [INFO]: Created TrafficLight(id=34)
+[2023-04-11 06:00:22,761] [carla_bridge] [INFO]: Created TrafficLight(id=33)
+[2023-04-11 06:00:22,761] [carla_bridge] [INFO]: Created TrafficLight(id=32)
+[2023-04-11 06:00:22,761] [carla_bridge] [INFO]: Created TrafficLight(id=31)
+[2023-04-11 06:00:22,761] [carla_bridge] [INFO]: Created TrafficLight(id=30)
+[2023-04-11 06:00:22,762] [carla_bridge] [INFO]: Created TrafficLight(id=29)
+[2023-04-11 06:00:22,762] [carla_bridge] [INFO]: Created TrafficLight(id=28)
+[2023-04-11 06:00:22,762] [carla_bridge] [INFO]: Created TrafficLight(id=27)
+[2023-04-11 06:00:22,762] [carla_bridge] [INFO]: Created TrafficLight(id=26)
+[2023-04-11 06:00:22,762] [carla_bridge] [INFO]: Created TrafficLight(id=25)
+[2023-04-11 06:00:22,763] [carla_bridge] [INFO]: Created Spectator(id=24)
+[2023-04-11 06:01:31,072] [carla_bridge] [INFO]: Object (type='sensor.pseudo.traffic_lights', id='traffic_lights') spawned successfully as 10000.
+[2023-04-11 06:01:31,080] [carla_bridge] [INFO]: Created TrafficLightsSensor(id=10000)
+[2023-04-11 06:01:31,082] [carla_bridge] [INFO]: Object (type='sensor.pseudo.actor_list', id='actor_list') spawned successfully as 10001.
+[2023-04-11 06:01:31,083] [carla_bridge] [INFO]: Object (type='sensor.pseudo.opendrive_map', id='map') spawned successfully as 10002.
+[2023-04-11 06:01:31,084] [carla_bridge] [DEBUG]: None
+[2023-04-11 06:01:31,084] [carla_bridge] [INFO]: Spawn point selected at random
+[2023-04-11 06:01:31,097] [carla_bridge] [INFO]: Object (type='vehicle.tesla.model3', id='ego_vehicle') spawned successfully as 197.
+[2023-04-11 06:01:31,098] [carla_bridge] [INFO]: Created ActorListSensor(id=10001)
+[2023-04-11 06:01:31,099] [carla_bridge] [INFO]: Created OpenDriveSensor(id=10002)
+[2023-04-11 06:01:31,124] [carla_bridge] [INFO]: Created EgoVehicle(id=197)
+[2023-04-11 06:01:31,140] [carla_bridge] [INFO]: Object (type='sensor.camera.rgb', id='front_6mm') spawned successfully as 198.
+[2023-04-11 06:01:31,141] [carla_bridge] [INFO]: =========================================
+[2023-04-11 06:01:31,141] [carla_bridge] [INFO]: location is Location(x=92.767998, y=183.888397, z=0.285300), rotation is Rotation(pitch=0.000000, yaw=-89.999992, roll=0.000000)
+[2023-04-11 06:01:31,141] [carla_bridge] [INFO]: linear_vel is is Vector3D(x=0.000000, y=0.000000, z=-0.490000)
+[2023-04-11 06:01:31,141] [carla_bridge] [INFO]: angular_vel is is Vector3D(x=0.000000, y=0.000000, z=0.000000)
+[2023-04-11 06:01:31,141] [carla_bridge] [INFO]: accel is is Vector3D(x=0.000000, y=0.000000, z=-9.799999)
+[2023-04-11 06:01:31,142] [carla_bridge] [INFO]: position.x is 92.76799774169922, position.y is -183.88839721679688, position.z is 0.28530004620552063
+[2023-04-11 06:01:31,142] [carla_bridge] [INFO]: qx is 0.0, qy is 0.0, qz is 0.7071067341080643, qw is 0.7071068282650276
+[2023-04-11 06:01:31,142] [carla_bridge] [INFO]: 
+ cyber_twist.linear is x: 0.0
+y: -0.0
+z: -0.4899999797344208
+, 
+ cyber_twist.angular is x: 0.0
+y: -0.0
+z: -0.0
+, 
+ cyber_line_accel is linear {
+  x: 0.0
+  y: -0.0
+  z: -9.799999237060547
+}
+
+[2023-04-11 06:01:31,143] [carla_bridge] [INFO]: ====roll is 0.0, pitch is -0.0, yaw is 1.5707961936368422
+[2023-04-11 06:01:31,146] [carla_bridge] [INFO]: Object (type='sensor.camera.rgb', id='front_12mm') spawned successfully as 199.
+[2023-04-11 06:01:31,148] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:01:31,155] [carla_bridge] [INFO]: Created RgbCamera(id=198)
+[2023-04-11 06:01:31,156] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:01:31,160] [carla_bridge] [INFO]: Created RgbCamera(id=199)
+[2023-04-11 06:01:31,177] [carla_bridge] [INFO]: Object (type='sensor.lidar.ray_cast', id='lidar128') spawned successfully as 200.
+[2023-04-11 06:01:31,180] [carla_bridge] [INFO]: Object (type='sensor.other.radar', id='radar/front') spawned successfully as 201.
+[2023-04-11 06:01:31,182] [carla_bridge] [INFO]: Object (type='sensor.other.gnss', id='gnss') spawned successfully as 202.
+[2023-04-11 06:01:31,184] [carla_bridge] [INFO]: Object (type='sensor.other.imu', id='gnss/imu') spawned successfully as 203.
+[2023-04-11 06:01:31,186] [carla_bridge] [INFO]: Object (type='sensor.pseudo.objects', id='obstacles') spawned successfully as 10003.
+[2023-04-11 06:01:31,187] [carla_bridge] [INFO]: Object (type='sensor.pseudo.odom', id='odometry') spawned successfully as 10004.
+[2023-04-11 06:01:31,189] [carla_bridge] [INFO]: Object (type='sensor.pseudo.speedometer', id='speedometer') spawned successfully as 10005.
+[2023-04-11 06:01:31,190] [carla_bridge] [INFO]: Object (type='actor.pseudo.control', id='control') spawned successfully as 10006.
+[2023-04-11 06:01:31,191] [carla_bridge] [INFO]: All objects spawned.
+[2023-04-11 06:01:32,010] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:01:32,013] [carla_bridge] [INFO]: Created Lidar(id=200)
+[2023-04-11 06:01:32,014] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:01:32,015] [carla_bridge] [INFO]: Created Radar(id=201)
+[2023-04-11 06:01:32,016] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:01:32,024] [carla_bridge] [INFO]: Created Gnss(id=202)
+[2023-04-11 06:01:32,024] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:01:32,026] [carla_bridge] [INFO]: Created ImuSensor(id=203)
+[2023-04-11 06:01:32,033] [carla_bridge] [INFO]: Created ObjectSensor(id=10003)
+[2023-04-11 06:01:32,036] [carla_bridge] [INFO]: Created OdometrySensor(id=10004)
+[2023-04-11 06:01:32,037] [carla_bridge] [INFO]: Created SpeedometerSensor(id=10005)
+[2023-04-11 06:01:32,038] [carla_bridge] [INFO]: Created ActorControl(id=10006)
+[2023-04-11 06:02:11,151] [carla_bridge] [ERROR]: Shutting down.
+[2023-04-11 06:02:11,152] [carla_bridge] [INFO]: Shutting down...
+[2023-04-11 06:02:11,152] [carla_bridge] [INFO]: Object update finished.
+[2023-04-11 06:02:11,160] [carla_bridge] [INFO]: Removed TrafficLightsSensor(id=10000)
+[2023-04-11 06:02:11,160] [carla_bridge] [INFO]: Removed ActorListSensor(id=10001)
+[2023-04-11 06:02:11,161] [carla_bridge] [INFO]: Removed OpenDriveSensor(id=10002)
+[2023-04-11 06:02:11,161] [carla_bridge] [DEBUG]: Destroy Vehicle(id=197)
+[2023-04-11 06:02:11,338] [carla_bridge] [INFO]: Removed EgoVehicle(id=197)
+[2023-04-11 06:02:11,480] [carla_bridge] [INFO]: Removed RgbCamera(id=198)
+[2023-04-11 06:02:11,533] [carla_bridge] [INFO]: Removed RgbCamera(id=199)
+[2023-04-11 06:02:11,557] [carla_bridge] [INFO]: Removed Lidar(id=200)
+[2023-04-11 06:02:11,568] [carla_bridge] [INFO]: Removed Radar(id=201)
+[2023-04-11 06:02:11,577] [carla_bridge] [INFO]: Removed Gnss(id=202)
+[2023-04-11 06:02:11,586] [carla_bridge] [INFO]: Removed ImuSensor(id=203)
+[2023-04-11 06:02:11,586] [carla_bridge] [INFO]: Removed ObjectSensor(id=10003)
+[2023-04-11 06:02:11,586] [carla_bridge] [INFO]: Removed OdometrySensor(id=10004)
+[2023-04-11 06:02:11,586] [carla_bridge] [INFO]: Removed SpeedometerSensor(id=10005)
+[2023-04-11 06:02:11,586] [carla_bridge] [INFO]: Removed ActorControl(id=10006)
+[2023-04-11 06:02:18,187] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-11 06:02:18,190] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-11 06:02:18,389] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town01').
+[2023-04-11 06:02:29,732] [carla_bridge] [WARNING]: Shutting down.
+[2023-04-11 06:02:29,734] [carla_bridge] [INFO]: Destroying spawned objects...
+[2023-04-11 06:02:34,735] [carla_bridge] [INFO]: Object 198 successfully destroyed.
+[2023-04-11 06:02:39,736] [carla_bridge] [INFO]: Object 199 successfully destroyed.
+[2023-04-11 06:02:44,737] [carla_bridge] [INFO]: Object 200 successfully destroyed.
+[2023-04-11 06:02:49,738] [carla_bridge] [INFO]: Object 201 successfully destroyed.
+[2023-04-11 06:02:52,317] [carla_bridge] [ERROR]: Error: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to 172.17.0.1:2000
+[2023-04-11 06:02:54,739] [carla_bridge] [INFO]: Object 202 successfully destroyed.
+[2023-04-11 06:02:59,740] [carla_bridge] [INFO]: Object 203 successfully destroyed.
+[2023-04-11 06:03:04,741] [carla_bridge] [INFO]: Object 10003 successfully destroyed.
+[2023-04-11 06:03:09,742] [carla_bridge] [INFO]: Object 10004 successfully destroyed.
+[2023-04-11 06:03:14,743] [carla_bridge] [INFO]: Object 10005 successfully destroyed.
+[2023-04-11 06:03:19,745] [carla_bridge] [INFO]: Object 10006 successfully destroyed.
+[2023-04-11 06:03:24,679] [carla_bridge] [INFO]: The config file path is carla_cyber_bridge/config/settings.yaml.
+[2023-04-11 06:03:24,683] [carla_bridge] [INFO]: Trying to connect to 172.17.0.1:2000
+[2023-04-11 06:03:24,746] [carla_bridge] [INFO]: Object 10000 successfully destroyed.
+[2023-04-11 06:03:25,131] [carla_bridge] [INFO]: Loading town 'Town01' (previous: 'Carla/Maps/Town10HD_Opt').
+[2023-04-11 06:03:29,021] [carla_bridge] [INFO]: synchronous_mode: True
+[2023-04-11 06:03:29,021] [carla_bridge] [INFO]: fixed_delta_seconds: 0.05
+[2023-04-11 06:03:29,747] [carla_bridge] [INFO]: Object 10001 successfully destroyed.
+[2023-04-11 06:03:31,338] [carla_bridge] [INFO]: Parameters:
+[2023-04-11 06:03:31,338] [carla_bridge] [INFO]:   host: 172.17.0.1
+[2023-04-11 06:03:31,338] [carla_bridge] [INFO]:   port: 2000
+[2023-04-11 06:03:31,338] [carla_bridge] [INFO]:   timeout: 30
+[2023-04-11 06:03:31,338] [carla_bridge] [INFO]:   passive: False
+[2023-04-11 06:03:31,338] [carla_bridge] [INFO]:   synchronous_mode: True
+[2023-04-11 06:03:31,339] [carla_bridge] [INFO]:   synchronous_mode_wait_for_vehicle_control_command: False
+[2023-04-11 06:03:31,339] [carla_bridge] [INFO]:   fixed_delta_seconds: 0.05
+[2023-04-11 06:03:31,339] [carla_bridge] [INFO]:   register_all_sensors: True
+[2023-04-11 06:03:31,339] [carla_bridge] [INFO]:   town: Town01
+[2023-04-11 06:03:31,339] [carla_bridge] [INFO]:   ego_vehicle: {'role_name': ['hero', 'ego_vehicle']}
+[2023-04-11 06:03:31,435] [carla_bridge] [DEBUG]: In sync mode statement.
+[2023-04-11 06:03:31,437] [carla_bridge] [INFO]: State set to PLAY
+[2023-04-11 06:03:31,437] [carla_bridge] [INFO]: synchronous_mode_update_thread start
+[2023-04-11 06:03:31,438] [carla_bridge] [DEBUG]: Before services configuration.
+[2023-04-11 06:03:31,444] [carla_bridge] [DEBUG]: carla_weather_reader.
+[2023-04-11 06:03:31,444] [carla_bridge] [INFO]: spin ...
+[2023-04-11 06:03:31,457] [carla_bridge] [INFO]: Created Static(id=196)
+[2023-04-11 06:03:31,458] [carla_bridge] [INFO]: Created Static(id=195)
+[2023-04-11 06:03:31,458] [carla_bridge] [INFO]: Created Static(id=194)
+[2023-04-11 06:03:31,458] [carla_bridge] [INFO]: Created Static(id=193)
+[2023-04-11 06:03:31,458] [carla_bridge] [INFO]: Created Static(id=192)
+[2023-04-11 06:03:31,459] [carla_bridge] [INFO]: Created Static(id=191)
+[2023-04-11 06:03:31,459] [carla_bridge] [INFO]: Created Static(id=190)
+[2023-04-11 06:03:31,459] [carla_bridge] [INFO]: Created Static(id=189)
+[2023-04-11 06:03:31,460] [carla_bridge] [INFO]: Created Static(id=188)
+[2023-04-11 06:03:31,460] [carla_bridge] [INFO]: Created Static(id=187)
+[2023-04-11 06:03:31,460] [carla_bridge] [INFO]: Created Static(id=186)
+[2023-04-11 06:03:31,460] [carla_bridge] [INFO]: Created Static(id=185)
+[2023-04-11 06:03:31,461] [carla_bridge] [INFO]: Created Static(id=184)
+[2023-04-11 06:03:31,461] [carla_bridge] [INFO]: Created Static(id=183)
+[2023-04-11 06:03:31,461] [carla_bridge] [INFO]: Created Static(id=182)
+[2023-04-11 06:03:31,461] [carla_bridge] [INFO]: Created Static(id=181)
+[2023-04-11 06:03:31,462] [carla_bridge] [INFO]: Created Static(id=180)
+[2023-04-11 06:03:31,462] [carla_bridge] [INFO]: Created Static(id=179)
+[2023-04-11 06:03:31,462] [carla_bridge] [INFO]: Created Static(id=178)
+[2023-04-11 06:03:31,462] [carla_bridge] [INFO]: Created Static(id=177)
+[2023-04-11 06:03:31,463] [carla_bridge] [INFO]: Created Static(id=176)
+[2023-04-11 06:03:31,463] [carla_bridge] [INFO]: Created Static(id=175)
+[2023-04-11 06:03:31,463] [carla_bridge] [INFO]: Created Static(id=174)
+[2023-04-11 06:03:31,463] [carla_bridge] [INFO]: Created Static(id=173)
+[2023-04-11 06:03:31,464] [carla_bridge] [INFO]: Created Static(id=172)
+[2023-04-11 06:03:31,464] [carla_bridge] [INFO]: Created Static(id=171)
+[2023-04-11 06:03:31,464] [carla_bridge] [INFO]: Created Static(id=170)
+[2023-04-11 06:03:31,464] [carla_bridge] [INFO]: Created Static(id=169)
+[2023-04-11 06:03:31,465] [carla_bridge] [INFO]: Created Static(id=168)
+[2023-04-11 06:03:31,465] [carla_bridge] [INFO]: Created Static(id=167)
+[2023-04-11 06:03:31,465] [carla_bridge] [INFO]: Created Static(id=166)
+[2023-04-11 06:03:31,465] [carla_bridge] [INFO]: Created Static(id=165)
+[2023-04-11 06:03:31,466] [carla_bridge] [INFO]: Created Static(id=164)
+[2023-04-11 06:03:31,466] [carla_bridge] [INFO]: Created Static(id=163)
+[2023-04-11 06:03:31,466] [carla_bridge] [INFO]: Created Static(id=162)
+[2023-04-11 06:03:31,466] [carla_bridge] [INFO]: Created Static(id=161)
+[2023-04-11 06:03:31,466] [carla_bridge] [INFO]: Created Static(id=160)
+[2023-04-11 06:03:31,467] [carla_bridge] [INFO]: Created Static(id=159)
+[2023-04-11 06:03:31,467] [carla_bridge] [INFO]: Created Static(id=158)
+[2023-04-11 06:03:31,467] [carla_bridge] [INFO]: Created Static(id=157)
+[2023-04-11 06:03:31,467] [carla_bridge] [INFO]: Created Static(id=156)
+[2023-04-11 06:03:31,468] [carla_bridge] [INFO]: Created Static(id=155)
+[2023-04-11 06:03:31,468] [carla_bridge] [INFO]: Created Static(id=154)
+[2023-04-11 06:03:31,468] [carla_bridge] [INFO]: Created Static(id=153)
+[2023-04-11 06:03:31,468] [carla_bridge] [INFO]: Created Static(id=152)
+[2023-04-11 06:03:31,469] [carla_bridge] [INFO]: Created Static(id=151)
+[2023-04-11 06:03:31,469] [carla_bridge] [INFO]: Created Static(id=150)
+[2023-04-11 06:03:31,469] [carla_bridge] [INFO]: Created Static(id=149)
+[2023-04-11 06:03:31,469] [carla_bridge] [INFO]: Created Static(id=148)
+[2023-04-11 06:03:31,469] [carla_bridge] [INFO]: Created Static(id=147)
+[2023-04-11 06:03:31,470] [carla_bridge] [INFO]: Created Static(id=146)
+[2023-04-11 06:03:31,470] [carla_bridge] [INFO]: Created Static(id=145)
+[2023-04-11 06:03:31,470] [carla_bridge] [INFO]: Created Static(id=144)
+[2023-04-11 06:03:31,470] [carla_bridge] [INFO]: Created Static(id=143)
+[2023-04-11 06:03:31,471] [carla_bridge] [INFO]: Created Static(id=142)
+[2023-04-11 06:03:31,471] [carla_bridge] [INFO]: Created Static(id=141)
+[2023-04-11 06:03:31,471] [carla_bridge] [INFO]: Created Static(id=140)
+[2023-04-11 06:03:31,471] [carla_bridge] [INFO]: Created Static(id=139)
+[2023-04-11 06:03:31,471] [carla_bridge] [INFO]: Created Static(id=138)
+[2023-04-11 06:03:31,472] [carla_bridge] [INFO]: Created Static(id=137)
+[2023-04-11 06:03:31,472] [carla_bridge] [INFO]: Created Static(id=136)
+[2023-04-11 06:03:31,472] [carla_bridge] [INFO]: Created Static(id=135)
+[2023-04-11 06:03:31,472] [carla_bridge] [INFO]: Created Static(id=134)
+[2023-04-11 06:03:31,473] [carla_bridge] [INFO]: Created Static(id=133)
+[2023-04-11 06:03:31,473] [carla_bridge] [INFO]: Created Static(id=132)
+[2023-04-11 06:03:31,473] [carla_bridge] [INFO]: Created Static(id=131)
+[2023-04-11 06:03:31,473] [carla_bridge] [INFO]: Created Static(id=130)
+[2023-04-11 06:03:31,473] [carla_bridge] [INFO]: Created Static(id=129)
+[2023-04-11 06:03:31,474] [carla_bridge] [INFO]: Created Static(id=128)
+[2023-04-11 06:03:31,474] [carla_bridge] [INFO]: Created Static(id=127)
+[2023-04-11 06:03:31,474] [carla_bridge] [INFO]: Created Static(id=126)
+[2023-04-11 06:03:31,474] [carla_bridge] [INFO]: Created Static(id=125)
+[2023-04-11 06:03:31,475] [carla_bridge] [INFO]: Created Static(id=124)
+[2023-04-11 06:03:31,475] [carla_bridge] [INFO]: Created Static(id=123)
+[2023-04-11 06:03:31,475] [carla_bridge] [INFO]: Created Static(id=122)
+[2023-04-11 06:03:31,475] [carla_bridge] [INFO]: Created Static(id=121)
+[2023-04-11 06:03:31,475] [carla_bridge] [INFO]: Created Static(id=120)
+[2023-04-11 06:03:31,476] [carla_bridge] [INFO]: Created Static(id=119)
+[2023-04-11 06:03:31,476] [carla_bridge] [INFO]: Created Static(id=118)
+[2023-04-11 06:03:31,476] [carla_bridge] [INFO]: Created Static(id=117)
+[2023-04-11 06:03:31,476] [carla_bridge] [INFO]: Created Static(id=116)
+[2023-04-11 06:03:31,476] [carla_bridge] [INFO]: Created Static(id=115)
+[2023-04-11 06:03:31,477] [carla_bridge] [INFO]: Created Static(id=114)
+[2023-04-11 06:03:31,477] [carla_bridge] [INFO]: Created Static(id=113)
+[2023-04-11 06:03:31,477] [carla_bridge] [INFO]: Created Static(id=112)
+[2023-04-11 06:03:31,477] [carla_bridge] [INFO]: Created Static(id=111)
+[2023-04-11 06:03:31,477] [carla_bridge] [INFO]: Created Static(id=110)
+[2023-04-11 06:03:31,478] [carla_bridge] [INFO]: Created Static(id=109)
+[2023-04-11 06:03:31,478] [carla_bridge] [INFO]: Created Static(id=108)
+[2023-04-11 06:03:31,478] [carla_bridge] [INFO]: Created Static(id=107)
+[2023-04-11 06:03:31,478] [carla_bridge] [INFO]: Created Static(id=106)
+[2023-04-11 06:03:31,478] [carla_bridge] [INFO]: Created Static(id=105)
+[2023-04-11 06:03:31,479] [carla_bridge] [INFO]: Created Static(id=104)
+[2023-04-11 06:03:31,479] [carla_bridge] [INFO]: Created Static(id=103)
+[2023-04-11 06:03:31,479] [carla_bridge] [INFO]: Created Static(id=102)
+[2023-04-11 06:03:31,479] [carla_bridge] [INFO]: Created Static(id=101)
+[2023-04-11 06:03:31,479] [carla_bridge] [INFO]: Created Static(id=100)
+[2023-04-11 06:03:31,480] [carla_bridge] [INFO]: Created Static(id=99)
+[2023-04-11 06:03:31,480] [carla_bridge] [INFO]: Created Static(id=98)
+[2023-04-11 06:03:31,480] [carla_bridge] [INFO]: Created Static(id=97)
+[2023-04-11 06:03:31,480] [carla_bridge] [INFO]: Created Static(id=96)
+[2023-04-11 06:03:31,480] [carla_bridge] [INFO]: Created Static(id=95)
+[2023-04-11 06:03:31,481] [carla_bridge] [INFO]: Created Static(id=94)
+[2023-04-11 06:03:31,481] [carla_bridge] [INFO]: Created Static(id=93)
+[2023-04-11 06:03:31,481] [carla_bridge] [INFO]: Created Static(id=92)
+[2023-04-11 06:03:31,481] [carla_bridge] [INFO]: Created Static(id=91)
+[2023-04-11 06:03:31,481] [carla_bridge] [INFO]: Created Static(id=90)
+[2023-04-11 06:03:31,482] [carla_bridge] [INFO]: Created Static(id=89)
+[2023-04-11 06:03:31,482] [carla_bridge] [INFO]: Created Static(id=88)
+[2023-04-11 06:03:31,482] [carla_bridge] [INFO]: Created Static(id=87)
+[2023-04-11 06:03:31,482] [carla_bridge] [INFO]: Created Static(id=86)
+[2023-04-11 06:03:31,482] [carla_bridge] [INFO]: Created Static(id=85)
+[2023-04-11 06:03:31,483] [carla_bridge] [INFO]: Created Static(id=84)
+[2023-04-11 06:03:31,483] [carla_bridge] [INFO]: Created Static(id=83)
+[2023-04-11 06:03:31,483] [carla_bridge] [INFO]: Created Static(id=82)
+[2023-04-11 06:03:31,483] [carla_bridge] [INFO]: Created Traffic(id=81)
+[2023-04-11 06:03:31,483] [carla_bridge] [INFO]: Created Traffic(id=80)
+[2023-04-11 06:03:31,484] [carla_bridge] [INFO]: Created Traffic(id=79)
+[2023-04-11 06:03:31,484] [carla_bridge] [INFO]: Created Traffic(id=78)
+[2023-04-11 06:03:31,484] [carla_bridge] [INFO]: Created Traffic(id=77)
+[2023-04-11 06:03:31,484] [carla_bridge] [INFO]: Created Traffic(id=76)
+[2023-04-11 06:03:31,484] [carla_bridge] [INFO]: Created Traffic(id=75)
+[2023-04-11 06:03:31,485] [carla_bridge] [INFO]: Created Traffic(id=74)
+[2023-04-11 06:03:31,485] [carla_bridge] [INFO]: Created Traffic(id=73)
+[2023-04-11 06:03:31,485] [carla_bridge] [INFO]: Created Traffic(id=72)
+[2023-04-11 06:03:31,485] [carla_bridge] [INFO]: Created Traffic(id=71)
+[2023-04-11 06:03:31,485] [carla_bridge] [INFO]: Created Traffic(id=70)
+[2023-04-11 06:03:31,486] [carla_bridge] [INFO]: Created Traffic(id=69)
+[2023-04-11 06:03:31,486] [carla_bridge] [INFO]: Created Traffic(id=68)
+[2023-04-11 06:03:31,486] [carla_bridge] [INFO]: Created Traffic(id=67)
+[2023-04-11 06:03:31,486] [carla_bridge] [INFO]: Created Traffic(id=66)
+[2023-04-11 06:03:31,486] [carla_bridge] [INFO]: Created Traffic(id=65)
+[2023-04-11 06:03:31,486] [carla_bridge] [INFO]: Created Traffic(id=64)
+[2023-04-11 06:03:31,487] [carla_bridge] [INFO]: Created Traffic(id=63)
+[2023-04-11 06:03:31,487] [carla_bridge] [INFO]: Created Traffic(id=62)
+[2023-04-11 06:03:31,487] [carla_bridge] [INFO]: Created Traffic(id=61)
+[2023-04-11 06:03:31,487] [carla_bridge] [INFO]: Created TrafficLight(id=60)
+[2023-04-11 06:03:31,487] [carla_bridge] [INFO]: Created TrafficLight(id=59)
+[2023-04-11 06:03:31,487] [carla_bridge] [INFO]: Created TrafficLight(id=58)
+[2023-04-11 06:03:31,488] [carla_bridge] [INFO]: Created TrafficLight(id=57)
+[2023-04-11 06:03:31,488] [carla_bridge] [INFO]: Created TrafficLight(id=56)
+[2023-04-11 06:03:31,488] [carla_bridge] [INFO]: Created TrafficLight(id=55)
+[2023-04-11 06:03:31,488] [carla_bridge] [INFO]: Created TrafficLight(id=54)
+[2023-04-11 06:03:31,488] [carla_bridge] [INFO]: Created TrafficLight(id=53)
+[2023-04-11 06:03:31,489] [carla_bridge] [INFO]: Created TrafficLight(id=52)
+[2023-04-11 06:03:31,489] [carla_bridge] [INFO]: Created TrafficLight(id=51)
+[2023-04-11 06:03:31,489] [carla_bridge] [INFO]: Created TrafficLight(id=50)
+[2023-04-11 06:03:31,489] [carla_bridge] [INFO]: Created TrafficLight(id=49)
+[2023-04-11 06:03:31,489] [carla_bridge] [INFO]: Created TrafficLight(id=48)
+[2023-04-11 06:03:31,489] [carla_bridge] [INFO]: Created TrafficLight(id=47)
+[2023-04-11 06:03:31,490] [carla_bridge] [INFO]: Created TrafficLight(id=46)
+[2023-04-11 06:03:31,490] [carla_bridge] [INFO]: Created TrafficLight(id=45)
+[2023-04-11 06:03:31,490] [carla_bridge] [INFO]: Created TrafficLight(id=44)
+[2023-04-11 06:03:31,490] [carla_bridge] [INFO]: Created TrafficLight(id=43)
+[2023-04-11 06:03:31,490] [carla_bridge] [INFO]: Created TrafficLight(id=42)
+[2023-04-11 06:03:31,491] [carla_bridge] [INFO]: Created TrafficLight(id=41)
+[2023-04-11 06:03:31,491] [carla_bridge] [INFO]: Created TrafficLight(id=40)
+[2023-04-11 06:03:31,491] [carla_bridge] [INFO]: Created TrafficLight(id=39)
+[2023-04-11 06:03:31,491] [carla_bridge] [INFO]: Created TrafficLight(id=38)
+[2023-04-11 06:03:31,491] [carla_bridge] [INFO]: Created TrafficLight(id=37)
+[2023-04-11 06:03:31,491] [carla_bridge] [INFO]: Created TrafficLight(id=36)
+[2023-04-11 06:03:31,492] [carla_bridge] [INFO]: Created TrafficLight(id=35)
+[2023-04-11 06:03:31,492] [carla_bridge] [INFO]: Created TrafficLight(id=34)
+[2023-04-11 06:03:31,492] [carla_bridge] [INFO]: Created TrafficLight(id=33)
+[2023-04-11 06:03:31,492] [carla_bridge] [INFO]: Created TrafficLight(id=32)
+[2023-04-11 06:03:31,492] [carla_bridge] [INFO]: Created TrafficLight(id=31)
+[2023-04-11 06:03:31,492] [carla_bridge] [INFO]: Created TrafficLight(id=30)
+[2023-04-11 06:03:31,493] [carla_bridge] [INFO]: Created TrafficLight(id=29)
+[2023-04-11 06:03:31,493] [carla_bridge] [INFO]: Created TrafficLight(id=28)
+[2023-04-11 06:03:31,493] [carla_bridge] [INFO]: Created TrafficLight(id=27)
+[2023-04-11 06:03:31,493] [carla_bridge] [INFO]: Created TrafficLight(id=26)
+[2023-04-11 06:03:31,493] [carla_bridge] [INFO]: Created TrafficLight(id=25)
+[2023-04-11 06:03:31,493] [carla_bridge] [INFO]: Created Spectator(id=24)
+[2023-04-11 06:03:31,658] [carla_bridge] [WARNING]: Error spawning object 'sensor.camera.rgb': Parent actor 197 not found
+[2023-04-11 06:03:31,670] [carla_bridge] [WARNING]: Error spawning object 'sensor.camera.rgb': Parent actor 197 not found
+[2023-04-11 06:03:31,679] [carla_bridge] [WARNING]: Error spawning object 'sensor.lidar.ray_cast': Parent actor 197 not found
+[2023-04-11 06:03:31,693] [carla_bridge] [WARNING]: Error spawning object 'sensor.other.radar': Parent actor 197 not found
+[2023-04-11 06:03:31,694] [carla_bridge] [INFO]: Object 10002 successfully destroyed.
+[2023-04-11 06:03:31,769] [carla_bridge] [WARNING]: Error spawning object 'sensor.other.gnss': Parent actor 197 not found
+[2023-04-11 06:03:31,770] [carla_bridge] [INFO]: Object 197 successfully destroyed.
+[2023-04-11 06:03:31,780] [carla_bridge] [WARNING]: Error spawning object 'sensor.other.imu': Parent actor 197 not found
+[2023-04-11 06:03:31,792] [carla_bridge] [WARNING]: Error spawning object 'sensor.pseudo.objects': Parent actor 197 not found
+[2023-04-11 06:03:31,805] [carla_bridge] [WARNING]: Error spawning object 'sensor.pseudo.odom': Parent actor 197 not found
+[2023-04-11 06:03:31,814] [carla_bridge] [WARNING]: Error spawning object 'sensor.pseudo.speedometer': Parent actor 197 not found
+[2023-04-11 06:03:31,825] [carla_bridge] [WARNING]: Error spawning object 'actor.pseudo.control': Parent actor 197 not found
+[2023-04-11 06:03:34,216] [carla_bridge] [INFO]: Created TrafficLightsSensor(id=10000)
+[2023-04-11 06:03:34,414] [carla_bridge] [INFO]: Object (type='sensor.pseudo.traffic_lights', id='traffic_lights') spawned successfully as 10000.
+[2023-04-11 06:03:34,417] [carla_bridge] [INFO]: Object (type='sensor.pseudo.actor_list', id='actor_list') spawned successfully as 10001.
+[2023-04-11 06:03:34,418] [carla_bridge] [INFO]: Object (type='sensor.pseudo.opendrive_map', id='map') spawned successfully as 10002.
+[2023-04-11 06:03:34,418] [carla_bridge] [DEBUG]: None
+[2023-04-11 06:03:34,418] [carla_bridge] [INFO]: Spawn point selected at random
+[2023-04-11 06:03:34,426] [carla_bridge] [INFO]: Object (type='vehicle.tesla.model3', id='ego_vehicle') spawned successfully as 197.
+[2023-04-11 06:03:34,428] [carla_bridge] [INFO]: Created ActorListSensor(id=10001)
+[2023-04-11 06:03:34,429] [carla_bridge] [INFO]: Created OpenDriveSensor(id=10002)
+[2023-04-11 06:03:34,459] [carla_bridge] [INFO]: Created EgoVehicle(id=197)
+[2023-04-11 06:03:34,474] [carla_bridge] [INFO]: Object (type='sensor.camera.rgb', id='front_6mm') spawned successfully as 198.
+[2023-04-11 06:03:34,475] [carla_bridge] [INFO]: =========================================
+[2023-04-11 06:03:34,475] [carla_bridge] [INFO]: location is Location(x=13.568643, y=330.461945, z=0.285300), rotation is Rotation(pitch=0.000000, yaw=0.000000, roll=0.000000)
+[2023-04-11 06:03:34,476] [carla_bridge] [INFO]: linear_vel is is Vector3D(x=0.000000, y=0.000000, z=-0.490000)
+[2023-04-11 06:03:34,476] [carla_bridge] [INFO]: angular_vel is is Vector3D(x=0.000000, y=0.000000, z=0.000000)
+[2023-04-11 06:03:34,476] [carla_bridge] [INFO]: accel is is Vector3D(x=0.000000, y=0.000000, z=-9.799999)
+[2023-04-11 06:03:34,477] [carla_bridge] [INFO]: position.x is 13.568642616271973, position.y is -330.4619445800781, position.z is 0.28529998660087585
+[2023-04-11 06:03:34,477] [carla_bridge] [INFO]: qx is 0.0, qy is -0.0, qz is 0.0, qw is 1.0
+[2023-04-11 06:03:34,478] [carla_bridge] [INFO]: 
+ cyber_twist.linear is x: 0.0
+y: -0.0
+z: -0.4899999797344208
+, 
+ cyber_twist.angular is x: 0.0
+y: -0.0
+z: -0.0
+, 
+ cyber_line_accel is linear {
+  x: 0.0
+  y: -0.0
+  z: -9.799999237060547
+}
+
+[2023-04-11 06:03:34,478] [carla_bridge] [INFO]: Object (type='sensor.camera.rgb', id='front_12mm') spawned successfully as 199.
+[2023-04-11 06:03:34,478] [carla_bridge] [INFO]: ====roll is 0.0, pitch is -0.0, yaw is 0.0
+[2023-04-11 06:03:34,483] [carla_bridge] [INFO]: Object (type='sensor.lidar.ray_cast', id='lidar128') spawned successfully as 200.
+[2023-04-11 06:03:34,485] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:03:34,498] [carla_bridge] [INFO]: Created RgbCamera(id=198)
+[2023-04-11 06:03:34,499] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:03:34,508] [carla_bridge] [INFO]: Created RgbCamera(id=199)
+[2023-04-11 06:03:34,509] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:03:34,512] [carla_bridge] [INFO]: Created Lidar(id=200)
+[2023-04-11 06:03:34,534] [carla_bridge] [INFO]: Object (type='sensor.other.radar', id='radar/front') spawned successfully as 201.
+[2023-04-11 06:03:34,536] [carla_bridge] [INFO]: Object (type='sensor.other.gnss', id='gnss') spawned successfully as 202.
+[2023-04-11 06:03:34,539] [carla_bridge] [INFO]: Object (type='sensor.other.imu', id='gnss/imu') spawned successfully as 203.
+[2023-04-11 06:03:34,540] [carla_bridge] [INFO]: Object (type='sensor.pseudo.objects', id='obstacles') spawned successfully as 10003.
+[2023-04-11 06:03:34,541] [carla_bridge] [INFO]: Object (type='sensor.pseudo.odom', id='odometry') spawned successfully as 10004.
+[2023-04-11 06:03:34,543] [carla_bridge] [INFO]: Object (type='sensor.pseudo.speedometer', id='speedometer') spawned successfully as 10005.
+[2023-04-11 06:03:34,544] [carla_bridge] [INFO]: Object (type='actor.pseudo.control', id='control') spawned successfully as 10006.
+[2023-04-11 06:03:34,544] [carla_bridge] [INFO]: All objects spawned.
+[2023-04-11 06:03:35,532] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:03:35,534] [carla_bridge] [INFO]: Created Radar(id=201)
+[2023-04-11 06:03:35,535] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:03:35,543] [carla_bridge] [INFO]: Created Gnss(id=202)
+[2023-04-11 06:03:35,543] [carla_bridge] [DEBUG]: Sensor tick time is 0.0
+[2023-04-11 06:03:35,545] [carla_bridge] [INFO]: Created ImuSensor(id=203)
+[2023-04-11 06:03:35,551] [carla_bridge] [INFO]: Created ObjectSensor(id=10003)
+[2023-04-11 06:03:35,554] [carla_bridge] [INFO]: Created OdometrySensor(id=10004)
+[2023-04-11 06:03:35,555] [carla_bridge] [INFO]: Created SpeedometerSensor(id=10005)
+[2023-04-11 06:03:35,556] [carla_bridge] [INFO]: Created ActorControl(id=10006)
+[2023-04-11 06:11:33,227] [carla_bridge] [WARNING]: Shutting down.
+[2023-04-11 06:11:33,228] [carla_bridge] [INFO]: Destroying spawned objects...
+[2023-04-11 06:11:33,230] [carla_bridge] [INFO]: Object 198 successfully destroyed.
+[2023-04-11 06:11:33,231] [carla_bridge] [INFO]: Object 199 successfully destroyed.
+[2023-04-11 06:11:33,232] [carla_bridge] [INFO]: Object 200 successfully destroyed.
+[2023-04-11 06:11:33,233] [carla_bridge] [INFO]: Object 201 successfully destroyed.
+[2023-04-11 06:11:33,234] [carla_bridge] [INFO]: Object 202 successfully destroyed.
+[2023-04-11 06:11:33,234] [carla_bridge] [INFO]: Object 203 successfully destroyed.
+[2023-04-11 06:11:33,235] [carla_bridge] [INFO]: Object 10003 successfully destroyed.
+[2023-04-11 06:11:33,236] [carla_bridge] [INFO]: Object 10004 successfully destroyed.
+[2023-04-11 06:11:33,237] [carla_bridge] [INFO]: Object 10005 successfully destroyed.
+[2023-04-11 06:11:33,237] [carla_bridge] [INFO]: Object 10006 successfully destroyed.
+[2023-04-11 06:11:33,238] [carla_bridge] [INFO]: Object 10000 successfully destroyed.
+[2023-04-11 06:11:33,239] [carla_bridge] [INFO]: Object 10001 successfully destroyed.
+[2023-04-11 06:11:33,240] [carla_bridge] [INFO]: Object 10002 successfully destroyed.
+[2023-04-11 06:11:33,242] [carla_bridge] [INFO]: Object 197 successfully destroyed.
+[2023-04-11 06:11:33,407] [carla_bridge] [INFO]: Removed RgbCamera(id=198)
+[2023-04-11 06:11:33,408] [carla_bridge] [INFO]: Removed RgbCamera(id=199)
+[2023-04-11 06:11:33,408] [carla_bridge] [INFO]: Removed Lidar(id=200)
+[2023-04-11 06:11:33,409] [carla_bridge] [INFO]: Removed Radar(id=201)
+[2023-04-11 06:11:33,409] [carla_bridge] [INFO]: Removed Gnss(id=202)
+[2023-04-11 06:11:33,410] [carla_bridge] [INFO]: Removed ImuSensor(id=203)
+[2023-04-11 06:11:33,410] [carla_bridge] [INFO]: Removed ObjectSensor(id=10003)
+[2023-04-11 06:11:33,410] [carla_bridge] [INFO]: Removed OdometrySensor(id=10004)
+[2023-04-11 06:11:33,410] [carla_bridge] [INFO]: Removed SpeedometerSensor(id=10005)
+[2023-04-11 06:11:33,410] [carla_bridge] [INFO]: Removed ActorControl(id=10006)
+[2023-04-11 06:11:33,410] [carla_bridge] [INFO]: Removed TrafficLightsSensor(id=10000)
+[2023-04-11 06:11:33,410] [carla_bridge] [INFO]: Removed ActorListSensor(id=10001)
+[2023-04-11 06:11:33,411] [carla_bridge] [INFO]: Removed OpenDriveSensor(id=10002)
+[2023-04-11 06:11:33,411] [carla_bridge] [DEBUG]: Destroy Vehicle(id=197)
+[2023-04-11 06:11:33,412] [carla_bridge] [INFO]: Removed EgoVehicle(id=197)
+[2023-04-11 06:11:35,119] [carla_bridge] [ERROR]: Shutting down.
+[2023-04-11 06:11:35,119] [carla_bridge] [INFO]: Shutting down...
+[2023-04-11 06:12:20,357] [carla_bridge] [INFO]: Object update finished.
