@@ -67,3 +67,9 @@
 --map_dir=/apollo/modules/map/data/carla_town02
 
 --map_dir=/apollo/modules/map/data/carla_town01
+
+--map_dir=/apollo/modules/map/data/demo
+
+--map_dir=/apollo/modules/map/data/carla_town01
+
+--map_dir=/apollo/modules/map/data/sunnyvale_with_two_offices
